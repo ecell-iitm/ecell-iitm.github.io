@@ -65,7 +65,7 @@ main > section {
 }
 
 .btn-blue {
-    background-color: rgba(0,158,227, 0.78);
+    background-color:rgba(224,107,17,0.8);
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
@@ -78,7 +78,7 @@ main > section {
 }
 
 .bg-blue {
-    background-color: #009EE3;
+    background-color: #e06b11;
 }
 
 /* Sweep To Right */
@@ -148,7 +148,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
+	color: #e06b11;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -179,7 +179,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 1px solid #e06b11;
     content: "";
     display: block;
     left: 45%;
@@ -342,7 +342,7 @@ h1.navbar-brand {
 }
 
 .slide-caption {
-    color: #fff;
+    color:  #000000;
     display: table;
     height: 100%;
     left: 0;
@@ -360,7 +360,8 @@ h1.navbar-brand {
 }
 
 .caption-content h2 {
-    color: #fff;
+    background: rgba(224,107,17,0.5);
+    color:  #fff;
     font-size: 52px;
     font-weight: 400;
     margin-bottom: 25px;
@@ -494,14 +495,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
-    background: url("../img/right.png") no-repeat scroll center center #009ee3;
+    background: url("../img/right.png") no-repeat scroll center center #e06b11;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url("../img/left.png") no-repeat scroll center center #009ee3;
+    background: url("../img/left.png") no-repeat scroll center center #e06b11;
     height: 50px;
     width: 50px;
     left: 0;
@@ -512,7 +513,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
+    background-color: #e06b11;
     color: #fff;
 }
 
@@ -592,9 +593,9 @@ h1.navbar-brand {
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #009ee3;
+    border: 3px solid #e06b11;
     margin-bottom: 20px;
-    color: #009ee3;
+    color: #e06b11;
 }
 
 .service-icon i {
@@ -691,7 +692,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
-    background-color: #009EE3;
+    background-color: #e06b11;
     color: #fff;
 }
 
@@ -834,7 +835,7 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-    background-color: #009EE3;
+    background-color: #e06b11;
     color: #fff;
 }
 
@@ -883,7 +884,7 @@ ul.external li a:hover {
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
-    background-color: #009EE3;
+    background-color: #e06b11;
 }
 
 .price-table.featured ul li:last-child a,
@@ -962,7 +963,7 @@ ul.external li a:hover {
 
 textarea.form-control {
     width: 100%;
-    height: 165px;
+    height: 165px;      
 }
 
 #submit:hover {
@@ -978,7 +979,7 @@ textarea.form-control {
 }
 
 .contact-details h3 {
-    border-bottom: 1px solid #008ecc;
+    border-bottom: 1px solid #e06b11;
     font-weight: 700;
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -1019,7 +1020,6 @@ textarea.form-control {
 
 #footer {
     background-color: #2E2E2E;
-    padding: 70px 0;
     color: #fff;
 }
 
@@ -1029,11 +1029,9 @@ textarea.form-control {
 }
 
 .footer-content > div {
-    margin-bottom: 40px;
 }
 
 .footer-content > div > p:first-child {
-    margin-bottom: 15px;
     text-transform: uppercase;
 }
 
@@ -1120,7 +1118,7 @@ textarea.form-control {
 }
 
 .footer-social ul li a:hover {
-    color: #009EE3;
+    color: #e06b11;
 }
 
 .footer-content > p {
@@ -1501,7 +1499,7 @@ textarea.form-control {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #009EE3;
+  background-color: #e06b11;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
