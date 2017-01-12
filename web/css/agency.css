@@ -152,7 +152,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #597bd6;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: 'Abril Fatface', cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -245,7 +245,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  background-color: rgba(0,0,0,255);
+  background-color: rgba(0,0,0,100);
 }
 header .intro-text {
   padding-top: 100px;
