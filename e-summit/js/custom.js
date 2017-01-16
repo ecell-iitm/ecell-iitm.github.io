@@ -1,240 +1,247 @@
-/**	
-	* Template Name: MU Material
-	* Version: 1.1	
-	* Template Scripts
-	* Author: MarkUps
-	* Author URI: http://www.markups.io/
-
-	Custom JS
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+/* =================================
+   PRE LOADER
+=================================== */
+// makes sure the whole site is loaded
+jQuery(window).load(function () {
 	
-	1. MOBILE MENU
-	2. EXPERIENCE SLIDER (Owl Carousel)
-	3. EDUCATION SLIDER (Owl Carousel)
-	4. LIGHTBOX ( FOR PORTFOLIO POPUP VIEW ) 
-	5. COUNTER
-	6. TESTIMONIAL SLIDER ( Owl Carousel )	
-	7. MENU SMOOTH SCROLLING
-	8. PRELOADER
-	9. CALL TO ABOUT
-	10. BOTTOM TO UP 
-	11. PARALLAX HEADER
-	12. HIRE ME SCROLL
-	
-	
-**/
+	'use strict';
+        // will first fade out the loading animation
+	jQuery(".status").fadeOut();
+        // will fade out the whole DIV that covers the website.
+	jQuery(".preloader").delay(1000).fadeOut("slow");
+});
 
-jQuery(function($){
+/* =================================
+   ANIMATION
+=================================== */
+var wow = new WOW(
+  {
+    mobile: false  // trigger animations on mobile devices (default is true)
+  }
+);
+wow.init();
 
+/* ================================
+===  VIDEO PLAY BUTTON         ====
+================================= */
+$('.play-button').click(function () {
 
-	/* ----------------------------------------------------------- */
-	/*  1. Mobile MENU
-	/* ----------------------------------------------------------- */
+	var url = $('#video-expand .embed-responsive-item').attr('src');
+	url = url.replace('autoplay=0', 'autoplay=1');
+	$('#video-expand .embed-responsive-item').attr('src', url);
 
-    jQuery(".button-collapse").sideNav();
-    
-	/* ----------------------------------------------------------- */
-	/*  2. Experience SLider(Owl Carousel)
-	/* ----------------------------------------------------------- */
+	var collapsed = $(this).find('span').hasClass('icon-music-play-button');
 
-	var owl = $("#owl-carousel"); 
-    owl.owlCarousel({
-        items : 4, //4 items above 1024px browser width
-        itemsDesktop : [1024,3], //3 items between 1024px and 901px
-        itemsDesktopSmall : [900,2], // betweem 900px and 601px
-        itemsTablet: [600,1], //1 items between 600 and 0
-        itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
-    });
-    // Slide Navigation
-    jQuery(".next").click(function(){
-        owl.trigger('owl.next');
-    });
+	$('.play-button').find('span').removeClass('icon-arrows-circle-remove');
 
-    jQuery(".prev").click(function(){
-        owl.trigger('owl.prev');
-    });
+	$('.play-button').find('span').addClass('icon-music-play-button');
 
-
-    /* ----------------------------------------------------------- */
-	/*  3. EDUCATION SLIDER (Owl Carousel)
-	/* ----------------------------------------------------------- */
-
-	var owl1 = $("#owl-carousel1"); 
-	owl1.owlCarousel({
-	    items : 4, //4 items above 1024px browser width
-	    itemsDesktop : [1024,3], //3 items between 1024px and 901px
-	    itemsDesktopSmall : [900,2], // betweem 900px and 601px
-	    itemsTablet: [600,1], //1 items between 600 and 0
-	    itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
-	});
-	// Slide Navigation
-	jQuery(".next1").click(function(){
-	    owl1.trigger('owl.next');
-	});
-
-	jQuery(".prev1").click(function(){
-	    owl1.trigger('owl.prev');
-	});
-	
-    /* ----------------------------------------------------------- */
-	/*  4. LIGHTBOX ( FOR PORTFOLIO POPUP VIEW ) 
-	/* ----------------------------------------------------------- */ 
-	
-	$('body').append("<div id='portfolio-popup'><div class='portfolio-popup-area'><div class='portfolio-popup-inner'></div></div></div>");
-	
-	// WHEN CLICK PLAY BUTTON 
-	
-    jQuery('.portfolio-thumbnill').on('click', function(event) {
-      event.preventDefault();
-      $('#portfolio-popup').addClass("portfolio-popup-show");
-      $('#portfolio-popup').animate({
-	      "opacity": 1
-      },500);   
-      var portfolio_detailscontent = $(this).parent(".mix").find(".portfolio-detail").html();
-	  $(".portfolio-popup-inner").html(portfolio_detailscontent);     
-
-    });  
-           
-    // WHEN CLICK CLOSE BUTTON
-    
-    $(document).on('click','.modal-close-btn', function(event) {     
-	    event.preventDefault();
-		$('#portfolio-popup').removeClass("portfolio-popup-show");
-		$('#portfolio-popup').animate({
-		      "opacity": 0
-	    },500);  
-
-    });
-
-	/* ----------------------------------------------------------- */
-	/*  5. COUNTER
-	/* ----------------------------------------------------------- */
-
-	jQuery('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });	  
-
-	/* ----------------------------------------------------------- */
-	/*  6. TESTIMONIAL SLIDER (Owl Carousel)
-	/* ----------------------------------------------------------- */
-
-	var owl2 = $("#owl-carousel2"); 
-    owl2.owlCarousel({
-        items : 2, //4 items above 1024px browser width
-        itemsDesktop : [1024,2], //3 items between 1024px and 901px
-        itemsDesktopSmall : [900,2], // betweem 900px and 601px
-        itemsTablet: [600,1], //1 items between 600 and 0
-        itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
-    });
-
-    // Slide Navigation
-    jQuery(".next2").click(function(){
-        owl2.trigger('owl.next');
-    });
-
-    jQuery(".prev2").click(function(){
-        owl2.trigger('owl.prev');
-    });
-	 
-
-	/* ----------------------------------------------------------- */
-	/*  7. MENU SMOOTH SCROLLING
-	/* ----------------------------------------------------------- */ 
-	
-	//MENU SCROLLING WITH ACTIVE ITEM SELECTED
-
-	// Cache selectors
-	var lastId,
-	topMenu = $(".menu-scroll"),
-	topMenuHeight = topMenu.outerHeight()+13,
-	// All list items
-	menuItems = topMenu.find('a[href^=\\#]'),
-	// Anchors corresponding to menu items
-	scrollItems = menuItems.map(function(){
-	  var item = $($(this).attr("href"));
-	  if (item.length) { return item; }
-	});
-
-	// Bind click handler to menu items
-	// so we can get a fancy scroll animation
-	menuItems.click(function(e){
-	  var href = $(this).attr("href"),
-	      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+15;
-	  jQuery('html, body').stop().animate({ 
-	      scrollTop: offsetTop
-	  }, 900);
-	  e.preventDefault();
-	});
-
-	// Bind to scroll
-	jQuery(window).scroll(function(){
-	   // Get container scroll position
-	   var fromTop = $(this).scrollTop()+topMenuHeight;
-	   
-	   // Get id of current scroll item
-	   var cur = scrollItems.map(function(){
-	     if ($(this).offset().top < fromTop)
-	       return this;
-	   });
-	   // Get the id of the current element
-	   cur = cur[cur.length-1];
-	   var id = cur && cur.length ? cur[0].id : "";
-	   
-	   if (lastId !== id) {
-	       lastId = id;
-	       // Set/remove active class
-	       menuItems
-	         .parent().removeClass("active")
-	         .end().filter("[href=\\#"+id+"]").parent().addClass("active");
-	   }           
-	})
-    
-	/* ----------------------------------------------------------- */
-	/*  8. PRELOADER 
-	/* ----------------------------------------------------------- */ 
-
-	jQuery(window).load(function() { // makes sure the whole site is loaded
-      $('.progress').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
-      $('body').delay(100).css({'overflow':'visible'});
-    })
-	  
-	/* ----------------------------------------------------------- */
-	/* 9. CALL TO ABOUT
-	/* ----------------------------------------------------------- */ 
-	
-	jQuery(".call-to-about").click(function() {
-    jQuery('html,body').animate({
-        scrollTop: $("#about").offset().top},
-        'slow');
-	});
-
-	/* ----------------------------------------------------------- */
-	/* 10. BOTTOM TO UP
-	/* ----------------------------------------------------------- */ 
-
-	jQuery(".up-btn").click(function() {
-    jQuery('html,body').animate({
-        scrollTop: $("#header").offset().top},
-        'slow');
-	});
-
-	/* ----------------------------------------------------------- */
-	/* 11. PARALLAX HEADER
-	/* ----------------------------------------------------------- */ 
-
-	jQuery('.parallax').parallax();
-
-	/* ----------------------------------------------------------- */
-	/* 12. HIRE ME SCROLL
-	/* ----------------------------------------------------------- */ 
-
-	jQuery(".hire-me-btn").click(function(e) {
-		e.preventDefault();
-    jQuery('html,body').animate({
-        scrollTop: $("#footer").offset().top},
-        'slow');
-	});
-
+	if (collapsed) {
+		$(this).find('span').toggleClass('icon-music-play-button icon-arrows-circle-remove');
+	}
+	if (!collapsed) {
+		var urlstop = $('#video-expand .embed-responsive-item').attr('src');
+		urlstop = urlstop.replace('autoplay=1', 'autoplay=0');
+		$('#video-expand .embed-responsive-item').attr('src', urlstop);
+	}
 	
 });
+
+/* ================================
+===  IN PAGE SCROLL OPTIONS    ====
+================================= */
+$(document).ready(function () {
+	$('.smooth-scroll a, a.smooth-scroll').on('click', function (e) {
+		e.preventDefault();
+
+		var target = this.hash;
+		var $target = $(target);
+
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 900, 'swing', function () {
+			window.location.hash = target;
+		});
+	});
+});
+
+$('#internal-scroll').onePageNav({
+	currentClass: 'current',
+	changeHash: false,
+	scrollSpeed: 750,
+	scrollThreshold: 0.5,
+	filter: ':not(.external)'
+});
+
+/* ================================
+===  MAILCHIMP SUBSCRIBE FORM  ====
+================================= */
+
+$('.mailchimp').ajaxChimp({
+	callback: mailchimpCallback,
+	url: "http://webdesign7.us6.list-manage.com/subscribe/post?u=9445a2e155b82208d73433060&amp;id=16dc80e353" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+});
+
+function mailchimpCallback(resp) {
+	if (resp.result === 'success') {
+		$('.mailchimp-success').html(resp.msg).fadeIn(1000);
+		$('.mailchimp-error').fadeOut(500);
+
+	} else if (resp.result === 'error') {
+		$('.mailchimp-error').html(resp.msg).fadeIn(1000);
+	}
+}
+
+/* ================================
+===  PROJECT LOADING           ====
+================================= */
+
+jQuery(document).ready(function ($) {
+	$('.more').on('click', function (event) {
+		event.preventDefault();
+
+		var href = $(this).attr('href') + ' .single-project',
+			portfolioList = $('#portfolio-list'),
+			content = $('#loaded-content');
+
+		portfolioList.animate({
+			'marginLeft': '-120%'
+		}, {
+			duration: 400,
+			queue: false
+		});
+		portfolioList.fadeOut(400);
+		setTimeout(function () {
+			$('#loader').show();
+		}, 400);
+		setTimeout(function () {
+			content.load(href, function () {
+				$('#loaded-content meta').remove();
+				$('#loader').hide();
+				content.fadeIn(600);
+				$('#back-button').fadeIn(600);
+			});
+		}, 800);
+
+	});
+
+	$('#back-button').on('click', function (event) {
+		event.preventDefault();
+
+		var portfolioList = $('#portfolio-list')
+		content = $('#loaded-content');
+
+		content.fadeOut(400);
+		$('#back-button').fadeOut(400);
+		setTimeout(function () {
+			portfolioList.animate({
+				'marginLeft': '0'
+			}, {
+				duration: 400,
+				queue: false
+			});
+			portfolioList.fadeIn(600);
+		}, 800);
+	});
+});
+
+/* ================================
+===  TESTIMONIALS              ====
+================================= */
+
+$(document).ready(function () {
+
+	$("#feedbacks").owlCarousel({
+
+		navigation: false, // Show next and prev buttons
+		slideSpeed: 300,
+		paginationSpeed: 400,
+		singleItem: true
+
+	});
+
+	$("#project-slider").owlCarousel({
+
+		navigation: false, // Show next and prev buttons
+		slideSpeed: 300,
+		paginationSpeed: 400,
+		singleItem: true
+
+	});
+
+
+});
+
+/* =================================
+===  CONTACT FORM          ====
+=================================== */
+$("#contact-form").submit(function (e) {
+	e.preventDefault();
+	var name = $("#name").val();
+	var email = $("#email").val();
+	var budget = $("#budget").val();
+	var subject = $("#subject").val();
+	var message = $("#message").val();
+	var dataString = 'name=' + name + '&email=' + email + '&subject=' + subject + '&budget=' + budget + '&message=' + message;
+
+	function isValidEmail(emailAddress) {
+		var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
+		return pattern.test(emailAddress);
+	};
+
+	if (isValidEmail(email) && (message.length > 10) && (name.length > 1)) {
+
+		$.ajax({
+			type: "POST",
+			url: "sendmail.php",
+			data: dataString,
+			success: function () {
+				$('.success').fadeIn(1000);
+				$('.error').fadeOut(500);
+			}
+		});
+
+	} else {
+		if (name.length < 2) {
+			$('.error').html('Invalid Name - Please use your correct name').fadeIn(1000);
+			$('.success').fadeOut(500);
+		}
+		if (message.length < 11) {
+			$('.error').html('Message is too short. Should be more than 10 character').fadeIn(1000);
+			$('.success').fadeOut(500);
+		}
+
+		if ((name.length < 2) && (message.length < 11)) {
+			$('.error').html('Valid name & More than 10 characters in message is required').fadeIn(1000);
+			$('.success').fadeOut(500);
+		}
+	}
+
+	return false;
+});
+
+
+/* ================================
+===  OTHER FIXES 		       ====
+================================= */
+
+$('input,textarea').focus(function () {
+	$(this).data('placeholder', $(this).attr('placeholder'))
+		.attr('placeholder', '');
+}).blur(function () {
+	$(this).attr('placeholder', $(this).data('placeholder'));
+});
+
+/* BOOTSTRAP FIX */
+
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+	var msViewportStyle = document.createElement('style')
+	msViewportStyle.appendChild(
+		document.createTextNode(
+			'@-ms-viewport{width:auto!important}'
+		)
+	)
+	document.querySelector('head').appendChild(msViewportStyle)
+}
