@@ -1240,8 +1240,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
    2.10 SECTION: TESTIMONIALS
 -----------------------------------------*/
 .testimonials {
-  background: url("../images/backgrounds/4.jpg") no-repeat top;
-  background-size: cover;
+  
 }
 .testimonials .color-overlay {
   padding-top: 114px;
