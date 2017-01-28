@@ -36,34 +36,7 @@
   }
 }
 
-/* PORTFOLIO FIXES */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  figure.effect-zoe p.description {
-    bottom: 110px;
-  }
-}
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .grid figure {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 640px) and (max-width: 767px) {
-  .grid figure {
-    width: 50%;
-  }
-  figure.effect-zoe p.description {
-    bottom: 100px;
-  }
-}
-
-@media screen and (max-width: 639px) {
-  .grid figure {
-    width: 100%;
-    max-width: 100%;
-  }
-}
 
 /* SECREEN WIDTH undeer 992px */
 @media screen and (max-width: 991px) {

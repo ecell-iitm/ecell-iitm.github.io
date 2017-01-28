@@ -106,16 +106,16 @@ jQuery(document).ready(function ($) {
 			portfolioList = $('#portfolio-list'),
 			content = $('#loaded-content');
 
-		portfolioList.animate({
-			'marginLeft': '-120%'
-		}, {
-			duration: 400,
-			queue: false
-		});
-		portfolioList.fadeOut(400);
-		setTimeout(function () {
-			$('#loader').show();
-		}, 400);
+		// portfolioList.animate({
+		// 	'marginLeft': '-120%'
+		// }, {
+		// 	duration: 400,
+		// 	queue: false
+		// });
+		// portfolioList.fadeOut(400);
+		// setTimeout(function () {
+		// 	$('#loader').show();
+		// }, 400);
 		setTimeout(function () {
 			content.load(href, function () {
 				$('#loaded-content meta').remove();
@@ -124,6 +124,8 @@ jQuery(document).ready(function ($) {
 				$('#back-button').fadeIn(600);
 			});
 		}, 800);
+
+		window.location.hash = "loaded-content";
 
 	});
 
@@ -145,6 +147,8 @@ jQuery(document).ready(function ($) {
 			portfolioList.fadeIn(600);
 		}, 800);
 	});
+
+	window.location.hash("portfolio-list");
 });
 
 /* ================================
