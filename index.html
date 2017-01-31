@@ -15,7 +15,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:900" rel="stylesheet">
    <style type="text/css">
     	p
     	{
@@ -83,10 +83,10 @@
 
 </head>
 
-<body id="page-top" class="index" >
+<body id="page-top" class="index" style="background-image: url('img/bg.png'); background-repeat: repeat-y; background-size: 100%;">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color: #cccccc; background-image: url('img/back.jpg'); background-size: 60%; text-align: center;" >
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color: #001655; text-align: center;" >
         <div class="container">
 
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -97,23 +97,21 @@
  -->                <!--img src="img/ecell.png" class="img-responsive img-navbar" />
                 <a class="navbar-brand page-scroll" href="#page-top">
                 E-Cell</a-->
-				<a class="navbar-brand page-scroll logoa" href="#page-top" style="background-color: rgba(197, 197, 197, 0.46); border-radius: 30px;">
-   	                <img src="img/ecell_logo.png" width="90%" class="img-responsive img-navbar logoimg" style="transform: translate(-12px, -27px);" />
+				<a class="navbar-brand page-scroll logoa" href="#page-top" stylae="background-color: rgba(197, 197, 197, 0.46); border-radius: 30px;">
+   	                <img src="img/ecell_logo.png" width="78%" class="img-responsive img-navbar logoimg" style="transform: translate(-42%, 0%);" />
                 </a>
 
             </div>
 
-
             <div class=" navbar-spacing" style="width: 37%; float: right;">
-                <a role="button" href="e-summit" target="_blank" class="btn btn-primary">Visit E-Summit 2017 page <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <!--img src="img/ecell.png" class="img-responsive img-navbar" />
                 <a class="navbar-brand page-scroll" href="#page-top">
                 E-Cell</a-->
-				<a class="navbar-brand page-scroll logoa" href="#page-top">
-   	                <img src="img/iitm.png" width="90%" class="img-responsive img-navbar logoimg" style="width: 30%; transform: translate(280%, -20px);" />
+				<a class="navbar-brand page-scroll logoa" href="http://www.iitm.ac.in" target="_blank">
+   	                <img src="img/iitm.png" class="img-responsive img-navbar logoimg" style="width: 24%; transform: translate(390%, 0px);" />
                 </a>
 
             </div>
@@ -134,14 +132,17 @@
             </div>
 
   -->           <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-spacing" id="bs-example-navbar-collapse-1 " style="margin-bottom: 0px!important; width: 68%; align-self: center; margin: auto;" >
+            <div class="collapse navbar-collapse navbar-spacing" id="bs-example-navbar-collapse-1 " style="margin-bottom: 0px!important; width: 80%; align-self: center; margin: auto;" >
 
-                <ul class="nav navbar-nav navbar-right" style="transform: translate(-23px, 0); ;white-space: nowrap; /*background-color: #c5c5c5*/ background-color: rgba(197, 197, 197, 0);z-index: 1; padding: 5px 20px 2px 20px; margin: 0 0 10px 20px; align-self: center!important;">
+                <ul class="nav navbar-nav navbar-right" style="transform: translate(-40px, 0); ;white-space: nowrap; /*background-color: #c5c5c5*/ background-color: rgba(197, 197, 197, 0);z-index: 1; padding: 5px 20px 2px 20px; margin: 0 0 10px 20px; align-self: center!important;">
                     <li class="hidden" style="display: inline;">
                         <a href="#page-top"></a>
                     </li>
                     <li class="scrbut"  style="display: inline!important;">
                         <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="scrbut"  style="display: inline!important;">
+                        <a class="page-scroll" href="#events">Events</a>
                     </li>
                     <li class="scrbut"  style="display: inline!important;">
                         <a class="page-scroll" href="#team">Team</a>
@@ -150,12 +151,12 @@
                         <a class="page-scroll" href="#partners">Our support</a>
                     </li>
                     <li class="scrbut"  style="display: inline!important;">
-                        <a class="page-scroll" target="_blank" href="nirmaan">Nirmaan</a>
+                        <a class="page-scroll" target="_blank" href="http://nirmaan.bitballoon.com">Nirmaan</a>
                     </li>
 
 
 					<li class="scrbut"  style="display: inline!important;">
-                        <a class="page-scroll" target="_blank" href="blog">Blog</a>
+                        <a class="page-scroll" target="_blank" href="/blog">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -166,15 +167,22 @@
     </nav>
 
     <!-- Header -->
-    <!--header style="background-color: #696;">
+    <div>
+    <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Supporting young people into techno-business entrepreneurship</div>
-                <div class="intro-heading">E-Cell | IIT Madras</div>
-                <a href="#about" class="page-scroll btn btn-xl">Know More</a>
+                <a href="#about" class="page-scroll btn-1 hidden-md-down"><img src="img/about.png"/></a>
+                <a href="#events" class="page-scroll btn-2 hidden-md-down"><img src="img/events.png"/></a>
+                <a href="https://entrepreneurshipinsidersite.wordpress.com/" target="_blank"
+                 class="page-scroll btn-3 hidden-md-down">
+                <img src="img/blog.png"/></a>
+                <a href="#team" class="page-scroll pull-right btn-4 hidden-md-down"><img src="img/team.png"/></a>
+                <a href="#partners" class="page-scroll pull-right btn-5 hidden-md-down"><img src="img/support.png"/></a>
+                <a href="http://nirmaan.bitballoon.com " target="_blank" class="page-scroll pull-right btn-6 hidden-md-down"><img src="img/nirmaan.png"/></a>
             </div>
         </div>
-    </header-->
+    </header>
+    </div>
 
 <!--slideshow-->
 <!--heading style="padding-top: 230px; traansform: translate(0px, 230px); ">
@@ -234,9 +242,9 @@
 </script>
 
 </heading-->
-<iframe src="pure_slider-master/index.html" width="100%" height="900" style="transform: translate(0px, 132px); border-top:20px; border-left: 70px; border-right: 70px; border-style: solid; border-color: #fff;">
+<!--iframe src="pure_slider-master/index.html" width="100%" height="900" style="transform: translate(0px, 132px); border-top:20px; border-left: 70px; border-right: 70px; border-style: solid; border-color: #fff;">
    <code>Can't load slideshow</code>
-</iframe>
+</iframe-->
 
 <div style="transform: translate(0px, -150px);">
 
@@ -265,7 +273,8 @@
 */
             .scrbut:hover
             {
-            	background-color: rgba(221,221,221,0)!important;
+
+            	background-color: rgba(255,255,255,0)!important;
             		     -webkit-transition: all 0.27s ease-in-out;
     	 -moz-transition: all 0.27s ease-in-out;
   	     -ms-transition: all 0.27s ease-in-out;
@@ -331,7 +340,7 @@
         line-height: 25px;
         position: absolute;
         right: -14px;
-        text-align: center;
+        xt-align: center;
         top: -14px;
         width: 24px;
         text-decoration: none;
@@ -349,10 +358,9 @@
 
     /* Image of events */
     .img-event {
-      width: 180px;
-      height: 160px;
+      height: 200px;
       margin: auto;
-      border-radius: 20px;
+      padding-top: 20px;
     }
 
     .img-event:hover
@@ -387,92 +395,112 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
+                    <!--h2 class="section-heading">About</h2-->
+                        <div class="borderleft">
+                        <!--img src="img/vision.png" style="width: 8%; float: left; margin: 20px 40px 20px 20px;" /-->
+
+                        <h3 class="section-subheading text-muted aboutheader" >
+                        <b style="font-size: 140%;">E-Cell IIT Madras</b>
+                        </h3>
+                        <p style="text-align: justify!important; font-weight: 600;">
+                          Entrepreneurship Cell at IIT Madras believes that entrepreneurship is not just about starting companies,
+                          but a pathway towards India’s socio-economic development. It will help raise the quality of life in our
+                          country by enabling the youth and creating jobs for everyone. Our vision is to make students and faculty
+                          ‘entrepreneurial’ in every work that they do. We hope to enable them to solve global challenges as we see
+                          students as the greatest capital and intend to nurture them, provide them with opportunities for excellence.
+                        </p></div>
 
                         <div class="borderleft">
-                        <img src="img/vision.png" style="width: 8%; float: left; margin: 20px 40px 20px 20px;" />
 
-                        <h3 class="section-subheading text-muted"  style="text-align: left!important;">
-                        <b>Vision</b>
+                        <!--img src="img/mission.png" style="float: left; width: 8%; margin: 20px 40px 20px 20px;"/-->
+                        <h3 class="section-subheading text-muted aboutheader" >
+                        <b style="font-size: 140%;">Entrepreneurship Culture in IITM</b>
                         </h3>
-                        <p style="text-align: justify!important;">
-                         Entrepreneurship Cell at IIT Madras believes that entrepreneurship is not just about starting companies, but a pathway towards India’s socio-economic development. It will help raise the quality of life in our country by enabling the youth and creating jobs for everyone.
-                        Our vision is to make students and faculty ‘entrepreneurial’ in every work that they do. We hope to enable them to solve global challenges as we see students as the greatest capital and intend to nurture them, provide them with opportunities for excellence.</p>
-                        </div>
+                        <p style="text-align: justify!important; font-weight: 600;">
+                          Entrepreneurs are those people who are willing to take the risks to make their dream come true. But
+                          walking down the entrepreneurial road is not a cake walk. There are many imperceptible risks involved,
+                          with which if not dealt properly, could bring you back to scratch. Thankfully that is not the case in
+                          IITM. We have more sophisticated suspensions on this rough road. The Entrepreneurship - Cell (or
+                          E-Cell) along with the Team CFI, Incubation cell and Nirmaan are striving hard to make your journey
+                          smooth.
+                        </p><div>
 
                         <div class="borderleft">
+                            <!--img src="img/vision.png" style="width: 8%; float: left; margin: 20px 40px 20px 20px;" /-->
 
-                        <img src="img/mission.png" style="float: left; width: 8%; margin: 20px 40px 20px 20px;"/>
-                        <h3 class="section-subheading text-muted"  style="text-align: left!important;">
-                        <b>Mission</b>
-                        </h3>
-                        <p style="text-align: justify;!important;">
+                            <h3 class="section-subheading text-muted aboutheader" >
+                            <b style="font-size: 140%;">Promoting Entrepreneurship </b>
+                            </h3>
+                            <p style="text-align: justify!important; font-weight: 600;">
+                              The Entrepreneurship Cell is an alloy of individuals with an aspiration, a vision! The Cell aims to unlock
+                              students’ latent inventive potential. Not only do we show you the doors of opportunity but we also
+                              equip you to walk through it. We connect you to entrepreneurial resources through various events such
+                              as seminars, workshops, webinars, start-up showcases, networking opportunities with industry leaders,
+                              peers, and potential companions and help sustain the entrepreneurial spirit through inspirational talks
+                              and mentoring platforms.<p></div>
 
-                        E Cell aims to unlock students’ latent inventive potential. It equips students to walk the doors of opportunity and connect them with entrepreneurship resources through various events such as seminars, workshops, webinars, start-up show cases and networking opportunities with existing entrepreneurs, industry leaders, peers, and potential startups.</p>
-                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+<br><br>
     <!-- Events Section -->
-    <section id="events" class="bg-light-gray">
+    <section id="events" class="bg-light-gray" style="background: rgba(220, 220, 220, 0);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Events</h2>
                 </div>
             </div>
-
+<div class="alert" style="opacity: 0.6; color: #001566; border: 1px solid #001566; border-radius: 10px;" align="center">
+  Upcoming Event:<br><br> <strong><a href="bootcamp/bootcamp.html" target="_blank">STARTUP BOOTCAMP 2017</a></strong>
+</div>
                                 <div class="hoverbg">
 
             <div class="row">
 
-                <div class="col-md-3 portfolio-item img-event-parent">
+                <div class="col-md-12 portfolio-item img-event-parent">
                     <a href="#portfolioModal_talks" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/icons/talks.png" class="img-responsive img-event" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Talks</h4>
-<!--                         <p class="text-muted">6:00 PM | 27th Oct 2016</p>
+ <!--                         <p class="text-muted">6:00 PM | 27th Oct 2016</p>
  -->                    </div>
                 </div>
 
-                <div class="col-md-3 portfolio-item">
+                <div class="col-md-12 portfolio-item">
                     <a href="#portfolioModal_ws" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/icons/workshop.png" class="img-responsive img-event" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Workshops</h4>
-<!--                         <p class="text-muted">Motivational Talk</p>
+ <!--                         <p class="text-muted">Motivational Talk</p>
  -->                    </div>
                 </div>
 
-                <div class="col-md-3 portfolio-item img-event-parent">
+                <div class="col-md-12 portfolio-item img-event-parent">
                     <a href="#portfolioModal_comp" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/icons/competition.png" class="img-responsive img-event" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Competitions</h4>
 <!--                         <p class="text-muted">6:00 PM | 27th Oct 2016</p>
  -->                    </div>
                 </div>
 
-                <div class="col-md-3 portfolio-item img-event-parent">
+                <div class="col-md-12 portfolio-item img-event-parent">
                     <a href="#portfolioModal_disc" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/icons/discussion.png" class="img-responsive img-event" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Discussions</h4>
 <!--                         <p class="text-muted">6:00 PM | 27th Oct 2016</p>
  -->                    </div>
                 </div>
@@ -499,7 +527,7 @@
 
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Prithvi_Student_Head.png" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/Prithvi_Student_Head.png" class="img-responsive img-circle img-team" alt="">
                         <h4>Prithvi Jawahar</h4>
                         <a href="mailto:head_ecell@smail.iitm.ac.in" target="_top"><i class="fa fa-envelope">&nbsp;&nbsp;</i>
 	head_ecell@smail.iitm.ac.in</a>
@@ -528,19 +556,19 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Yash.jpg" class="img-responsive img-circle img-team" alt="">
+                        <img src="img/team/yash.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Yash Goyal</h4>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Dhanraj.jpg" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/Dhanraj.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Dhanraj Koli</h4>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Sarthak.png" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/Sarthak.png" class="img-responsive img-circle img-team" alt="">
                         <h4>Sarthak Peshwe</h4>
                     </div>
                 </div>
@@ -555,7 +583,7 @@
 
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Pranit.jpg" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/Pranit.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Pranit Thakur</h4>
                     </div>
                 </div>
@@ -563,7 +591,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Shreyas_Kumbhare.jpg" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/Shreyas_Kumbhare.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Shreyas Kumbhare</h4>
                     </div>
                 </div>
@@ -574,41 +602,29 @@
                         <h4>D.Arun Kumar</h4>
                     </div-->
                 </div>
-            <h3 class="section-subheading text-muted borderright">Student Relations</h3>
                         <a href="mailto:sr_ecell@smail.iitm.ac.in" target="_top">
-                        <i class="fa fa-envelope">&nbsp;&nbsp;</i>
-
-            sr_ecell@smail.iitm.ac.in</a>
-
             <div class="row">
                 <div class="col-sm-2">
                 </div>
                     <div class="team-member">
                                     <div class="col-sm-4">
+            <h3 class="section-subheading text-muted borderright">Student Relations</h3>                        <i class="fa fa-envelope">&nbsp;&nbsp;</i>
 
-                        <img src="pics/aman.png" class="img-responsive img-circle img-team" alt="">
+            sr_ecell@smail.iitm.ac.in</a>
+
+
+
+                        <img src="Pics/Aman_Verma_Student Relations.png" class="img-responsive img-circle img-team" alt="">
                         <h4>Aman Verma</h4>
                     </div>
-                                <div class="col-sm-4">
-
-                    <div class="team-member">
-                        <img src="pics/Akshai_Kumar.png" class="img-responsive img-circle img-team" alt="">
-                        <h4>Akshaia Kumar</h4>
-                    </div>
-                                                    <div class="col-sm-4">
-</div>
-</div>
-</div>
-            </div>
-            <h3 class="section-subheading text-muted borderright">Public Relations</h3>
+				</div>
+                <div class="col-sm-4">
+                    <div class="team-member" style="transform: translate(0px, -50px);">
+                                <h3 class="section-subheading text-muted borderright">Public Relations</h3>
             <a href="mailto:pr_ecell@smail.iitm.ac.in" target="_top"><i class="fa fa-envelope">&nbsp;&nbsp;</i>
 
             pr_ecell@smail.iitm.ac.in</a>
-            <div class="row">
-                <div class="col-sm-4">
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
+
                         <img src="pics/Vaibhav.jpeg" class="img-responsive img-circle img-team" alt="">
                         <h4>Vaibhav Tambade</h4>
                     </div>
@@ -626,14 +642,14 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Selfie.jpg" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/Selfie.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Yash Tamrakar</h4>
                     </div>
                 </div>
 
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Vishal.png" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/Vishal.png" class="img-responsive img-circle img-team" alt="">
                         <h4>Vishal BM</h4>
 
                    </div>
@@ -641,7 +657,52 @@
                 </div>
 
             </div>
-            <h3 class="section-subheading text-muted borderright">Editorial and Research</h3>
+
+
+
+
+
+
+
+      <a href="mailto:sr_ecell@smail.iitm.ac.in" target="_top">
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                    <div class="team-member">
+                                    <div class="col-sm-4">
+            <h3 class="section-subheading text-muted borderright">Editorial and Research</h3>                        <i class="fa fa-envelope">&nbsp;&nbsp;</i>
+
+            editorial_ecell@smail.iitm.ac.in</a>
+
+
+
+                        <img src="Pics/divanshu.jpg" class="img-responsive img-circle img-team" alt="">
+                        <h4>Divanshu Kumar</h4>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="team-member" style="transform: translate(0px, -50px);">
+                                <h3 class="section-subheading text-muted borderright">Web Operations
+</h3>
+            <a href="mailto:pr_ecell@smail.iitm.ac.in" target="_top"><i class="fa">&nbsp;&nbsp;</i>
+
+            </a>
+
+                        <img src="img/team/aravind.jpg" class="img-responsive img-circle img-team" alt="">
+                        <h4 style="transform: translate(0px, -3px);">Aravind Suresh
+</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+
+
+
+
+
+
+<!--             <h3 class="section-subheading text-muted borderright">Editorial and Research</h3>
             <a href="mailto:editorial_ecell@smail.iitm.ac.in" target="_top"><i class="fa fa-envelope">&nbsp;&nbsp;</i>
 
             editorial_ecell@smail.iitm.ac.in</a>
@@ -650,13 +711,14 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/divanshu.jpg" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/divanshu.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Divanshu Kumar</h4>
                     </div>
                 </div>
                 <div class="col-sm-4">
                 </div>
             </div>
+ -->
              <h3 class="section-subheading text-muted borderright">Corporate Relations</h3>
              <a href="mailto:corporate_ecell@smail.iitm.ac.in" target="_top"><i class="fa fa-envelope">&nbsp;&nbsp;</i>
 
@@ -667,24 +729,24 @@
 
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Bansal.jpg" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/Bansal.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Shivam Bansal</h4>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/Shubham.jpg" class="img-responsive img-circle img-team" alt="">
+                        <img src="Pics/Shubham.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Shubham Agarwal</h4>
                     </div>
                 </div>
             </div>
-            <h3 class="section-subheading text-muted">Web Operations</h3>
+<!--             <h3 class="section-subheading text-muted">Web Operations</h3>
             <div class="row">
                 <div class="col-sm-4">
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="pics/aravind.jpg" class="img-responsive img-circle img-team" alt="">
+                        <img src="img/team/aravind.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Aravind Suresh</h4>
                     </div>
                 </div>
@@ -693,10 +755,10 @@
             </div>
         </div>
                     </div>
-
+ -->
     </section>
 
-    <section id="partners" class="bg-light-gray">
+    <section id="partners" class="bg-light-gray" style="background-color: rgba(0,0,0,0); ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
