@@ -308,7 +308,7 @@
         bottom: 0;
         left: 0;
         background: rgba(0,0,0,0.8);
-        z-index: 99999;
+        /*z-index: 99999;*/
         opacity:0;
         -webkit-transition: opacity 400ms ease-in;
         -moz-transition: opacity 400ms ease-in;
@@ -461,8 +461,8 @@
 
             <div class="row">
 
-                <div class="col-md-12 portfolio-item img-event-parent">
-                    <a href="#portfolioModal_talks" class="portfolio-link" data-toggle="modal">
+                <div class="col-md-12 portfolio-item">
+                    <a data-target="#portfolioModal_talks" class="portfolio-link">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/icons/talks.png" class="img-responsive img-event" alt="">
@@ -473,7 +473,7 @@
                 </div>
 
                 <div class="col-md-12 portfolio-item">
-                    <a href="#portfolioModal_ws" class="portfolio-link" data-toggle="modal">
+                    <a class="portfolio-link">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/icons/workshop.png" class="img-responsive img-event" alt="">
@@ -483,8 +483,8 @@
  -->                    </div>
                 </div>
 
-                <div class="col-md-12 portfolio-item img-event-parent">
-                    <a href="#portfolioModal_comp" class="portfolio-link" data-toggle="modal">
+                <div class="col-md-12 portfolio-item">
+                    <a class="portfolio-link">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/icons/competition.png" class="img-responsive img-event" alt="">
@@ -494,8 +494,8 @@
  -->                    </div>
                 </div>
 
-                <div class="col-md-12 portfolio-item img-event-parent">
-                    <a href="#portfolioModal_disc" class="portfolio-link" data-toggle="modal">
+                <div class="col-md-12 portfolio-item">
+                    <a class="portfolio-link">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/icons/discussion.png" class="img-responsive img-event" alt="">
@@ -982,7 +982,7 @@ caption
 
 
 
-<div class="portfolio-modal modal fade" id="portfolioModal_talks" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal" id="portfolioModal_talks" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -1034,7 +1034,7 @@ caption
 
 
     <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal_ws" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal_ws" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -1122,7 +1122,7 @@ Your team is one of the keys to your success, but how do you choose the right on
 
     <!-- Portfolio Modal 3 -->
 
-    <div class="portfolio-modal modal fade" id="portfolioModal_comp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal_comp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -1178,7 +1178,7 @@ Your team is one of the keys to your success, but how do you choose the right on
 
     <!-- Portfolio Modal 4 -->
 
-    <div class="portfolio-modal modal fade" id="portfolioModal_disc" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal_disc" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -1237,11 +1237,11 @@ Your team is one of the keys to your success, but how do you choose the right on
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
