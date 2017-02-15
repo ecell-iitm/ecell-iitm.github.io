@@ -1,0 +1,516 @@
+<!-- =========================
+     SECTION: ABOUT US
+    ============================== -->
+	<section class="about-us" id="about">
+
+		<div class="container">
+			<div class="row">
+
+				<!-- FEATURED IMAGE AREA -->
+				<div class="col-lg-6 visible-lg">
+					<div class="featured-image red-gradient-overlay">
+						<img src="images/about-us.jpg" alt="">
+						<!-- ABOUT US FEATURED IMAGE -->
+						<div class="image-border">
+						</div>
+					</div>
+				</div>
+
+				<!-- ABOUT US BOX -->
+				<div class="col-lg-7 col-sm-12 overflow-box pull-right">
+					<div class="about-box diffuse-shadow wow fadeInRight" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+
+						<div class="about-content">
+
+							<!-- SECTION NUMBER -->
+							<div class="section-number">
+								01
+							</div>
+
+							<!-- SECTION HEADING -->
+							<h2 class="section-heading text-left">About Us.</h2>
+
+							<!-- PARAGRAPH -->
+							<p class="text-left">
+								Analytics release series A financing launch party interaction design android angel investor. Vesting period social media sales conversion launch party rockstar incubator customer social proof graphical user interface technology supply chain. Non-disclosure agreement rockstar creative partner network launch party social proof paradigm shift long tail influencer.
+								<br/>
+								<br/> Monetization validation success. Seed round channels product management. Customer non-disclosure agreement strategy android growth hacking ramen buyer.
+							</p>
+						</div>
+
+						<div class="four-lines">
+							<div class="line red-line-bottom">
+							</div>
+							<div class="line green-line-bottom">
+							</div>
+							<div class="line purple-line-bottom">
+							</div>
+							<div class="line yellow-line-bottom">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- =========================
+     SECTION: SPEAKERS
+    ============================== -->
+	<section class="team bgcolor-2" id="speakers">
+
+		<div class="container">
+
+			<!-- SECTION NUMBER -->
+			<div class="section-number centered-number">
+				02
+			</div>
+
+			<!-- SECTION HEADER -->
+			<div class="section-header">
+				<h2>Speakers</h2>
+				<div class="sub-heading">
+					We understand your requirement and provide quality works.
+				</div>
+			</div>
+
+			<div class="row">
+
+				<!-- TEAM MEMBER LIST -->
+				<div class="member-list">
+
+					<!-- SINGLE MEMBER -->
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="single-member red-line-bottom diffuse-shadow wow fadeInLeft" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+							<div class="member-pic red-gradient-overlay">
+								<div class="gradient">
+									<img src="images/team-members/1.jpg" alt="">
+									<!-- MEMBER IMAGE -->
+								</div>
+							</div>
+							<h6 class="red-text">Michael Schmitt</h6>
+							<!-- MEMBER NAME -->
+							<div class="extra-small-text">
+								Founder &amp; CEO
+							</div>
+						</div>
+					</div>
+
+					<!-- SINGLE MEMBER -->
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="single-member green-line-bottom diffuse-shadow wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+							<div class="member-pic green-gradient-overlay">
+								<div class="gradient">
+									<img src="images/team-members/2.jpg" alt="">
+									<!-- MEMBER IMAGE -->
+								</div>
+							</div>
+							<h6 class="green-text">Michael Schmitt</h6>
+							<!-- MEMBER NAME -->
+							<div class="extra-small-text">
+								Founder &amp; CEO
+							</div>
+						</div>
+					</div>
+
+					<!-- SINGLE MEMBER -->
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="single-member purple-line-bottom diffuse-shadow wow fadeInDown" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+							<div class="member-pic purple-gradient-overlay">
+								<div class="gradient">
+									<img src="images/team-members/3.jpg" alt="">
+									<!-- MEMBER IMAGE -->
+								</div>
+							</div>
+							<h6 class="purple-text">Michael Schmitt</h6>
+							<!-- MEMBER NAME -->
+							<div class="extra-small-text">
+								Founder &amp; CEO
+							</div>
+						</div>
+					</div>
+
+					<!-- SINGLE MEMBER -->
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="single-member yellow-line-bottom diffuse-shadow wow fadeInRight" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+							<div class="member-pic yellow-gradient-overlay">
+								<div class="gradient">
+									<img src="images/team-members/4.jpg" alt="">
+									<!-- MEMBER IMAGE -->
+								</div>
+							</div>
+							<h6 class="yellow-text">Michael Schmitt</h6>
+							<!-- MEMBER NAME -->
+							<div class="extra-small-text">
+								Founder &amp; CEO
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<!-- =========================
+     SECTION: VIDEO SECTION
+    ============================== -->
+
+	<section class="video-play fixed-bg">
+		<div class="color-overlay">
+
+			<!-- HEADING -->
+			<h3 class="white-text wow fadeInLeft" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">Explore Our Awesomeness</h3>
+
+			<div class="row collapse" id="video-expand">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="embed-responsive embed-responsive-16by9">
+
+						<!-- EMBED VIDEO -->
+						<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/VjbGg-VuqbU?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=0" frameborder="0" allowfullscreen>
+						</iframe> <!-- KEEP &amp;autoplay="0" AT THE END -->
+
+					</div>
+				</div>
+			</div>
+
+			<!-- PLAY BUTTON -->
+			<a class="play-button" data-toggle="collapse" href="#video-expand"><span class="icon icon-music-play-button"></span></a>
+
+			<!-- TEXT -->
+			<div class="play-text text white-text wow fadeInRight" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+				<span class="click-play show">Click to play the video</span>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- =========================
+     SECTION: WORK STEPS
+    ============================== -->
+	<section class="work-steps" id="gallery">
+		<div class="container">
+
+			<!-- SECTION NUMBER -->
+			<div class="section-number centered-number">
+				05
+			</div>
+
+			<!-- SECTION HEADER -->
+			<div class="section-header">
+				<h2>Previous summits</h2>
+				<div class="sub-heading">
+					We understand your requirement and provide quality works.
+				</div>
+			</div>
+
+			<div class="row steps">
+				<div class="col-lg-6 col-lg-offset-3">
+
+					<!-- STEP 1 -->
+					<div class="step step-1-image clearfix">
+						<div class="step-box-left diffuse-shadow red-line-bottom white-bg wow fadeInLeft" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+
+							<div class="step-number">
+								01
+							</div>
+							<!-- STEP NUMBER -->
+
+							<div class="content-area">
+								<h4 class="text-left">Project Understanding</h4>
+								<p class="text-left">
+									Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor accelerator.
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- STEP 2 -->
+					<div class="step step-2-image clearfix">
+						<div class="step-box-right diffuse-shadow green-line-bottom white-bg wow fadeInRight" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.25s">
+
+							<div class="step-number">
+								02
+							</div>
+							<!-- STEP NUMBER -->
+
+							<div class="content-area">
+								<h4 class="text-left">Research &amp; Planning</h4>
+								<p class="text-left">
+									Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor accelerator.
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- STEP 3 -->
+					<div class="step step-3-image clearfix">
+						<div class="step-box-left diffuse-shadow purple-line-bottom white-bg wow fadeInLeft" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.35s">
+
+							<div class="step-number">
+								03
+							</div>
+							<!-- STEP NUMBER -->
+
+							<div class="content-area">
+								<h4 class="text-left">Wireframe &amp; Design</h4>
+								<p class="text-left">
+									Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor accelerator.
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- STEP 2 -->
+					<div class="step step-4-image clearfix">
+						<div class="step-box-right diffuse-shadow yellow-line-bottom white-bg wow fadeInRight" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.45s">
+
+							<div class="step-number">
+								04
+							</div>
+							<!-- STEP NUMBER -->
+
+							<div class="content-area">
+								<h4 class="text-left">Development</h4>
+								<p class="text-left">
+									Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor accelerator.
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- =========================
+     SECTION: STATS
+    ============================== -->
+	<section class="stats fixed-bg">
+		<div class="color-overlay">
+			<div class="container">
+				<div class="row">
+
+					<!-- STAT -->
+					<div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+
+						<div class="stats-icon red-text">
+							<span class="icon icon-graph-regular"></span>
+						</div>
+
+						<h5 class="white-text">12,458+</h5>
+						<div class="stats-text">
+							Projects Completed
+						</div>
+
+						<div class="bottom-icon red-text">
+							<span class="icon icon-circle-slelected"></span>
+						</div>
+
+					</div>
+
+					<!-- STAT -->
+					<div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.30s">
+
+						<div class="stats-icon green-text">
+							<span class="icon icon-add-user-regular"></span>
+						</div>
+
+						<h5 class="white-text">1,796+</h5>
+						<div class="stats-text">
+							Satisfied Clients
+						</div>
+
+						<div class="bottom-icon green-text">
+							<span class="icon icon-circle-slelected"></span>
+						</div>
+
+					</div>
+
+					<!-- STAT -->
+					<div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.45s">
+
+						<div class="stats-icon purple-text">
+							<span class="icon icon-like"></span>
+						</div>
+
+						<h5 class="white-text">1,000+</h5>
+						<div class="stats-text">
+							Positive Feedbacks
+						</div>
+
+						<div class="bottom-icon purple-text">
+							<span class="icon icon-circle-slelected"></span>
+						</div>
+
+					</div>
+
+					<!-- STAT -->
+					<div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="1s">
+
+						<div class="stats-icon yellow-text">
+							<span class="icon icon-gift-regular"></span>
+						</div>
+
+						<h5 class="white-text">1,500+</h5>
+						<div class="stats-text">
+							Freebies Released
+						</div>
+
+						<div class="bottom-icon yellow-text">
+							<span class="icon icon-circle-slelected"></span>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- =========================
+     SECTION: TESTIMONIALS
+    ============================== -->
+	<section class="testimonials white-bg" id="sponsors">
+		<div>
+			<div class="container">
+
+				<!-- SECTION NUMBER -->
+				<div class="section-number centered-number">
+					07
+				</div>
+
+				<!-- SECTION HEADER -->
+				<div class="section-header">
+					<h2>Sponsors</h2>
+					<div class="sub-heading">
+						We understand your requirement and provide quality works.
+					</div>
+				</div>
+
+				<div class="row">
+                <!-- Clients Aside -->
+                <aside class="clients">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="http://www.rtbi.in/">
+                                    <img src="images/index.png" class="img-responsive img-centered" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="http://www.incubation.iitm.ac.in/">
+                                    <img src="images/index.png" class="img-responsive img-centered" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="http://www.rtbi.in/">
+                                    <img src="images/index.png" class="img-responsive img-centered" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="http://www.incubation.iitm.ac.in/">
+                                    <img src="images/index.png" class="img-responsive img-centered" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+			</div>
+		</div>
+	</section>
+
+
+<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+
+					<!-- MAIL SUCCESS MESSAGE - ERROR MESSAGE AVAILABLE IN custom.js -->
+					<h6 class="success green-text">Your Message Successfuly Sent</h6>
+					<h6 class="error red-text"></h6>
+
+					<form id="contact-form" class="contact-form">
+						<div class="row">
+
+							<div class="col-lg-6 col-md-6">
+								<input type="text" id="name" name="name" class="input-field" placeholder="Your Name">
+							</div>
+
+							<div class="col-lg-6 col-md-6">
+								<input type="email" id="email" name="email" class="input-field" placeholder="Your Email">
+							</div>
+
+							<div class="col-lg-6 col-md-6">
+								<input type="text" id="subject" name="subject" class="input-field" placeholder="Subject">
+							</div>
+
+							<div class="col-lg-6 col-md-6">
+								<input type="text" id="budget" name="budget" class="input-field" placeholder="Project Budget">
+							</div>
+
+							<div class="col-lg-12">
+								<textarea name="message" id="message" class="input-field" rows="8" placeholder="Your Message"></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-default standard-button red-button">Send Message</button>
+						</div>
+					</form>
+
+				</div>
+			</div>
+
+			3 features
+
+			<div class="row text-center">
+
+					<!-- 3 FEATURES ON HOMEPAGE -->
+					<div class="home-features">
+
+						<!-- SINGLE FEATURE -->
+						<div class="col-md-4 col-sm-4">
+							<div class="single-feature">
+								<div class="icon green-text">
+									<span class="icon icon-money-regular"></span>
+									<!-- ICON -->
+								</div>
+								<h6 class="green-text uppercase">Fixed Price Projects</h6>
+							</div>
+						</div>
+
+						<!-- SINGLE FEATURE -->
+						<div class="col-md-4 col-sm-4">
+							<div class="single-feature">
+								<div class="icon purple-text">
+									<span class="icon icon-clock-regular"></span>
+									<!-- ICON -->
+								</div>
+								<h6 class="purple-text uppercase">Receive On Time</h6>
+							</div>
+						</div>
+
+						<!-- SINGLE FEATURE -->
+						<div class="col-md-4 col-sm-4">
+							<div class="single-feature">
+								<div class="icon yellow-text">
+									<span class="icon icon-happy-smiley-streamline"></span>
+									<!-- ICON -->
+								</div>
+								<h6 class="yellow-text uppercase">Satisfaction Guranteed</h6>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- END OF 3 FEATURES -->
+
+			</div>
