@@ -108,8 +108,25 @@
 		"poc":"Harikrishnan AS, Chief Operations Officer <br><strong>Mail : </strong>hari@detecttechnologies.com<br> <strong>Phone : </strong>(+91) 9790819426</strong>  "
 
 	},
+	{
+		"name":"Climber Knowledge and Careers private ltd.",
+		"place":"Virtual",
+		"image":imgURL+"Climberlogo.png",
+		"startDate":"15th April",
+		"duration":"2 months",
+		"stipend":' Rs 5000',
+		// "applyBy":"",
+		"number":"2",
+		"addr":"NSRCEL, IIM Bangalore, Bannerghatta Road , Bengaluru 560076 , Karnataka , India",
+		"about":"The Climber is an NSRCEL, IIM Bangalore incubated Edu-Tech startup that helps students Discover and pursue their passions. Our main product, MyCaptain, is an Online Youth mentoring Youth Program where young achievers guide and mentor school and College students who share the same Career Aspirations.",
+		"jobDesc":'Will Work on WebApp of new product, and an internal Sales Management Application.Handle Dev-Ops, Work on MyCaptain WebApp',
+		"prereq":"React JS, HTML, CSS, Javascript, WebSocket, WebRTC (optional), Ruby on Rails, AWS. ",
+		"poc":"Ruhan Naqash, Co Founder, CMO <br><strong>Mail : </strong>ruhan@theclimber.in<br> <strong>Phone : </strong>(0) 7349085671</strong>  "
+
+	},
 	
 	]
+	
 
     $.each(webDevcompanies,function(index,value){
        	
@@ -119,7 +136,7 @@
        	webNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal'+index+'">View More</button>'
 
 
-       	webNewCompany='<div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th><th>Apply By</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td><td>"+value.applyBy+"</td></tr></table><hr>"
+       	webNewCompany='<div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><hr>"
 
        	webNewCompany+=webNewCompanyModalBtn
        	webNewCompany+=webNewCompanyModal
