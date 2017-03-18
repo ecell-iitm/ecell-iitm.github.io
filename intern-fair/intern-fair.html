@@ -14,9 +14,10 @@
 <img src="esummit.png" width="15%" align="center" style="margin-left: 7%; transform: translate(0px, -30%);margin-top: 3%;">
 <img src="iitm.png" width="10%" align="right" style="padding-top: 3%;">
 </div>
+<hr style="border:1.8px solid">
 <h1 align="center" style="font-family: 'Montserrat', sans-serif;
 ">Intern Fair</h1>
-
+<hr style="border:1.8px solid">
 <h3 style="color:;font-weight: bolder;margin-top:4.5%;text-decoration: underline; ">Web Development</h3>
 <div class="webInternTile row" style="margin-top: 1%;">	
 </div> 
@@ -25,8 +26,16 @@
 <div class="appInternTile row" style="margin-top: 1%;">	
 </div> 
 
+<h3 style="color:;font-weight: bolder;text-decoration: underline;margin-top:4.5%;">Marketing</h3>
+<div class="marInternTile row" style="margin-top: 1%;">	
+</div> 
+
 <h3 style="color:;font-weight: bolder;text-decoration: underline;margin-top:4.5%;">Machine Learning</h3>
-<div class="mlInternTile" style="margin-top: 1%;margin-left:20%;width: 60%;">	
+<div class="mlInternTile row" style="margin-top: 1%;">	
+</div> 
+
+<h3 style="color:;font-weight: bolder;text-decoration: underline;margin-top:4.5%;">Data Analytics</h3>
+<div class="daInternTile row" style="margin-top: 1%;">	
 </div> 
 <!-- Value for div is filled using script -->
 
@@ -92,8 +101,8 @@
 		font-size: 20px;
 	}
 
-	.modal-header{
-     font-size:22px;
+	.modal-title{
+     font-weight: bolder;
 	}
 	
 
@@ -103,6 +112,8 @@
 	var webInHtml=""
 	var appInHtml=""
 	var mlInHtml=""
+	var marInHtml=""
+	var daInHtml=""
 	var imgURL="CompanyLogos/"
 	
 	var webDevcompanies=[
@@ -119,6 +130,21 @@
 		"about":"Detect Technologies is a company with technological innovation as its core principle to create solutions for asset monitoring in large process industries. Its flagship product GUMPS is the first of its kind Industrial IoT based Pipeline monitoring sensor that can detect leaks months before they happen thereby preventing catastrophes. Its sister product, Noctua is a smart autonomous drone designed for intelligent monitoring of large assets using computer vision, thermography and data processing techniques.",
 		"jobDescPreq":'<strong>Title</strong> : Web Development Lead. Selected intern shall be responsible for the complete development of the company portal anddatabase for storage of visual models of large inspected structures, as well as the cloud platform for continuous acquisition and updated displaying/ comparison of data from the company’s IIoT based sensor, GUMPS. The portal will have secure login for use and access by Fortune 500 companies like Reliance, Tata , Adani group etc.<br><label>Prerequisites : </label><br>Knowledge of atleast two of the following : <strong>PHP, Ruby, Python, Java.</strong> Prior experience in backend web development.Basic knowledge of frontend web development <strong>(HTML, CSS, Javascript), WebGL and Node JS</strong> is also expected. ',
 		"shortlistProc":"Resume Shortlist followed by HR Interview and Technical test."
+
+	},
+	{
+		"name":"NoteShare.in",
+		"place":"Chennai",
+		"image":imgURL+"noteshare.png",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
+		"stipend":' Rs 10,000',
+		"applyBy":"",
+		"number":"1",
+		"addr":"3rd floor, IIT Madras Research park, Chennai 600113 , Tamil Nadu , India  ",
+		"about":"NoteShare is a social platform for sharing classroom related documents. We aim to interconnect learners and educators to provide easy access to quality content.",
+		"jobDescPreq":'Full stack : MEAN stack',
+		"shortlistProc":"Assignment, Interview"
 
 	},
 	{
@@ -147,7 +173,7 @@
 		"number":"2",
 		"addr":"Krishna Annex, Near Silk Board Junction, Sector 6, HSR Layout, Bengaluru 560102 , Karnataka",
 		"about":"Furlenco is India’s first and only Home Furniture Subscription Program based out of Bangalore.<br> Furlenco offers a range of curated home furniture experiences, designed to suit the lifestyle needs of varied audiences spanning students to families and expatriates. Our solutions are convenient, cost-effective and offer access to quality furniture with the added advantage of being able to exchange it at will.<br>To deliver the best possible home experience, our furniture is designed and developed in-house by a team of experienced designers who follow a strict development process, resulting in an enhanced product experience. We aim to simplify the home decorating process by providing  seamless assistance and support that is designed to delight!",
-		"jobDescPreq":'CS/IT  Good grasp of Angular JS',
+		"jobDescPreq":'CS/IT  Good grasp of Angular JS <a href="https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer" target="_blank">https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer</a>',
 		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li>"
 
 	},
@@ -167,6 +193,21 @@
 		"about":"Detect Technologies is a company with technological innovation as its core principle to create solutions for asset monitoring in large process industries. Its flagship product GUMPS is the first of its kind Industrial IoT based Pipeline monitoring sensor that can detect leaks months before they happen thereby preventing catastrophes. Its sister product, Noctua is a smart autonomous drone designed for intelligent monitoring of large assets using computer vision, thermography and data processing techniques.",
 		"jobDescPreq":' Software Development /Application Development /UI/UX',
 		"shortlistProc":"Resume Shortlist followed by HR Interview and Technical test."
+
+	},
+	{
+		"name":"NoteShare.in",
+		"place":"Chennai",
+		"image":imgURL+"noteshare.png",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
+		"stipend":' Rs 10,000',
+		"applyBy":"",
+		"number":"1",
+		"addr":"3rd floor, IIT Madras Research park, Chennai 600113 , Tamil Nadu , India  ",
+		"about":"NoteShare is a social platform for sharing classroom related documents. We aim to interconnect learners and educators to provide easy access to quality content.",
+		"jobDescPreq":'IOS/Android developer',
+		"shortlistProc":"Assignment, Interview"
 
 	},
 	{
@@ -203,6 +244,60 @@
 		"shortlistProc":"Online programming test + interviews"
 
 	}
+	,
+	{
+		"name":"NoteShare.in",
+		"place":"Chennai",
+		"image":imgURL+"noteshare.png",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
+		"stipend":' Rs 10,000',
+		"applyBy":"",
+		"number":"1",
+		"addr":"3rd floor, IIT Madras Research park, Chennai 600113 , Tamil Nadu , India  ",
+		"about":"NoteShare is a social platform for sharing classroom related documents. We aim to interconnect learners and educators to provide easy access to quality content.",
+		"jobDescPreq":'Coding skills and able to implement algorithms for recommendations',
+		"shortlistProc":"Assignment, Interview"
+
+	}
+
+	
+	]
+	var daDevcompanies=[
+	{
+		"name":"DrivoJoy",
+		"place":"Bengaluru",
+		"image":imgURL+"drivojoy.gif",
+		"startDate":"May 2017",
+		"duration":"",
+		"stipend":' Rs 10,000',
+		"applyBy":"",
+		"number":"",
+		"addr":"L6 First Floor, 2nd Main Sec 6 HSR Layout , Bengaluru 560102, Karnataka , India  ",
+		"about":"We are a Bangalore based startup with demonstrated ability and an unparalleled experience in on-demand economy and technology. We call ourselves a disruptive force trying to revive the 2-wheeler servicing industry, that hasn’t changed much in decades. Our team dwells some hungry, passionate professionals from a multitude of backgrounds including alumni from IIT Bombay, IIT Delhi and ex-employees of Olacabs and PayPal. We are on a quest to challenge the status quo and push the boundaries of innovation by transforming the servicing and repair of 2-wheelers into a technology-driven and hassle-free experience.",
+		"jobDescPreq":' Candidate must be good knowledge of Statistics,MSExcel,MySql,PLSql,R and some knowledge of MongoDB,SaaS,Python would be desirable.',
+		"shortlistProc":"Telephonic(2 rounds)"
+	}
+
+	
+	]
+
+	var marDevcompanies=[
+	{
+		"name":"Climber Knowledge and Careers private ltd.",
+		"place":"Virtual",
+		"image":imgURL+"Climberlogo.png",
+		"startDate":"1st April",
+		"duration":"2 months",
+		"stipend":'Performance based',
+		// "applyBy":"",
+		"number":"5",
+		"addr":"NSRCEL, IIM Bangalore, Bannerghatta Road , Bengaluru 560076 , Karnataka , India",
+		"about":"The Climber is an NSRCEL, IIM Bangalore incubated Edu-Tech startup that helps students Discover and pursue their passions. Our main product, MyCaptain, is an Online Youth mentoring Youth Program where young achievers guide and mentor school and College students who share the same Career Aspirations.",
+		"jobDescPreq":'People skills, Marketing Skills, Sales Skills.Marketing, Sales, Business Development, University Relations, On Ground Marketing Campaigns. ( Business Development) ',
+		"shortlistProc":"Initial Selection based on CV and Work Experience; thereafter, an Interview by the respective Heads / Managers."
+
+	}
 	
 	]	
 
@@ -214,7 +309,7 @@
        	webNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	webNewCompany='<div class="col-md-5 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	webNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	webNewCompany+=webNewCompanyModalBtn
        	webNewCompany+=webNewCompanyModal
@@ -231,7 +326,7 @@
        	appNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myappModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	appNewCompany='<div class="col-md-5 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	appNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	appNewCompany+=appNewCompanyModalBtn
        	appNewCompany+=appNewCompanyModal
@@ -239,6 +334,27 @@
     	appInHtml+=appNewCompany
     })
     $('.appInternTile').html(appInHtml)
+
+
+
+	 $.each(marDevcompanies,function(index,value){
+       	
+       	
+       	marNewCompanyModal='<div class="modal fade" id="mymarModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="marcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="marcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure:</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
+
+       	marNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymarModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
+
+
+       	marNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+
+       	marNewCompany+=marNewCompanyModalBtn
+       	marNewCompany+=marNewCompanyModal
+    	
+    	marInHtml+=marNewCompany
+    })
+    $('.marInternTile').html(marInHtml)
+        
+
     
     $.each(mlDevcompanies,function(index,value){
        	
@@ -248,7 +364,7 @@
        	mlNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymlModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	mlNewCompany='<div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	mlNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	mlNewCompany+=mlNewCompanyModalBtn
        	mlNewCompany+=mlNewCompanyModal
@@ -256,7 +372,23 @@
     	mlInHtml+=mlNewCompany
     })
     $('.mlInternTile').html(mlInHtml)
-    
+
+$.each(daDevcompanies,function(index,value){
+       	
+       	
+       	daNewCompanyModal='<div class="modal fade" id="mydaModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="dacompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="dacompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure:</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
+
+       	daNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mydaModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
+
+
+       	daNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+
+       	daNewCompany+=daNewCompanyModalBtn
+       	daNewCompany+=daNewCompanyModal
+    	
+    	daInHtml+=daNewCompany
+    })
+    $('.daInternTile').html(daInHtml)
 
 </script>
 
