@@ -11,36 +11,17 @@
 
 <div>
 <img src="ecell.png" width="30%" style="padding-top: 5%;">
-<img src="esummit.png" width="15%" align="center" style="margin-left: 7%; transform: translate(0px, -30%);">
+<img src="esummit.png" width="15%" align="center" style="margin-left: 7%; transform: translate(0px, -30%);margin-top: 3%;">
 <img src="iitm.png" width="10%" align="right" style="padding-top: 3%;">
 </div>
 <h1 align="center" style="font-family: 'Montserrat', sans-serif;
 ">Intern Fair</h1>
 
-<div class="internTile" style="margin-top: 3%;margin-left:20%;width: 60%;">	
+<h3 style="margin-left:20%;color:;font-weight: bolder;text-decoration: underline; ">Web Development</h3>
+<div class="webInternTile" style="margin-top: 3%;margin-left:20%;width: 60%;">	
 </div> 
-<!-- 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+<!-- Value for div is filled using script -->
 
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="purchaseLabel">Purchase</h4>
-                </div>
-                <div class="modal-body">
-                    sup?
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
- -->
 
 <style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
@@ -96,32 +77,56 @@
     padding-top: 10px;
     text-align: left;    
 	}
+	.modal{
+     font-size:18px;
+	}
+	.modalSub{
+		font-size: 20px;
+	}
+	
+
 </style>
 
 <script type="text/javascript">
-	var inHtml=""
+	var webInHtml=""
+	var imgURL="CompanyLogos/"
 	
-	var companies=[
+	var webDevcompanies=[
 	{
-		"name":"Startup 1",
-		"place":"Chennai",
-		"image":"iitm.png"
+		"name":"Detect Technologies",
+		"place":"Detect Technologies, Incubation Cell, Research Park, IIT Madras or Ground floor, Machine Design Section, IIT Madras",
+		"image":imgURL+"detect.jpg",
+		"startDate":"",
+		"duration":"2 months",
+		"stipend":' Rs 20,000 per month with performance based bonuses',
+		"applyBy":"",
+		"number":"2",
+		"addr":"Detect Technologies, Incubation Cell, Research Park, IIT Madras, Chennai 600113 , Tamil Nadu , India  ",
+		"about":"Detect Technologies is a company with technological innovation as its core principle to create solutions for asset monitoring in large process industries. Its flagship product GUMPS is the first of its kind Industrial IoT based Pipeline monitoring sensor that can detect leaks months before they happen thereby preventing catastrophes. Its sister product, Noctua is a smart autonomous drone designed for intelligent monitoring of large assets using computer vision, thermography and data processing techniques.",
+		"jobDesc":'<strong>Title</strong> : Web Development Lead. Selected intern shall be responsible for the complete development of the company portal anddatabase for storage of visual models of large inspected structures, as well as the cloud platform for continuous acquisition and updated displaying/ comparison of data from the company’s IIoT based sensor, GUMPS. The portal will have secure login for use and access by Fortune 500 companies like Reliance, Tata , Adani group etc. ',
+		"prereq":"Knowledge of atleast two of the following : <strong>PHP, Ruby, Python, Java.</strong> Prior experience in backend web development.Basic knowledge of frontend web development <strong>(HTML, CSS, Javascript), WebGL and Node JS</strong> is also expected. ",
+		"poc":"Harikrishnan AS, Chief Operations Officer <br><strong>Mail : </strong>hari@detecttechnologies.com<br> <strong>Phone : </strong>(+91) 9790819426</strong>  "
 
 	},
-	{
-		"name":"Startup 2",
-		"place":"Chennai",
-		"image":"iitm.png"
-
-	}
+	
 	]
-    $.each(companies,function(index,value){
+
+    $.each(webDevcompanies,function(index,value){
        	
-       	newCompany='<div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th><th>Apply By</th></tr><tr><td>today</td><td>6 months</td><td>300000</td><td>tomorrow</td></tr></table><hr>"
+       	
+       	webNewCompanyModal='<div class="modal fade" id="myModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="companyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="companyLabel'+index+'">'+value.name+'</h4></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description :</label><br>'+value.jobDesc+'<br><br><label class="modalSub">Prerequisites :</label><br>'+value.prereq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">For more information contact :</label><br>'+value.poc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
+
+       	webNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal'+index+'">View More</button>'
+
+
+       	webNewCompany='<div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th><th>Apply By</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td><td>"+value.applyBy+"</td></tr></table><hr>"
+
+       	webNewCompany+=webNewCompanyModalBtn
+       	webNewCompany+=webNewCompanyModal
     	
-    	inHtml+=newCompany
+    	webInHtml+=webNewCompany
     })
-    $('.internTile').html(inHtml)
+    $('.webInternTile').html(webInHtml)
     
 
 </script>
