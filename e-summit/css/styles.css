@@ -1578,3 +1578,16 @@ height: 100%;
 {
   font-family: 'Poppins', sans-serif!important;
 }
+
+@media screen and (min-width: 594px){
+    img.logoimg {
+transform: scale(1); border: 0px white solid;    }
+}
+@media screen and (max-width: 592px){
+
+    img.logoimg {
+      width: 80%;
+  }
+}
+
+
