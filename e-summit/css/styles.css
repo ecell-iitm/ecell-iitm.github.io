@@ -455,6 +455,9 @@ section {
   position: relative;
 }
 .section-header {
+  border-width: 0 0 7px 0;
+  border-color: #d2d2d2;
+  border-style: solid;
   position: relative;
   z-index: 10;
   margin-bottom: 25px;
