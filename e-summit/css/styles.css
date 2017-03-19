@@ -948,8 +948,8 @@ figure.effect-zoe:hover p.icon-links a {
 figure.effect-zoe2:hover figcaption,
 figure.effect-zoe2:hover h6,
 figure.effect-zoe2:hover p.icon-links a {
-  -webkit-transform: translate3d(0, -180%, 0)!important;
-  transform: translate3d(0, -180%, 0)!important;
+  -webkit-transform: translate3d(0, -200%, 0)!important;
+  transform: translate3d(0, -200%, 0)!important;
 }
 figure.effect-zoe:hover h6 {
   -webkit-transition-delay: 0.05s;
