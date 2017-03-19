@@ -406,7 +406,8 @@ h1 {
   line-height: 5.313rem;
 }
 h2 {
-  font-family: 'Libre Baskerville', 'Playfair Display', Georgia, serif;
+  /*font-family: 'Libre Baskerville', 'Playfair Display', Georgia, serif;*/
+
   font-size: 3.125rem;
   line-height: 4.688rem;
   font-weight: 600;
@@ -454,6 +455,9 @@ section {
   position: relative;
 }
 .section-header {
+  border-width: 0 0 7px 0;
+  border-color: #d2d2d2;
+  border-style: solid;
   position: relative;
   z-index: 10;
   margin-bottom: 25px;
@@ -618,8 +622,8 @@ section {
   background-size: cover;
 }
 .home .color-overlay {
-  padding-top: 175px;
-  padding-bottom: 125px;
+  padding-top: 25px;
+  padding-bottom: 0px;
 }
 .home .intro {
   margin-top: 62px;
@@ -770,8 +774,8 @@ section {
    2.5 SECTION: PORTFOLIO
 -----------------------------------------*/
 .portfolio {
-  padding-top: 114px;
-  padding-bottom: 137px;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 .portfolio .portfolio-items {
   margin-top: 40px;
@@ -831,6 +835,8 @@ section {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+/* Desc text*/
 .grid figure figcaption .caption-text {
   padding: 20px 20px 0 20px;
   color: #fff;
@@ -938,6 +944,12 @@ figure.effect-zoe:hover h6,
 figure.effect-zoe:hover p.icon-links a {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+figure.effect-zoe2:hover figcaption,
+figure.effect-zoe2:hover h6,
+figure.effect-zoe2:hover p.icon-links a {
+  -webkit-transform: translate3d(0, -200%, 0)!important;
+  transform: translate3d(0, -200%, 0)!important;
 }
 figure.effect-zoe:hover h6 {
   -webkit-transition-delay: 0.05s;
@@ -1560,4 +1572,22 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+
+.popfont
+{
+  font-family: 'Poppins', sans-serif!important;
+}
+
+@media screen and (min-width: 594px){
+    img.logoimg {
+transform: scale(1); border: 0px white solid;    }
+}
+@media screen and (max-width: 592px){
+
+    img.logoimg {
+      width: 80%;
+  }
+}
+
 
