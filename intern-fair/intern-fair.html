@@ -2,20 +2,25 @@
 <html>
 <head>
 	<title>Intern Fair - ECell IIT Madras</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/intern-fair.css">
 	<!-- jQuery -->
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="../js/agency.min.js"></script>
 </head>
 <body style="font-family: Arial; padding: 0 100px; text-align: justify;">
 
+<div class="loader"></div>
+
 <div>
-<img src="ecell.png" width="30%" style="padding-top: 5%;">
-<img src="esummit.png" width="15%" align="center" style="margin-left: 7%; transform: translate(0px, -30%);margin-top: 3%;">
-<img src="iitm.png" width="10%" align="right" style="padding-top: 3%;">
+<img src="assets/ecell.png" width="30%" style="padding-top: 5%;">
+<img src="assets/esummit.png" width="15%" align="center" style="margin-left: 7%; transform: translate(0px, -30%);margin-top: 3%;">
+<img src="assets/iitm.png" width="10%" align="right" style="padding-top: 3%;">
 </div>
+
 <hr style="border:1.8px solid">
-<h1 align="center" style="font-family: 'Montserrat', sans-serif;
+<h1 align="center" ids="web" style="font-family: 'Montserrat', sans-serif;
 ">Intern Fair</h1>
 <hr style="border:1.8px solid">
 <h3 style="color:;font-weight: bolder;margin-top:4.5%;text-decoration: underline; ">Web Development</h3>
@@ -39,6 +44,14 @@
 <div class="marInternTile row" style="margin-top: 1%;">	
 </div> 
 
+<h3 style="color:;font-weight: bolder;text-decoration: underline;margin-top:4.5%;">Operations</h3>
+<div class="opInternTile row" style="margin-top: 1%;">	
+</div> 
+
+<h3 style="color:;font-weight: bolder;text-decoration: underline;margin-top:4.5%;">Content Writing</h3>
+<div class="contentInternTile row" style="margin-top: 1%;">	
+</div> 
+
 <h3 style="color:;font-weight: bolder;text-decoration: underline;margin-top:4.5%;">Machine Learning</h3>
 <div class="mlInternTile row" style="margin-top: 1%;">	
 </div> 
@@ -46,507 +59,26 @@
 <h3 style="color:;font-weight: bolder;text-decoration: underline;margin-top:4.5%;">Data Analytics</h3>
 <div class="daInternTile row" style="margin-top: 1%;">	
 </div> 
+
 <!-- Value for div is filled using script -->
-
-
-<style type="text/css">
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
-
-	span
-	{
-		font-weight: 600;
-		color: red;
-	}
-	img
-	{
-		margin: 0 30px;
-	}
-	
-
-	.linkbutton
-	{
-		padding: 25px;
-		border-radius: 10px;
-		border-width: 0px;
-	}
-
-	.linkbutton:hover
-	{
-		background-color: lightblue;
-
-	}
-	.companyName{
-		margin-top: 4%;
-		color:#03a9f4 ;
-		font-size:18px;
-		font-weight: bolder;
-		display: table-cell;
-		width:100%;
-	}
-	.companyImage{
-		max-width:147px;
-		max-height:61px;
-		width: auto;
-		height: auto;
-		position: relative;
-		display: table-cell;
-		top: 2.5vh;
-	}
-	.internLocationTitle{
-		color: gray;
-	}
-	.infoTable{
-		margin-top: 2%;
-		width: 100%;
-	}
-	.infoTable th,.infoTable td {
-    padding-top: 10px;
-    text-align: left;    
-	}
-	.modal{
-     font-size:18px;
-	}
-	.modalSub{
-		font-size: 20px;
-	}
-
-	.modal-title{
-     font-weight: bolder;
-	}
-	
-
-</style>
-
 <script type="text/javascript">
-	var webInHtml=""
-	var appInHtml=""
-	var mlInHtml=""
-	var marInHtml=""
-	var bdInHtml=""
-	var daInHtml=""
-	var gdInHtml=""
-	var imgURL="CompanyLogos/"
-	
-	var webDevcompanies=[
-	{
-		"name":"Detect Technologies",
-		"place":"Chennai",
-		"image":imgURL+"detect.jpg",
-		"startDate":"",
-		"duration":"2 months",
-		"stipend":' Rs 20,000 per month with performance based bonuses',
-		"applyBy":"",
-		"number":"2",
-		"addr":"Detect Technologies, Incubation Cell, Research Park, IIT Madras, Chennai 600113 , Tamil Nadu , India  ",
-		"about":"Detect Technologies is a company with technological innovation as its core principle to create solutions for asset monitoring in large process industries. Its flagship product GUMPS is the first of its kind Industrial IoT based Pipeline monitoring sensor that can detect leaks months before they happen thereby preventing catastrophes. Its sister product, Noctua is a smart autonomous drone designed for intelligent monitoring of large assets using computer vision, thermography and data processing techniques.",
-		"jobDescPreq":'<strong>Title</strong> : Web Development Lead. Selected intern shall be responsible for the complete development of the company portal anddatabase for storage of visual models of large inspected structures, as well as the cloud platform for continuous acquisition and updated displaying/ comparison of data from the company’s IIoT based sensor, GUMPS. The portal will have secure login for use and access by Fortune 500 companies like Reliance, Tata , Adani group etc.<br><label>Prerequisites : </label><br>Knowledge of atleast two of the following : <strong>PHP, Ruby, Python, Java.</strong> Prior experience in backend web development.Basic knowledge of frontend web development <strong>(HTML, CSS, Javascript), WebGL and Node JS</strong> is also expected. ',
-		"shortlistProc":"Resume Shortlist followed by HR Interview and Technical test."
-
-	},
-	{
-		"name":"NoteShare.in",
-		"place":"Chennai",
-		"image":imgURL+"noteshare.png",
-		"startDate":"May 2017",
-		"duration":"8 weeks",
-		"stipend":' Rs 10,000',
-		"applyBy":"",
-		"number":"1",
-		"addr":"3rd floor, IIT Madras Research park, Chennai 600113 , Tamil Nadu , India  ",
-		"about":"NoteShare is a social platform for sharing classroom related documents. We aim to interconnect learners and educators to provide easy access to quality content.",
-		"jobDescPreq":'Full stack : MEAN stack',
-		"shortlistProc":"Assignment, Interview"
-
-	},
-	{
-		"name":"Climber Knowledge and Careers private ltd.",
-		"place":"Virtual",
-		"image":imgURL+"Climberlogo.png",
-		"startDate":"15th April",
-		"duration":"2 months",
-		"stipend":' Rs 5000',
-		// "applyBy":"",
-		"number":"2",
-		"addr":"NSRCEL, IIM Bangalore, Bannerghatta Road , Bengaluru 560076 , Karnataka , India",
-		"about":"The Climber is an NSRCEL, IIM Bangalore incubated Edu-Tech startup that helps students Discover and pursue their passions. Our main product, MyCaptain, is an Online Youth mentoring Youth Program where young achievers guide and mentor school and College students who share the same Career Aspirations.",
-		"jobDescPreq":'Will Work on WebApp of new product, and an internal Sales Management Application.Handle Dev-Ops, Work on MyCaptain WebApp.<br><label>Prerequisites : </label><br> React JS, HTML, CSS, Javascript, WebSocket, WebRTC (optional), Ruby on Rails, AWS. ',
-		"shortlistProc":"Initial Selection based on CV and Work Experience; thereafter, an Interview by the respective Heads / Managers."
-
-	},
-	{
-		"name":"Real Tycoon",
-		"place":"Chennai",
-		"image":imgURL+"real-tycoon.jpg",
-		"startDate":"April",
-		"duration":"5 weeks",
-		"stipend":' Based on performance-upto  5k.',
-		"applyBy":"",
-		"number":"2",
-		"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
-		"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
-		"jobDescPreq":' Web Development - Php / python, html / Css & mysql or mssql server',
-		"shortlistProc":"Interview and a task"
-
-	},
-	{
-		"name":"Furlenco",
-		"place":"Bangalore",
-		"image":imgURL+"furlenco.jpg",
-		"startDate":"",
-		"duration":"8 - 10 weeks",
-		"stipend":' Rs 20,000 per month',
-		// "applyBy":"",
-		"number":"2",
-		"addr":"Krishna Annex, Near Silk Board Junction, Sector 6, HSR Layout, Bengaluru 560102 , Karnataka , India",
-		"about":"Furlenco is India’s first and only Home Furniture Subscription Program based out of Bangalore.<br> Furlenco offers a range of curated home furniture experiences, designed to suit the lifestyle needs of varied audiences spanning students to families and expatriates. Our solutions are convenient, cost-effective and offer access to quality furniture with the added advantage of being able to exchange it at will.<br>To deliver the best possible home experience, our furniture is designed and developed in-house by a team of experienced designers who follow a strict development process, resulting in an enhanced product experience. We aim to simplify the home decorating process by providing  seamless assistance and support that is designed to delight!",
-		"jobDescPreq":'CS/IT  Good grasp of Angular JS <a href="https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer" target="_blank">https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer</a>',
-		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li>"
-
-	},
-	{
-		"name":"Grow Fit",
-		"place":"Bangalore",
-		"image":imgURL+"grow-fit.png",
-		"startDate":"May 2017",
-		"duration":"8 - 10 weeks",
-		"stipend":' Rs 10,000 - Rs 15,000 per month',
-		// "applyBy":"",
-		"number":"1",
-		"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
-		"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
-		"jobDescPreq":'Web Front-End Engineering Intern (AngularJS)We are looking for an AngularJS Developer responsible for our progressive webapp. <br>The primary focus will be to<ol><li>work on our existing progressive web app</li><li>ensure the performance, quality, and responsiveness of applications</li><li>collaborate with a team to define, design, and ship new features</li><li>identify and solve bottlenecks and fix bugs</li></ol><br>Skills and Qualifications:<ol><li>Deep knowledge of AngularJS practices and commonly used modules based on extensive work experience</li><li>Creating self-contained, reusable, and testable modules and components</li><li> Extensive knowledge of CSS and JS methods for providing performant visual effects</li><li>Experience working with Github or any versioning system</li><li>Having worked on Firebase APIs is a big plus</li><li>Ability to design beautiful (not only working) interfaces is a big plus</li><li> Should provide with portfolio of previous projects</li><li>Professional, precise communication skills</li></ol>',
-		"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
-
-	},
-	{
-		"name":"DrivoJoy",
+{
+		"name":"Perpule (Delvit Solutions Private Limited)",
 		"place":"Bengaluru",
-		"image":imgURL+"drivojoy.gif",
-		"startDate":"May 2017",
-		"duration":"",
-		"stipend":' Rs 10,000',
-		"applyBy":"",
-		"number":"1",
-		"addr":"L6 First Floor, 2nd Main Sec 6 HSR Layout , Bengaluru 560102, Karnataka , India  ",
-		"about":"We are a Bangalore based startup with demonstrated ability and an unparalleled experience in on-demand economy and technology. We call ourselves a disruptive force trying to revive the 2-wheeler servicing industry, that hasn’t changed much in decades. Our team dwells some hungry, passionate professionals from a multitude of backgrounds including alumni from IIT Bombay, IIT Delhi and ex-employees of Olacabs and PayPal. We are on a quest to challenge the status quo and push the boundaries of innovation by transforming the servicing and repair of 2-wheelers into a technology-driven and hassle-free experience.",
-		"jobDescPreq":' Frontend(UI/UX)-Desired skills and Experience: HTML5, CSS3, JavaScript, AngularJS',
-		"shortlistProc":"Telephonic / Skype"
-	}
-	]
-	
-
-	var appDevcompanies=[
-	{
-		"name":"Detect Technologies",
-		"place":"Chennai",
-		"image":imgURL+"detect.jpg",
-		"startDate":"",
-		"duration":"2 months",
-		"stipend":' Rs 20,000 per month with performance based bonuses',
-		"applyBy":"",
-		"number":"2",
-		"addr":"Detect Technologies, Incubation Cell, Research Park, IIT Madras, Chennai 600113 , Tamil Nadu , India  ",
-		"about":"Detect Technologies is a company with technological innovation as its core principle to create solutions for asset monitoring in large process industries. Its flagship product GUMPS is the first of its kind Industrial IoT based Pipeline monitoring sensor that can detect leaks months before they happen thereby preventing catastrophes. Its sister product, Noctua is a smart autonomous drone designed for intelligent monitoring of large assets using computer vision, thermography and data processing techniques.",
-		"jobDescPreq":' Software Development /Application Development /UI/UX',
-		"shortlistProc":"Resume Shortlist followed by HR Interview and Technical test."
-
-	},
-	{
-		"name":"NoteShare.in",
-		"place":"Chennai",
-		"image":imgURL+"noteshare.png",
-		"startDate":"May 2017",
-		"duration":"8 weeks",
-		"stipend":' Rs 10,000',
-		"applyBy":"",
-		"number":"1",
-		"addr":"3rd floor, IIT Madras Research park, Chennai 600113 , Tamil Nadu , India  ",
-		"about":"NoteShare is a social platform for sharing classroom related documents. We aim to interconnect learners and educators to provide easy access to quality content.",
-		"jobDescPreq":'IOS/Android developer',
-		"shortlistProc":"Assignment, Interview"
-
-	},
-	{
-		"name":"Furlenco",
-		"place":"Bangalore",
-		"image":imgURL+"furlenco.jpg",
-		"startDate":"",
-		"duration":"8 - 10 weeks",
-		"stipend":' Rs 20,000 per month',
-		// "applyBy":"",
-		"number":"2",
-		"addr":"Krishna Annex, Near Silk Board Junction, Sector 6, HSR Layout, Bengaluru 560102 , Karnataka",
-		"about":"Furlenco is India’s first and only Home Furniture Subscription Program based out of Bangalore.<br> Furlenco offers a range of curated home furniture experiences, designed to suit the lifestyle needs of varied audiences spanning students to families and expatriates. Our solutions are convenient, cost-effective and offer access to quality furniture with the added advantage of being able to exchange it at will.<br>To deliver the best possible home experience, our furniture is designed and developed in-house by a team of experienced designers who follow a strict development process, resulting in an enhanced product experience. We aim to simplify the home decorating process by providing  seamless assistance and support that is designed to delight!",
-		"jobDescPreq":'CS/IT  Good grasp of RoR',
-		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li>"
-
-	},
-	
-	]
-	var bdDevcompanies=[
-	{
-		"name":"Real Tycoon",
-		"place":"Chennai",
-		"image":imgURL+"real-tycoon.jpg",
-		"startDate":"April",
-		"duration":"8 weeks",
-		"stipend":' Deal on deal basis - entirely depends on the value he/ she adds to company',
-		"applyBy":"",
-		"number":"2",
-		"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
-		"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
-		"jobDescPreq":'Excellent communication skill in both Tamil[optional-but knowing tamil shall add value] and English, should be good at understanding people and behavioural patterns.',
-		"shortlistProc":"Interview and a task"
-
-	}
-	]
-	var gdDevcompanies=[
-	{
-		"name":"HashLearn",
-		"place":"Bengaluru",
-		"image":imgURL+"hashlearn.png",
-		"startDate":"May 2017",
-		"duration":"8 weeks",
-		"stipend":' Rs 5,000 to Rs 10,000',
-		"applyBy":"",
-		"number":"5",
-		"addr":"205, Brigade Business Suites, Near Ashoka Pillar, Jayanagar 2nd Block, Bengaluru 560011 , Karnataka , India  ",
-		"about":"HashLearn is a mobile app that instantly connects students with tutors and provides them with highly curated questions relevant for their preparation.<br> Today, students (Grade 8-12) from all over India use HashLearn to prepare for various exams like the JEE, BITSAT and other Entrance/Board Exams.",
-		"jobDescPreq":'<ol><li>Creating illustrations for various concepts involved in the curriculum for Grade 8-12.</li><li> Working with a team of 5+ Content Associates to translate academic concepts into graphic designs</li></ol>',
-		"shortlistProc":"<ul><li>Online Screening and Shortlisting</li><li>Virtual / Telephonic Interview</li><li>Physical Interview</li></ul>"
-
-	}
-	]
-
-	var mlcompanies=[
-	{
-		"name":"The Data Team",
-		"place":"Chennai",
-		"image":imgURL+"data-team.png",
-		"startDate":"Immediate",
+		"image":imgURL+"perpule.png",
+		"startDate":"May",
 		"duration":"3 months",
-		"stipend":' Rs 15,000 per month',
-		"applyBy":"",
-		"number":"1",
-		"addr":"VSI Estate, Chennai 600041 , Tamil Nadu , India  ",
-		"about":"Set up as a boutique consulting company, The Data Team offers high-impact work in the areas of distributed systems, big data, software engineering and data science that is challenging and at the same time richly rewarding. Find out more about us at our website and the company blog. Candidates who are self-motivated, can learn and adapt quickly, and proactively take ownership are encouraged to apply.",
-		"jobDescPreq":'Extensive hands-on development of a data science pipeline',
-		"shortlistProc":"Online programming test + interviews"
-
-	}
-	,
-	{
-		"name":"NoteShare.in",
-		"place":"Chennai",
-		"image":imgURL+"noteshare.png",
-		"startDate":"May 2017",
-		"duration":"8 weeks",
-		"stipend":' Rs 10,000',
-		"applyBy":"",
-		"number":"1",
-		"addr":"3rd floor, IIT Madras Research park, Chennai 600113 , Tamil Nadu , India  ",
-		"about":"NoteShare is a social platform for sharing classroom related documents. We aim to interconnect learners and educators to provide easy access to quality content.",
-		"jobDescPreq":'Coding skills and able to implement algorithms for recommendations',
-		"shortlistProc":"Assignment, Interview"
-
-	},
-	{
-		"name":"Grow Fit",
-		"place":"Bangalore",
-		"image":imgURL+"grow-fit.png",
-		"startDate":"May 2017",
-		"duration":"8 - 10 weeks",
-		"stipend":' Rs 10,000 - Rs 15,000 per month',
+		"stipend":'Rs 10,000 per month',
 		// "applyBy":"",
 		"number":"1",
-		"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
-		"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
-		"jobDescPreq":' We are looking for Machine Learning scientist who will be responsible for advanced machine learning technologies that can use data to take automatic user behaviour driven decisions.  The primary focus will be to build NLP based smart chat bots which can interact with users in absence of experts and to guide experts in making the right decisions. <br>Skills and Qualifications:<ol><li> Excellent understanding of machine learning techniques and algorithms, such as k-NN, Naive Bayes, SVM, etc</li><li>Proficiency in python </li><li> Excellent understanding of NLP concepts, such as sentiment analysis, and their application</li><li>Proficiency in using query languages such as SQL</li><li>Great communication skills</li></ol>',
-		"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+		"addr":"Thought Factory, Diamond District, Domlur , Bengaluru 560040, Karnataka ,India",
+		"about":"Perpule aims to provide a unique and queue-less checkout experience for shoppers at retail stores. Their vision is to enhance the shopping experience of customers in-store, by making it more engaging and personal. The smartphone-based software solution can be scaled across various retail outlets and provides retailers deep insights about their customers allowing them to create personalized campaigns.",
+		"jobDescPreq": 'Shaastra/Saarage designers with good skill.',
+		"shortlistProc":"</ol><li>Resume shortlist</li><li>Phone Screen</li><li>Skype interview/In-person</li></ol>"
 
 	},
-
-	
-	]
-	var daDevcompanies=[
-	{
-		"name":"DrivoJoy",
-		"place":"Bengaluru",
-		"image":imgURL+"drivojoy.gif",
-		"startDate":"May 2017",
-		"duration":"",
-		"stipend":' Rs 10,000',
-		"applyBy":"",
-		"number":"",
-		"addr":"L6 First Floor, 2nd Main Sec 6 HSR Layout , Bengaluru 560102, Karnataka , India  ",
-		"about":"We are a Bangalore based startup with demonstrated ability and an unparalleled experience in on-demand economy and technology. We call ourselves a disruptive force trying to revive the 2-wheeler servicing industry, that hasn’t changed much in decades. Our team dwells some hungry, passionate professionals from a multitude of backgrounds including alumni from IIT Bombay, IIT Delhi and ex-employees of Olacabs and PayPal. We are on a quest to challenge the status quo and push the boundaries of innovation by transforming the servicing and repair of 2-wheelers into a technology-driven and hassle-free experience.",
-		"jobDescPreq":' Candidate must be good knowledge of Statistics,MSExcel,MySql,PLSql,R and some knowledge of MongoDB,SaaS,Python would be desirable.',
-		"shortlistProc":"Telephonic(2 rounds)"
-	}
-
-	
-	]
-
-	var marDevcompanies=[
-	{
-		"name":"Climber Knowledge and Careers private ltd.",
-		"place":"Virtual",
-		"image":imgURL+"Climberlogo.png",
-		"startDate":"1st April",
-		"duration":"2 months",
-		"stipend":'Performance based',
-		// "applyBy":"",
-		"number":"5",
-		"addr":"NSRCEL, IIM Bangalore, Bannerghatta Road , Bengaluru 560076 , Karnataka , India",
-		"about":"The Climber is an NSRCEL, IIM Bangalore incubated Edu-Tech startup that helps students Discover and pursue their passions. Our main product, MyCaptain, is an Online Youth mentoring Youth Program where young achievers guide and mentor school and College students who share the same Career Aspirations.",
-		"jobDescPreq":'People skills, Marketing Skills, Sales Skills.Marketing, Sales, Business Development, University Relations, On Ground Marketing Campaigns. ( Business Development) ',
-		"shortlistProc":"Initial Selection based on CV and Work Experience; thereafter, an Interview by the respective Heads / Managers."
-
-	},
-	{
-		"name":"Furlenco",
-		"place":"Bangalore",
-		"image":imgURL+"furlenco.jpg",
-		"startDate":"April",
-		"duration":"April to June",
-		"stipend":' Rs 15,000',
-		// "applyBy":"",
-		"number":"3",
-		"addr":"Krishna Annex, Near Silk Board Junction, Sector 6, HSR Layout, Bengaluru 560102 , Karnataka , India",
-		"about":"Furlenco is India’s first and only Home Furniture Subscription Program based out of Bangalore.<br> Furlenco offers a range of curated home furniture experiences, designed to suit the lifestyle needs of varied audiences spanning students to families and expatriates. Our solutions are convenient, cost-effective and offer access to quality furniture with the added advantage of being able to exchange it at will.<br>To deliver the best possible home experience, our furniture is designed and developed in-house by a team of experienced designers who follow a strict development process, resulting in an enhanced product experience. We aim to simplify the home decorating process by providing  seamless assistance and support that is designed to delight!",
-		"jobDescPreq":'<ul><li>Marketing Research</li><li>Design Research</li><li>Analysis to develop a model on Customer Retention & Loyalty</li></ul>',
-		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li></ul>"
-
-	},
-	
-	]	
-
-    $.each(webDevcompanies,function(index,value){
-       	
-       	
-       	webNewCompanyModal='<div class="modal fade" id="myModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="companyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="companyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
-
-       	webNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
-
-
-       	webNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
-
-       	webNewCompany+=webNewCompanyModalBtn
-       	webNewCompany+=webNewCompanyModal
-    	
-    	webInHtml+=webNewCompany
-    })
-    $('.webInternTile').html(webInHtml)
-
-    $.each(appDevcompanies,function(index,value){
-       	
-       	
-       	appNewCompanyModal='<div class="modal fade" id="myappModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="appcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="appcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
-
-       	appNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myappModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
-
-
-       	appNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
-
-       	appNewCompany+=appNewCompanyModalBtn
-       	appNewCompany+=appNewCompanyModal
-    	
-    	appInHtml+=appNewCompany
-    })
-    $('.appInternTile').html(appInHtml)
-
-    $.each(bdDevcompanies,function(index,value){
-       	
-       	
-       	bdNewCompanyModal='<div class="modal fade" id="mybdModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="bdcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="bdcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
-
-       	bdNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mybdModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
-
-
-       	bdNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
-
-       	bdNewCompany+=bdNewCompanyModalBtn
-       	bdNewCompany+=bdNewCompanyModal
-    	
-    	bdInHtml+=bdNewCompany
-    })
-    $('.bdInternTile').html(bdInHtml)
-
-    $.each(gdDevcompanies,function(index,value){
-       	
-       	
-       	gdNewCompanyModal='<div class="modal fade" id="mygdModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="gdcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="gdcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
-
-       	gdNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mygdModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
-
-
-       	gdNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
-
-       	gdNewCompany+=gdNewCompanyModalBtn
-       	gdNewCompany+=gdNewCompanyModal
-    	
-    	gdInHtml+=gdNewCompany
-    })
-    $('.gdInternTile').html(gdInHtml)
-
-
-
-
-
-	 $.each(marDevcompanies,function(index,value){
-       	
-       	
-       	marNewCompanyModal='<div class="modal fade" id="mymarModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="marcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="marcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure:</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
-
-       	marNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymarModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
-
-
-       	marNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
-
-       	marNewCompany+=marNewCompanyModalBtn
-       	marNewCompany+=marNewCompanyModal
-    	
-    	marInHtml+=marNewCompany
-    })
-    $('.marInternTile').html(marInHtml)
-        
-
-    
-    $.each(mlcompanies,function(index,value){
-       	
-       	
-       	mlNewCompanyModal='<div class="modal fade" id="mymlModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="mlcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="mlcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure:</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
-
-       	mlNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymlModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
-
-
-       	mlNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
-
-       	mlNewCompany+=mlNewCompanyModalBtn
-       	mlNewCompany+=mlNewCompanyModal
-    	
-    	mlInHtml+=mlNewCompany
-    })
-    $('.mlInternTile').html(mlInHtml)
-
-$.each(daDevcompanies,function(index,value){
-       	
-       	
-       	daNewCompanyModal='<div class="modal fade" id="mydaModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="dacompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="dacompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure:</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
-
-       	daNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mydaModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
-
-
-       	daNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
-
-       	daNewCompany+=daNewCompanyModalBtn
-       	daNewCompany+=daNewCompanyModal
-    	
-    	daInHtml+=daNewCompany
-    })
-    $('.daInternTile').html(daInHtml)
-
 </script>
+<script type="text/javascript" src="assets/js/intern-fair.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
+	span
+	{
+		font-weight: 600;
+		color: red;
+	}
+	img
+	{
+		margin: 0 30px;
+	}
+	
+
+	.linkbutton
+	{
+		padding: 25px;
+		border-radius: 10px;
+		border-width: 0px;
+	}
+
+	.linkbutton:hover
+	{
+		background-color: lightblue;
+
+	}
+	.companyName{
+		margin-top: 4%;
+		color:#03a9f4 ;
+		font-size:18px;
+		font-weight: bolder;
+		display: table-cell;
+		width:100%;
+	}
+	.companyImage{
+		max-width:147px;
+		max-height:61px;
+		width: auto;
+		height: auto;
+		position: relative;
+		display: table-cell;
+		top: 2.5vh;
+	}
+	.internLocationTitle{
+		color: gray;
+	}
+	.infoTable{
+		margin-top: 2%;
+		width: 100%;
+	}
+	.infoTable th,.infoTable td {
+    padding-top: 10px;
+    text-align: left;    
+	}
+	.modal{
+     font-size:18px;
+	}
+	.modalSub{
+		font-size: 20px;
+	}
+
+	.modal-title{
+     font-weight: bolder;
+	}
+	.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 200000;
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3498db;
+  width: 80px;
+  margin-left: -40px;
+  margin-top: -40px;
+  height: 80px;
+  -webkit-animation: spin 1.8s ease-out infinite;
+  animation: spin 1.8s ease-out infinite;
+	}
+
+	@-webkit-keyframes spin {
+  	0% { -webkit-transform: rotate(0deg); }
+  	100% { -webkit-transform: rotate(360deg); }
+	}
+
+	@keyframes spin {
+  	0% { transform: rotate(0deg); }
+  	100% { transform: rotate(360deg); }
+	}
