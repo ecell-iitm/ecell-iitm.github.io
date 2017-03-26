@@ -674,6 +674,9 @@ section {
   font-weight: 500;
   font-size: 14px;
 }
+.sticky-navigation .main-navigation li button {
+  margin-top: 20px;
+}
 .sticky-navigation .main-navigation li a:hover,
 .sticky-navigation .main-navigation li a:focus {
   color: #fc5f45;
