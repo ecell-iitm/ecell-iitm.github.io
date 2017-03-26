@@ -50,7 +50,7 @@
 
 	var imgURL="assets/CompanyLogos/"
 	
-	$(window).load(function(){
+	$(document).ready(function(){
 		$('.loader').removeClass('loader')
 	})
 
@@ -129,6 +129,21 @@
 		"about":"<p>Shipsy has built a platform for operations teams, where managers can define their own alerts criteria for events that could affect service levels or operational efficiency and get notified in real-time. They have built a platform on top of Apache Spark to achieve this real-time analysis. Machine learning is used so that alerts get more predictive with time.</p><p>Uber is able to uphold high service levels from drivers by keeping a constant eye on them. They are bringing the same to the supply chain industry. Shipsy has a core team with 8 alumni from Computer Science/Electrical engineering background from IIT Madras and IIT Delhi. The total team strength is 25 working to ensure that users get a seamless interface to create and receive these alerts.</p><p>The system aims to alert operations managers when something is going wrong, rather than them having to keep calling and following up with the workforce. Users can define IFTTT (If This Then That) type alerts using the platform. Some examples of these are:<ol><li>Truck Idle time greater than particular value</li><li>Expected time of arrival delayed by more than X hours</li><li>Pickup time exceeded by certain number</li><li>More than n updates from same location</li><li>Truck deviates more than X km from ideal path</li></ol>These and more can be defined in real time by users and they can decide how they want to be notified - through the dashboard, mobile, email and more. Shipsy is currently processing more over 10 million shipments a month through our system with customers such as Holisol, DotZot, DTDC Express and DTDC Supply Chain.",
 		"jobDescPreq":'<label>Backend development:</label><p>We are looking for backend developers to join our friendly and enthusiastic team. You’ll be working with a large amount of autonomy developing features that are critical to the success of Shipsy. You’ll be working alongside the team backend micro-services with a strong focus on quality, scalability, availability, simplicity, performance, operability, security. You’ll be assisting with planning and defining requirements specification as well laying down the product architecture.</p>Desired skills (not mandatory)<ul><li>Experience in working with RESTful APIs</li> <li>Experience of developing applications in node.js </li><li>Knowledge of distributed source control – e.g. Git.</li> <li> Experience and interest in scaling high-performance systems</li></ul>',
 		"shortlistProc":"On call interview + solving a real life problem in the domain of interest of applicant"
+
+	},
+	{
+		"name":"Verloop",
+		"place":"Bengaluru",
+		"image":imgURL+"verloop.png",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
+		"stipend":'Rs 20,000',
+		// "applyBy":"",
+		"number":"2",
+		"addr":"2nd Floor, 212/A, 1st Main Road, Domlur 2nd Stage , Bengaluru 560071, Karnataka ,India",
+		"about":"<p>Verloop is a Customer Support and Engagement Automation platform. We use Machine Learning to automate responses and reduce human involvement in answering queries.</p><p>Verloop is a Open Source driven company. We heavily contribute back to products we use and all internal tools are open sourced too.</p><p>Verloop is deployed in Fortune 500 companies in US, Banks, Insurance and major retail companies in India.</p>",
+		"jobDescPreq": 'Work on live product in feature updates and new development.<br><label>Prerequisites : </label>Javascript, HTML5, CSS3, Meteor.js(good to have)',
+		"shortlistProc":"Github profile, Open Source contributions, Solving Challenge, Discussion"
 
 	},
 	{
@@ -411,6 +426,21 @@
 
 	},
 	{
+		"name":"Verloop",
+		"place":"Bengaluru",
+		"image":imgURL+"verloop.png",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
+		"stipend":'Rs 20,000',
+		// "applyBy":"",
+		"number":"1",
+		"addr":"2nd Floor, 212/A, 1st Main Road, Domlur 2nd Stage , Bengaluru 560071, Karnataka ,India",
+		"about":"<p>Verloop is a Customer Support and Engagement Automation platform. We use Machine Learning to automate responses and reduce human involvement in answering queries.</p><p>Verloop is a Open Source driven company. We heavily contribute back to products we use and all internal tools are open sourced too.</p><p>Verloop is deployed in Fortune 500 companies in US, Banks, Insurance and major retail companies in India.</p>",
+		"jobDescPreq": 'Work on improving our current design and design interaction for upcoming features.<br><label>Prerequisites : </label>Previous work in interface design, PSD mocks',
+		"shortlistProc":"Github profile, Open Source contributions, Solving Challenge, Discussion"
+
+	},
+	{
 		"name":"HashLearn",
 		"place":"Bengaluru",
 		"image":imgURL+"hashlearn.png",
@@ -488,6 +518,21 @@
 		"about":"NoteShare is a social platform for sharing classroom related documents. We aim to interconnect learners and educators to provide easy access to quality content.",
 		"jobDescPreq":'Coding skills and able to implement algorithms for recommendations',
 		"shortlistProc":"Assignment, Interview"
+
+	},
+	{
+		"name":"Verloop",
+		"place":"Bengaluru",
+		"image":imgURL+"verloop.png",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
+		"stipend":'Rs 20,000',
+		// "applyBy":"",
+		"number":"2",
+		"addr":"2nd Floor, 212/A, 1st Main Road, Domlur 2nd Stage , Bengaluru 560071, Karnataka ,India",
+		"about":"<p>Verloop is a Customer Support and Engagement Automation platform. We use Machine Learning to automate responses and reduce human involvement in answering queries.</p><p>Verloop is a Open Source driven company. We heavily contribute back to products we use and all internal tools are open sourced too.</p><p>Verloop is deployed in Fortune 500 companies in US, Banks, Insurance and major retail companies in India.</p>",
+		"jobDescPreq": 'Work with us in solving challenging natural language conversational problems.<br><label>Prerequisites : </label>Python, ML experience',
+		"shortlistProc":"Github profile, Open Source contributions, Solving Challenge, Discussion"
 
 	},
 	{
