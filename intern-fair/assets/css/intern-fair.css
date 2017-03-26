@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+	label
+	{
+		font-size: 18px !important;
+	}
+	.nav-tabs li a{
+		font-size: 20px !important;
 
+	}
 	span
 	{
 		font-weight: 600;
@@ -9,6 +16,17 @@
 	{
 		margin: 0 30px;
 	}
+
+    .scrbut:hover
+    {
+
+        background-color: rgba(255,255,255,0)!important;
+        -webkit-transition: all 0.27s ease-in-out;
+    	-moz-transition: all 0.27s ease-in-out;
+  	    -ms-transition: all 0.27s ease-in-out;
+    	transition: all 0.27s ease-in-out;
+
+    }
 	
 
 	.linkbutton
@@ -32,8 +50,8 @@
 		width:100%;
 	}
 	.companyImage{
-		max-width:147px;
-		max-height:61px;
+		max-width:194px;
+		max-height:80px;
 		width: auto;
 		height: auto;
 		position: relative;

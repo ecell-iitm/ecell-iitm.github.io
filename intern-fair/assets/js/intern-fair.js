@@ -1,5 +1,27 @@
 (function($){
 	"use strict";
+	$('.modal').modal();
+	// jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('button.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top -170)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+    // Highlight the top nav as scrolling occurs
+    $('body').scrollspy({
+        target: '.navbar-fixed-top',
+        offset: 191
+    });
+
+    // Closes the Responsive Menu on Menu Item Click
+    $('.navbar-collapse ul li a').click(function(){ 
+            $('.navbar-toggle:visible').click();
+    });
+
+    
 
 	var webInHtml=""
 	var webNewCompanyModal=""
@@ -60,8 +82,8 @@
 		"name":"Detect Technologies",
 		"place":"Chennai",
 		"image":imgURL+"detect.jpg",
-		"startDate":"",
-		"duration":"2 months",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
 		"stipend":' Rs 20,000 per month with performance based bonuses',
 		"applyBy":"",
 		"number":"2",
@@ -90,8 +112,8 @@
 		"name":"Caval",
 		"place":"Chennai",
 		"image":imgURL+"caval.png",
-		"startDate":"May",
-		"duration":"1 month",
+		"startDate":"May 2017",
+		"duration":"4 weeks",
 		"stipend":'Rs 2,000 lump sum depending on work',
 		// "applyBy":"",
 		"number":"2",
@@ -105,8 +127,8 @@
 		"name":"Climber Knowledge and Careers private ltd.",
 		"place":"Virtual",
 		"image":imgURL+"Climberlogo.png",
-		"startDate":"15th April",
-		"duration":"2 months",
+		"startDate":"15th April 2017",
+		"duration":"8 weeks",
 		"stipend":' Rs 5000',
 		// "applyBy":"",
 		"number":"2",
@@ -124,7 +146,7 @@
 		"duration":"8 weeks",
 		"stipend":'Rs 15,000 - 25,000 lump sum based on performance',
 		// "applyBy":"",
-		"number":"to be mentioned",
+		"number":"1 - 2",
 		"addr":"B23, Sushant Lok 1 , Gurgaon 122002 , Haryana 122002 ,India",
 		"about":"<p>Shipsy has built a platform for operations teams, where managers can define their own alerts criteria for events that could affect service levels or operational efficiency and get notified in real-time. They have built a platform on top of Apache Spark to achieve this real-time analysis. Machine learning is used so that alerts get more predictive with time.</p><p>Uber is able to uphold high service levels from drivers by keeping a constant eye on them. They are bringing the same to the supply chain industry. Shipsy has a core team with 8 alumni from Computer Science/Electrical engineering background from IIT Madras and IIT Delhi. The total team strength is 25 working to ensure that users get a seamless interface to create and receive these alerts.</p><p>The system aims to alert operations managers when something is going wrong, rather than them having to keep calling and following up with the workforce. Users can define IFTTT (If This Then That) type alerts using the platform. Some examples of these are:<ol><li>Truck Idle time greater than particular value</li><li>Expected time of arrival delayed by more than X hours</li><li>Pickup time exceeded by certain number</li><li>More than n updates from same location</li><li>Truck deviates more than X km from ideal path</li></ol>These and more can be defined in real time by users and they can decide how they want to be notified - through the dashboard, mobile, email and more. Shipsy is currently processing more over 10 million shipments a month through our system with customers such as Holisol, DotZot, DTDC Express and DTDC Supply Chain.",
 		"jobDescPreq":'<label>Backend development:</label><p>We are looking for backend developers to join our friendly and enthusiastic team. You’ll be working with a large amount of autonomy developing features that are critical to the success of Shipsy. You’ll be working alongside the team backend micro-services with a strong focus on quality, scalability, availability, simplicity, performance, operability, security. You’ll be assisting with planning and defining requirements specification as well laying down the product architecture.</p>Desired skills (not mandatory)<ul><li>Experience in working with RESTful APIs</li> <li>Experience of developing applications in node.js </li><li>Knowledge of distributed source control – e.g. Git.</li> <li> Experience and interest in scaling high-performance systems</li></ul>',
@@ -150,8 +172,8 @@
 		"name":"Spoyl Tech Solutions Private Limited",
 		"place":"Bengaluru",
 		"image":imgURL+"spoyl.png",
-		"startDate":"May",
-		"duration":"Minimum 2 months",
+		"startDate":"May 2017",
+		"duration":"Minimum 8 weeks",
 		"stipend":' Rs 8000-15,000',
 		// "applyBy":"",
 		"number":"1",
@@ -165,7 +187,7 @@
 		"name":"Real Tycoon",
 		"place":"Chennai",
 		"image":imgURL+"real-tycoon.jpg",
-		"startDate":"April",
+		"startDate":"April 2017",
 		"duration":"5 weeks",
 		"stipend":' Based on performance-upto  5k.',
 		"applyBy":"",
@@ -181,7 +203,7 @@
 		"place":"Chennai",
 		"image":imgURL+"nadhi.jpg",
 		"startDate":"Flexible",
-		"duration":"",
+		"duration":"Flexible",
 		"stipend":' Rs 8,000',
 		"applyBy":"",
 		"number":"1",
@@ -195,11 +217,11 @@
 		"name":"Furlenco",
 		"place":"Bangalore",
 		"image":imgURL+"furlenco.jpg",
-		"startDate":"",
+		"startDate":"May 2017",
 		"duration":"8 - 10 weeks",
 		"stipend":' Rs 20,000 per month',
 		// "applyBy":"",
-		"number":"2",
+		"number":"5",
 		"addr":"Krishna Annex, Near Silk Board Junction, Sector 6, HSR Layout, Bengaluru 560102 , Karnataka , India",
 		"about":"Furlenco is India’s first and only Home Furniture Subscription Program based out of Bangalore.<br> Furlenco offers a range of curated home furniture experiences, designed to suit the lifestyle needs of varied audiences spanning students to families and expatriates. Our solutions are convenient, cost-effective and offer access to quality furniture with the added advantage of being able to exchange it at will.<br>To deliver the best possible home experience, our furniture is designed and developed in-house by a team of experienced designers who follow a strict development process, resulting in an enhanced product experience. We aim to simplify the home decorating process by providing  seamless assistance and support that is designed to delight!",
 		"jobDescPreq":'CS/IT  Good grasp of Angular JS <a href="https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer" target="_blank">https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer</a>',
@@ -226,7 +248,7 @@
 		"place":"Bengaluru",
 		"image":imgURL+"drivojoy.gif",
 		"startDate":"May 2017",
-		"duration":"",
+		"duration":"8 weeks",
 		"stipend":' Rs 10,000',
 		"applyBy":"",
 		"number":"1",
@@ -243,8 +265,8 @@
 		"name":"Detect Technologies",
 		"place":"Chennai",
 		"image":imgURL+"detect.jpg",
-		"startDate":"",
-		"duration":"2 months",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
 		"stipend":' Rs 20,000 per month with performance based bonuses',
 		"applyBy":"",
 		"number":"2",
@@ -273,8 +295,8 @@
 		"name":"Caval",
 		"place":"Chennai",
 		"image":imgURL+"caval.png",
-		"startDate":"May",
-		"duration":"1 month",
+		"startDate":"May 2017",
+		"duration":"4 weeks",
 		"stipend":'Rs 2,000 lump sum depending on work',
 		// "applyBy":"",
 		"number":"1",
@@ -285,11 +307,26 @@
 
 	},
 	{
+        "name":"Grow Fit",
+        "place":"Bangalore",
+        "image":imgURL+"grow-fit.png",
+        "startDate":"May 2017",
+        "duration":"8 weeks",
+        "stipend":' Rs 10,000 - Rs 15,000 per month',
+        // "applyBy":"",
+        "number":"2",
+        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+        "jobDescPreq":'Android Engineering intern<p>We need android engineering intern to work on our portfolio of apps including our chat app with health tracking, and to ship new features.</p>Skills and Qualifications:<ol><li>High proficiency with development tools and workflows (modern source control systems, unit testing, continuous workflow, and so on)</li><li>Knowledge of Android Material Design</li><li>Strong with Java, Eclipse, OOP Design, JSON, Javascript, Android Studio</li><li>Ability to architecture a complete mobile application </li><li>Expert level understanding and knowledge of Android application architecture, at least 1 Android applications available for demo.</li><li>Who can take ownership of the product</li><li>Knowledge of RxJava is a big plus</li></ol>iOS Developer<br>Knowledge and Skills Required: <ol><li>Strong with objective c and xcode, OOP Design, JSON, REST API, Apple SDK</li><li>Strong hands-on coding and software design experience in PHP or Python APIs.</li></li>Expert level understanding and knowledge of Android application architecture, at least 1 iOS applications available for demo</li><li>Solid OOP and software design knowledge – you should know how to create software that’s extensible, reusable and meets desired architectural object</li></ol>',
+        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+
+    },
+	{
 		"name":"Perpule (Delvit Solutions Private Limited)",
 		"place":"Bengaluru",
 		"image":imgURL+"perpule.png",
-		"startDate":"May",
-		"duration":"3 months",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
 		"stipend":'Rs 10,000 - Rs 15,000 per month',
 		// "applyBy":"",
 		"number":"1",
@@ -304,7 +341,7 @@
 		"place":"Chennai",
 		"image":imgURL+"nadhi.jpg",
 		"startDate":"Flexible",
-		"duration":"",
+		"duration":"Flexible",
 		"stipend":' Rs 8,000',
 		"applyBy":"",
 		"number":"1",
@@ -318,7 +355,7 @@
 		"name":"Furlenco",
 		"place":"Bangalore",
 		"image":imgURL+"furlenco.jpg",
-		"startDate":"",
+		"startDate":"May 2017",
 		"duration":"8 - 10 weeks",
 		"stipend":' Rs 20,000 per month',
 		// "applyBy":"",
@@ -336,11 +373,11 @@
 		"name":"Perpule (Delvit Solutions Private Limited)",
 		"place":"Bengaluru",
 		"image":imgURL+"perpule.png",
-		"startDate":"May",
-		"duration":"3 months",
+		"startDate":"May 2017",
+		"duration":"8 - 12 weeks",
 		"stipend":'Rs 10,000 per month',
 		// "applyBy":"",
-		"number":"4",
+		"number":"1",
 		"addr":"Thought Factory, Diamond District, Domlur , Bengaluru 560040, Karnataka ,India",
 		"about":"Perpule aims to provide a unique and queue-less checkout experience for shoppers at retail stores. Their vision is to enhance the shopping experience of customers in-store, by making it more engaging and personal. The smartphone-based software solution can be scaled across various retail outlets and provides retailers deep insights about their customers allowing them to create personalized campaigns.",
 		"jobDescPreq":'Should have experience in a client facing role earlier. (e.g. Spons in Saarang/Shaastra) .Ability to generate leads and reach out to network',
@@ -351,7 +388,7 @@
 		"name":"Real Tycoon",
 		"place":"Chennai",
 		"image":imgURL+"real-tycoon.jpg",
-		"startDate":"April",
+		"startDate":"April 2017",
 		"duration":"8 weeks",
 		"stipend":' Deal on deal basis - entirely depends on the value he/ she adds to company',
 		"applyBy":"",
@@ -367,10 +404,10 @@
 		"place":"Chennai",
 		"image":imgURL+"quick-quotes.png",
 		"startDate":"Immediate",
-		"duration":"2 months",
+		"duration":"8 weeks",
 		"stipend":'Rs 3,500 per month',
 		"applyBy":"",
-		"number":"4",
+		"number":"3",
 		"addr":"Micromen - #7 4th floor Gokul Arcade west wing Adyar Chennai 600020 , Tamil Nadu , India  ",
 		"about":"What is QuickQuotes ? Who owns it ?<p>QuickQuotes is an online portal where Vendors can receive genuine Request for Quotations(RFQ) from several top builders across Chennai. It is owned by AKI E-Commerce Ventures Pvt.Ltd. with the founding team having more than 25 years of experience handling the construction & realestate domain. Micromen software solutions pvt. Ltd. its sister concern has more than 100+ top builders signed up in its ERP solutions providing direct access to premium builders across Chennai.</p>How does it work ?<p>Suppliers will receive curated RFQ’s from builders across Chennai with clear material requirements, specification, qty, brand & terms. Supplier can quote the best rate against the RFQ received along with terms acceptance. But the suppliers will not know who the builder is until the order is placed by the builder.</p>",
 		"jobDescPreq":'Business development, involves traveling & product presentation / registration',
@@ -386,7 +423,7 @@
 		"duration":"8 weeks",
 		"stipend":'Rs 10,000 - 20,000 lump sum based on performance',
 		// "applyBy":"",
-		"number":"to be mentioned",
+		"number":"1 - 2",
 		"addr":"B23, Sushant Lok 1 , Gurgaon 122002 , Haryana 122002 ,India",
 		"about":"<p>Shipsy has built a platform for operations teams, where managers can define their own alerts criteria for events that could affect service levels or operational efficiency and get notified in real-time. They have built a platform on top of Apache Spark to achieve this real-time analysis. Machine learning is used so that alerts get more predictive with time.</p><p>Uber is able to uphold high service levels from drivers by keeping a constant eye on them. They are bringing the same to the supply chain industry. Shipsy has a core team with 8 alumni from Computer Science/Electrical engineering background from IIT Madras and IIT Delhi. The total team strength is 25 working to ensure that users get a seamless interface to create and receive these alerts.</p><p>The system aims to alert operations managers when something is going wrong, rather than them having to keep calling and following up with the workforce. Users can define IFTTT (If This Then That) type alerts using the platform. Some examples of these are:<ol><li>Truck Idle time greater than particular value</li><li>Expected time of arrival delayed by more than X hours</li><li>Pickup time exceeded by certain number</li><li>More than n updates from same location</li><li>Truck deviates more than X km from ideal path</li></ol>These and more can be defined in real time by users and they can decide how they want to be notified - through the dashboard, mobile, email and more. Shipsy is currently processing more over 10 million shipments a month through our system with customers such as Holisol, DotZot, DTDC Express and DTDC Supply Chain.",
 		"jobDescPreq":'There are mainly two aspects of Business Expansion:<ol><li>Business Development:<ol type="a"><li>Sales: Structuring our approach towards sales of existing product line</li> <li> Business Intelligence: Deploying on field executives to gather intelligence about problems existing in different aspects of logistics industry and feeding this back to product development </li> </ol><li>Branding catering to Sustainable Business presence:<ol type="a"><li> Supply Chain industry: Formulating and executing a plan to establish Shipsy as a “Thought Leader” in this industry</li>  <li>Talent: Building a brand to attract the best talent</li> <li>Investors: Establishing Shipsy as a company that has evolved to become a product suite for predictive analytics in the supply chain</li><li>Startup circle: Engaging other startups and sharing expertise/knowledge</li></ol> </ol>The role would also involve very deep understanding of the product and the technology that has gone into building it.',
@@ -397,8 +434,8 @@
 		"name":"Furlenco",
 		"place":"Chennai",
 		"image":imgURL+"furlenco.jpg",
-		"startDate":"April",
-		"duration":"2 months",
+		"startDate":"April 2017",
+		"duration":"8 weeks",
 		"stipend":'Rs 5,000 per month',
 		"applyBy":"",
 		"number":"4",
@@ -414,8 +451,8 @@
 		"name":"Perpule (Delvit Solutions Private Limited)",
 		"place":"Bengaluru",
 		"image":imgURL+"perpule.png",
-		"startDate":"May",
-		"duration":"3 months",
+		"startDate":"May 2017",
+		"duration":"8 - 12 weeks",
 		"stipend":'Rs 10,000 per month',
 		// "applyBy":"",
 		"number":"1",
@@ -441,6 +478,21 @@
 
 	},
 	{
+        "name":"Grow Fit",
+        "place":"Bangalore",
+        "image":imgURL+"grow-fit.png",
+        "startDate":"May 2017",
+        "duration":"8 weeks",
+        "stipend":' Rs 10,000 - Rs 15,000 per month',
+        // "applyBy":"",
+        "number":"1",
+        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+        "jobDescPreq":'We are looking for a creative Graphic designer with up-to-date knowledge to interpret our needs and to design solutions with high visual impact. You will work on a variety of products, including websites, apps, brochures, etc. and you will cooperate with our designers and marketing team.<br>Skills and Qualifications: <ol><li>Proven graphic designing experience</li><li>Possession of creative flair, versatility, conceptual/visual ability and originality</li><li>Demonstrable graphic design skills with a strong portfolio</li><li>Ability to interact, communicate and present ideas</li><li>Up to date with industry leading software and technologies (In Design, Illustrator, Dreamweaver, Photoshop etc)</li><li>Highly proficient in all design aspects </li></ol>',
+        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+
+    },
+	{
 		"name":"HashLearn",
 		"place":"Bengaluru",
 		"image":imgURL+"hashlearn.png",
@@ -459,8 +511,8 @@
 		"name":"Climber Knowledge and Careers private ltd.",
 		"place":"Virtual",
 		"image":imgURL+"Climberlogo.png",
-		"startDate":"15th April",
-		"duration":"2 months",
+		"startDate":"15th April 2017",
+		"duration":"8 weeks",
 		"stipend":' Rs 5000',
 		// "applyBy":"",
 		"number":"2",
@@ -475,7 +527,7 @@
 		"place":"Chennai",
 		"image":imgURL+"getgrub.png",
 		"startDate":"As soon as possible",
-		"duration":"45-60 days",
+		"duration":"6 - 8 weeks",
 		"stipend":'Rs 7,000 + Food + Accomodation',
 		// "applyBy":"",
 		"number":"1",
@@ -494,7 +546,7 @@
 		"place":"Chennai",
 		"image":imgURL+"data-team.png",
 		"startDate":"Immediate",
-		"duration":"3 months",
+		"duration":"8 weeks",
 		"stipend":' Rs 15,000 per month',
 		"applyBy":"",
 		"number":"1",
@@ -559,8 +611,8 @@
 		"place":"Bengaluru",
 		"image":imgURL+"drivojoy.gif",
 		"startDate":"May 2017",
-		"duration":"",
-		"stipend":'',
+		"duration":"8 weeks",
+		"stipend":'Rs 10,000',
 		"applyBy":"",
 		"number":"2",
 		"addr":"L6 First Floor, 2nd Main Sec 6 HSR Layout , Bengaluru 560102, Karnataka , India  ",
@@ -587,8 +639,8 @@
 		"name":"Climber Knowledge and Careers private ltd.",
 		"place":"Virtual",
 		"image":imgURL+"Climberlogo.png",
-		"startDate":"15th April",
-		"duration":"2 months",
+		"startDate":"15th April 2017",
+		"duration":"8 weeks",
 		"stipend":' Rs 5000',
 		// "applyBy":"",
 		"number":"1",
@@ -607,8 +659,8 @@
 		"name":"Perpule (Delvit Solutions Private Limited)",
 		"place":"Bengaluru",
 		"image":imgURL+"perpule.png",
-		"startDate":"May",
-		"duration":"3 months",
+		"startDate":"May 2017",
+		"duration":"6 - 8 weeks",
 		"stipend":'Rs 10,000 - Rs 20,000 per month',
 		// "applyBy":"",
 		"number":"2",
@@ -623,10 +675,10 @@
 		"place":"Bengaluru",
 		"image":imgURL+"drivojoy.gif",
 		"startDate":"May 2017",
-		"duration":"",
+		"duration":"8 weeks",
 		"stipend":' Rs 10,000',
 		"applyBy":"",
-		"number":"",
+		"number":"1 - 2",
 		"addr":"L6 First Floor, 2nd Main Sec 6 HSR Layout , Bengaluru 560102, Karnataka , India  ",
 		"about":"We are a Bangalore based startup with demonstrated ability and an unparalleled experience in on-demand economy and technology. We call ourselves a disruptive force trying to revive the 2-wheeler servicing industry, that hasn’t changed much in decades. Our team dwells some hungry, passionate professionals from a multitude of backgrounds including alumni from IIT Bombay, IIT Delhi and ex-employees of Olacabs and PayPal. We are on a quest to challenge the status quo and push the boundaries of innovation by transforming the servicing and repair of 2-wheelers into a technology-driven and hassle-free experience.",
 		"jobDescPreq":' Candidate must be good knowledge of Statistics,MSExcel,MySql,PLSql,R and some knowledge of MongoDB,SaaS,Python would be desirable.',
@@ -637,7 +689,7 @@
 		"place":"Hyderabad",
 		"image":imgURL+"ibhubs.png",
 		"startDate":"May 2017",
-		"duration":"2 month",
+		"duration":"8 weeks",
 		"stipend":'Rs 5,000 per month + Food + Accomodation',
 		// "applyBy":"",
 		"number":"4",
@@ -652,7 +704,7 @@
 		"place":"Chennai",
 		"image":imgURL+"nadhi.jpg",
 		"startDate":"Flexible",
-		"duration":"",
+		"duration":"Flexible",
 		"stipend":' Rs 8,000',
 		"applyBy":"",
 		"number":"1",
@@ -671,8 +723,8 @@
 		"name":"Perpule (Delvit Solutions Private Limited)",
 		"place":"Bengaluru",
 		"image":imgURL+"perpule.png",
-		"startDate":"May",
-		"duration":"3 months",
+		"startDate":"May 2017",
+		"duration":"8 - 12 weeks",
 		"stipend":'Rs 10,000 per month',
 		// "applyBy":"",
 		"number":"1",
@@ -686,8 +738,8 @@
 		"name":"Climber Knowledge and Careers private ltd.",
 		"place":"Virtual",
 		"image":imgURL+"Climberlogo.png",
-		"startDate":"1st April",
-		"duration":"2 months",
+		"startDate":"1st April 2017",
+		"duration":"8 weeks",
 		"stipend":'Performance based',
 		// "applyBy":"",
 		"number":"5",
@@ -702,7 +754,7 @@
 		"place":"Bangalore",
 		"image":imgURL+"furlenco.jpg",
 		"startDate":"April",
-		"duration":"April to June",
+		"duration":"8-12 weeks",
 		"stipend":' Rs 15,000',
 		// "applyBy":"",
 		"number":"3",
@@ -717,7 +769,7 @@
 		"place":"Chennai",
 		"image":imgURL+"getgrub.png",
 		"startDate":"As soon as possible",
-		"duration":"45-60 days",
+		"duration":"6 - 8 weeks",
 		"stipend":'Rs 7,000 + Food + Accomodation',
 		// "applyBy":"",
 		"number":"1",
@@ -734,8 +786,8 @@
 		"name":"Perpule (Delvit Solutions Private Limited)",
 		"place":"Bengaluru",
 		"image":imgURL+"perpule.png",
-		"startDate":"May",
-		"duration":"3 months",
+		"startDate":"May 2017",
+		"duration":"8 - 12 weeks",
 		"stipend":'Rs 10,000 per month',
 		// "applyBy":"",
 		"number":"1",
@@ -765,7 +817,7 @@
 		"place":"Chennai",
 		"image":imgURL+"getgrub.png",
 		"startDate":"As soon as possible",
-		"duration":"45-60 days",
+		"duration":"6 - 8 weeks",
 		"stipend":'Rs 7,000 + Food + Accomodation',
 		// "applyBy":"",
 		"number":"1",
@@ -781,13 +833,13 @@
 
     $.each(webDevcompanies,function(index,value){
        	
+       	webNewCompanyModal='<div class="modal fade" id="myModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="companyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="companyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
        	
-       	webNewCompanyModal='<div class="modal fade" id="myModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="companyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="companyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button><!-- <button type="button" class="btn btn-primary">Apply Here</button> --></div></div></div></div>'
 
        	webNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	webNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	webNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	webNewCompany+=webNewCompanyModalBtn
        	webNewCompany+=webNewCompanyModal
@@ -804,7 +856,7 @@
        	appNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myappModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	appNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	appNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	appNewCompany+=appNewCompanyModalBtn
        	appNewCompany+=appNewCompanyModal
@@ -821,7 +873,7 @@
        	bdNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mybdModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	bdNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	bdNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage '></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	bdNewCompany+=bdNewCompanyModalBtn
        	bdNewCompany+=bdNewCompanyModal
@@ -838,7 +890,7 @@
        	gdNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mygdModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	gdNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	gdNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage '></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	gdNewCompany+=gdNewCompanyModalBtn
        	gdNewCompany+=gdNewCompanyModal
@@ -856,7 +908,7 @@
        	marNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymarModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	marNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	marNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage '></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	marNewCompany+=marNewCompanyModalBtn
        	marNewCompany+=marNewCompanyModal
@@ -874,7 +926,7 @@
        	mlNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymlModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	mlNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	mlNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage '></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	mlNewCompany+=mlNewCompanyModalBtn
        	mlNewCompany+=mlNewCompanyModal
@@ -891,7 +943,7 @@ $.each(daDevcompanies,function(index,value){
        	daNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mydaModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	daNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	daNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage '></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	daNewCompany+=daNewCompanyModalBtn
        	daNewCompany+=daNewCompanyModal
@@ -908,7 +960,7 @@ $.each(contentDevcompanies,function(index,value){
        	contentNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mycontentModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	contentNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	contentNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage '></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	contentNewCompany+=contentNewCompanyModalBtn
        	contentNewCompany+=contentNewCompanyModal
@@ -926,7 +978,7 @@ $.each(opcompanies,function(index,value){
        	opNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myopModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
 
-       	opNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage img-responsive'></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+       	opNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage '></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
 
        	opNewCompany+=opNewCompanyModalBtn
        	opNewCompany+=opNewCompanyModal
