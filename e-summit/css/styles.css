@@ -449,7 +449,7 @@ h6 {
 }
 .section-heading {
   position: relative;
-  z-index: 10;
+  
 }
 section {
   position: relative;
@@ -459,7 +459,7 @@ section {
   border-color: #d2d2d2;
   border-style: solid;
   position: relative;
-  z-index: 10;
+  
   margin-bottom: 25px;
 }
 .sub-heading {
@@ -618,7 +618,7 @@ section {
    2.1 SECTION: HOME PAGE
 -----------------------------------------*/
 .home {
-  background: url(../images/backgrounds/1.jpeg) no-repeat top;
+  background-image: url(../images/backgrounds/1.jpeg);
   background-size: cover;
 }
 .home .color-overlay {
@@ -661,8 +661,9 @@ section {
   margin-top: 9px;
 }
 .sticky-navigation .navbar-brand img {
-  margin-top : -10px;
-  max-height: 40px;
+  
+  margin-top: -13px;
+  max-height: 50px;
 }
 .sticky-navigation .current a {
   color: #fc5f45 !important;
@@ -800,9 +801,10 @@ section {
   overflow: hidden;
   margin: 5px;
   padding: 5px;
-  min-width: 280px;
-  max-width: 370px;
+  min-width: 360px;
+  max-width: 360px;
   width: 33.333333333%;
+  height: 280px;
   background: #fff;
   text-align: center;
   -webkit-backface-visibility: hidden;
@@ -1522,36 +1524,44 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   text-align: center;
 }
 /* CONTACT FORM */
-.footer {
+.clearfix {
   background: rgba(38, 39, 50, 0.85);
   margin-top: 125px;
 }
-.footer .footer-col {
+.clearfix .footer-col {
   padding: 50px 40px 45px 40px;
   text-align: left;
 }
-.footer .footer-col h6 {
+.clearfix .footer-col h6 {
   margin-bottom: 28px;
 }
-.footer .footer-col .social-icons {
+.clearfix .footer-col .social-icons {
   padding-top: 5px;
 }
-.footer .footer-col .social-icons a {
+.clearfix .footer-col .social-icons a {
   color: #ffffff;
   font-size: 30px;
   margin-right: 10px;
 }
-.footer .footer-col .social-icons a:hover {
+.clearfix .footer-col .social-icons a:hover {
   color: #fc5f45;
 }
-.footer .footer-logo {
+.clearfix .footer-logo {
   margin-top: 45px;
   text-align: center;
 }
-.footer .footer-logo img {
+.clearfix .footer-logo img {
   max-height: 38px;
 }
 
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  text-align: left;
+}
 .fixed-bg {
   background-attachment: fixed;
 }
