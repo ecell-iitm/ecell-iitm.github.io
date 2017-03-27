@@ -278,7 +278,7 @@
 	    {
         "name":"FASTNEXT EDUCATION PVT LTD",
         "place":"Chennai,Bengaluru",
-        "image":imgURL+"xwn.png",
+        "image":imgURL+"xwn1.png",
         "startDate":"Whenever",
         "duration":"Flexible",
         "stipend":'Unpaid',
@@ -779,7 +779,7 @@
 	{
         "name":"FASTNEXT EDUCATION PVT LTD",
         "place":"Chennai,Bengaluru",
-        "image":imgURL+"xwn.png",
+        "image":imgURL+"xwn1.png",
         "startDate":"Whenever",
         "duration":"Flexible",
         "stipend":'Unpaid',
