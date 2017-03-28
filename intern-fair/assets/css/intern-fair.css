@@ -138,8 +138,11 @@
 		color: #efffff !important;
 		background-color: #00796b !important;
 		}
-	
-
+    .nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color:#fec503 !important;
+    color: white;
+}
+    
 	span
 	{
 		font-weight: 600;

@@ -599,21 +599,21 @@
 		"shortlistProc":"Initial Selection based on CV and Work Experience; thereafter, an Interview by the respective Heads / Managers."
 
 	},
-	{
-		"name":"GetGrub.in",
-		"place":"Chennai",
-		"image":imgURL+"getgrub.png",
-		"startDate":"As soon as possible",
-		"duration":"6 - 8 weeks",
-		"stipend":'Rs 7,000 + Food + Accomodation',
-		"applylink":"",
-		"number":"1",
-		"addr":"GetGrub.in , Janakpuri 2nd street, Velachery , Chennai 600042 , Tamil Nadu , India",
-		"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
-		"jobDescPreq":' We believe a design speaks a lot than content. If someone is creative enough to share the message through design then he/she is in. Experience in Photoshop and Illustrator (GIMP & Inkscape) is mandatory. Basic knowledge of Animation is preferable. ',
-		"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
+	// {
+	// 	"name":"GetGrub.in",
+	// 	"place":"Chennai",
+	// 	"image":imgURL+"getgrub.png",
+	// 	"startDate":"As soon as possible",
+	// 	"duration":"6 - 8 weeks",
+	// 	"stipend":'Rs 7,000 + Food + Accomodation',
+	// 	"applylink":"https://docs.google.com/forms/d/1aiDV_-srBsFoQHsyomLp2DyrOctsHP0YOuS8bEjkXf4/viewform",
+	// 	"number":"1",
+	// 	"addr":"GetGrub.in , Janakpuri 2nd street, Velachery , Chennai 600042 , Tamil Nadu , India",
+	// 	"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
+	// 	"jobDescPreq":' We believe a design speaks a lot than content. If someone is creative enough to share the message through design then he/she is in. Experience in Photoshop and Illustrator (GIMP & Inkscape) is mandatory. Basic knowledge of Animation is preferable. ',
+	// 	"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
 
-	},
+	// },
 
 	]
 
@@ -886,21 +886,21 @@
 		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li></ul>"
 
 	},
-	{
-		"name":"GetGrub.in",
-		"place":"Chennai",
-		"image":imgURL+"getgrub.png",
-		"startDate":"As soon as possible",
-		"duration":"6 - 8 weeks",
-		"stipend":'Rs 7,000 + Food + Accomodation',
-		"applylink":"",
-		"number":"1",
-		"addr":"GetGrub.in , Janakpuri 2nd street , Velachery , Chennai 600042 , Tamil Nadu , India",
-		"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
-		"jobDescPreq":'Should have awareness about startup ecosystem and interests towards growth strategies ',
-		"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
+	// {
+	// 	"name":"GetGrub.in",
+	// 	"place":"Chennai",
+	// 	"image":imgURL+"getgrub.png",
+	// 	"startDate":"As soon as possible",
+	// 	"duration":"6 - 8 weeks",
+	// 	"stipend":'Rs 7,000 + Food + Accomodation',
+	// 	"applylink":"https://docs.google.com/forms/d/1Z0kZf2q10AoOXOCmXAiqU3EA5-zoRB3lEDiUklarl8Q/viewform",
+	// 	"number":"1",
+	// 	"addr":"GetGrub.in , Janakpuri 2nd street , Velachery , Chennai 600042 , Tamil Nadu , India",
+	// 	"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
+	// 	"jobDescPreq":'Should have awareness about startup ecosystem and interests towards growth strategies ',
+	// 	"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
 
-	},
+	// },
 	
 	]
 	var contentDevcompanies=[
@@ -934,21 +934,21 @@
 		"shortlistProc":"<ul><li>Online Screening and Shortlisting</li><li>Virtual / Telephonic Interview</li><li>Physical Interview</li></ul>"
 
 	},
-	{
-		"name":"GetGrub.in",
-		"place":"Chennai",
-		"image":imgURL+"getgrub.png",
-		"startDate":"As soon as possible",
-		"duration":"6 - 8 weeks",
-		"stipend":'Rs 7,000 + Food + Accomodation',
-		"applylink":"",
-		"number":"1",
-		"addr":"GetGrub.in , Janakpuri 2nd street, Velachery , Chennai 600042 , Tamil Nadu , India",
-		"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
-		"jobDescPreq":'Should be a creative writer to attract all the ages about Food, Blog, articles ',
-		"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
+	// {
+	// 	"name":"GetGrub.in",
+	// 	"place":"Chennai",
+	// 	"image":imgURL+"getgrub.png",
+	// 	"startDate":"As soon as possible",
+	// 	"duration":"6 - 8 weeks",
+	// 	"stipend":'Rs 7,000 + Food + Accomodation',
+	// 	"applylink":"",
+	// 	"number":"1",
+	// 	"addr":"GetGrub.in , Janakpuri 2nd street, Velachery , Chennai 600042 , Tamil Nadu , India",
+	// 	"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
+	// 	"jobDescPreq":'Should be a creative writer to attract all the ages about Food, Blog, articles ',
+	// 	"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
 
-	},
+	// },
 
 	
 	]
