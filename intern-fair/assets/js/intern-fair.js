@@ -241,7 +241,7 @@
 		"number":"5",
 		"addr":"Krishna Annex, Near Silk Board Junction, Sector 6, HSR Layout, Bengaluru 560102 , Karnataka , India",
 		"about":"Furlenco is India’s first and only Home Furniture Subscription Program based out of Bangalore.<br> Furlenco offers a range of curated home furniture experiences, designed to suit the lifestyle needs of varied audiences spanning students to families and expatriates. Our solutions are convenient, cost-effective and offer access to quality furniture with the added advantage of being able to exchange it at will.<br>To deliver the best possible home experience, our furniture is designed and developed in-house by a team of experienced designers who follow a strict development process, resulting in an enhanced product experience. We aim to simplify the home decorating process by providing  seamless assistance and support that is designed to delight!",
-		"jobDescPreq":'CS/IT  Good grasp of Angular JS <a href="https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer" target="_blank">https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer</a>',
+		"jobDescPreq":'Please visit Link  <a href="https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer" target="_blank">https://jobs.furlenco.com/jobs/backend-engineer-platform-engineer</a>',
 		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li>"
 
 	},
@@ -994,13 +994,13 @@
     	var btnStatus=""
 
     	if (!value.applylink=="") {
-    	btnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	btnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
 
        	
-       	webNewCompanyModal='<div class="modal fade" id="myModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="companyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="companyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+btnStatus+'</div></div></div></div>'
+       	webNewCompanyModal='<div class="modal fade" id="myModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="companyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="companyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+btnStatus+'</div></div></div></div>'
        	
 
        	webNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
@@ -1019,11 +1019,11 @@
 		var appbtnStatus=""
 
     	if (!value.applylink=="") {
-    	appbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myappModal'+index+'">Apply Here</a>'
+    	appbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myappModal'+index+'">Apply Now</a>'
 	    		
     	}       	
        	
-       	appNewCompanyModal='<div class="modal fade" id="myappModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="appcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="appcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+appbtnStatus+'</div></div></div></div>'
+       	appNewCompanyModal='<div class="modal fade" id="myappModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="appcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="appcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+appbtnStatus+'</div></div></div></div>'
 
        	appNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myappModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
@@ -1041,13 +1041,13 @@
 		var bdbtnStatus=""
 
     	if (!value.applylink=="") {
-    	bdbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	bdbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
        	
        	
-       	bdNewCompanyModal='<div class="modal fade" id="mybdModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="bdcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="bdcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+bdbtnStatus+'</div></div></div></div>'
+       	bdNewCompanyModal='<div class="modal fade" id="mybdModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="bdcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="bdcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+bdbtnStatus+'</div></div></div></div>'
 
        	bdNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mybdModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
@@ -1065,13 +1065,13 @@
 		var gdbtnStatus=""
 
     	if (!value.applylink=="") {
-    	gdbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	gdbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
        	
        	
-       	gdNewCompanyModal='<div class="modal fade" id="mygdModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="gdcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="gdcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+gdbtnStatus+'</div></div></div></div>'
+       	gdNewCompanyModal='<div class="modal fade" id="mygdModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="gdcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="gdcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+gdbtnStatus+'</div></div></div></div>'
 
        	gdNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mygdModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
@@ -1090,13 +1090,13 @@
 		var marbtnStatus=""
 
     	if (!value.applylink=="") {
-    	marbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	marbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
        	
        	
-       	marNewCompanyModal='<div class="modal fade" id="mymarModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="marcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="marcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure:</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+marbtnStatus+'</div></div></div></div>'
+       	marNewCompanyModal='<div class="modal fade" id="mymarModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="marcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="marcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+marbtnStatus+'</div></div></div></div>'
 
        	marNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymarModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
@@ -1116,12 +1116,12 @@
        	var mlbtnStatus=""
 
     	if (!value.applylink=="") {
-    	mlbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	mlbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
 
-       	mlNewCompanyModal='<div class="modal fade" id="mymlModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="mlcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="mlcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure:</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+mlbtnStatus+'</div></div></div></div>'
+       	mlNewCompanyModal='<div class="modal fade" id="mymlModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="mlcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="mlcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+mlbtnStatus+'</div></div></div></div>'
 
        	mlNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymlModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
@@ -1140,12 +1140,12 @@ $.each(daDevcompanies,function(index,value){
        	var dabtnStatus=""
 
     	if (!value.applylink=="") {
-    	dabtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	dabtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
 
-       	daNewCompanyModal='<div class="modal fade" id="mydaModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="dacompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="dacompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure:</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+dabtnStatus+'</div></div></div></div>'
+       	daNewCompanyModal='<div class="modal fade" id="mydaModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="dacompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="dacompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+dabtnStatus+'</div></div></div></div>'
 
        	daNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mydaModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
@@ -1164,12 +1164,12 @@ $.each(contentDevcompanies,function(index,value){
        	var contentbtnStatus=""
 
     	if (!value.applylink=="") {
-    	contentbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	contentbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
 	
-       	contentNewCompanyModal='<div class="modal fade" id="mycontentModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="contentcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="contentcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shorlist Procedure:</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+contentbtnStatus+'</div></div></div></div>'
+       	contentNewCompanyModal='<div class="modal fade" id="mycontentModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="contentcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="contentcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+contentbtnStatus+'</div></div></div></div>'
 
        	contentNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mycontentModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
@@ -1188,13 +1188,13 @@ $.each(opcompanies,function(index,value){
 	var opbtnStatus=""
 
     	if (!value.applylink=="") {
-    	opbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	opbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
        	
        	
-       	opNewCompanyModal='<div class="modal fade" id="myopModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="opcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="opcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+opbtnStatus+'</div></div></div></div>'
+       	opNewCompanyModal='<div class="modal fade" id="myopModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="opcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="opcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+opbtnStatus+'</div></div></div></div>'
 
        	opNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myopModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
@@ -1212,13 +1212,13 @@ $.each(softDevcompanies,function(index,value){
 	var softbtnStatus=""
 
     	if (!value.applylink=="") {
-    	softbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	softbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
        	
        	
-       	softNewCompanyModal='<div class="modal fade" id="mysoftModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="softcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="softcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+softbtnStatus+'</div></div></div></div>'
+       	softNewCompanyModal='<div class="modal fade" id="mysoftModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="softcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="softcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+softbtnStatus+'</div></div></div></div>'
 
        	softNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mysoftModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
@@ -1236,13 +1236,13 @@ $.each(qacompanies,function(index,value){
 	var qabtnStatus=""
 
     	if (!value.applylink=="") {
-    	qabtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Here</a>'
+    	qabtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
 	    		
     	}
 
        	
        	
-       	qaNewCompanyModal='<div class="modal fade" id="myqaModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="qacompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="qacompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'<br><br><label class="modalSub">Shortlist Procedure :</label><br>'+value.shortlistProc+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+qabtnStatus+'</div></div></div></div>'
+       	qaNewCompanyModal='<div class="modal fade" id="myqaModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="qacompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="qacompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+qabtnStatus+'</div></div></div></div>'
 
        	qaNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myqaModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
 
