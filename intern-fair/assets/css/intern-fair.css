@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+	/* PRE LOADER */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.status {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+}
+
+
+.loader {
+  position: relative;
+  margin: 0px auto;
+  width: 70px;
+}
+.loader:before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+.circular {
+  -webkit-animation: rotate 2s linear infinite;
+  animation: rotate 2s linear infinite;
+  height: 100%;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.path {
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes dash {
+  0% {
+    stroke-dasharray: 1,200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -124px;
+  }
+}
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1,200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -124px;
+  }
+}
+@-webkit-keyframes color {
+  100%,
+  0% {
+    stroke: #fc5f45;
+  }
+  40% {
+    stroke: #b27cf5;
+  }
+  66% {
+    stroke: #38c695;
+  }
+  80%,
+  90% {
+    stroke: #feb960;
+  }
+}
+@keyframes color {
+  100%,
+  0% {
+    stroke: #fc5f45;
+  }
+  40% {
+    stroke: #b27cf5;
+  }
+  66% {
+    stroke: #38c695;
+  }
+  80%,
+  90% {
+    stroke: #feb960;
+  }
+}
+
+
+
+	label
+	{
+		font-size: 18px !important;
+	}
+	.nav-pills li a:hover{
+		color: #efffff !important;
+		background-color: #00796b !important;
+		}
+    .nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color:#fec503 !important;
+    color: white;
+}
+    
+	span
+	{
+		font-weight: 600;
+		color: red;
+	}
+	img
+	{
+		margin: 0 30px;
+	}
+
+    .scrbut:hover
+    {
+
+        background-color: rgba(255,255,255,0)!important;
+        -webkit-transition: all 0.27s ease-in-out;
+    	-moz-transition: all 0.27s ease-in-out;
+  	    -ms-transition: all 0.27s ease-in-out;
+    	transition: all 0.27s ease-in-out;
+
+    }
+	
+
+	.linkbutton
+	{
+		padding: 25px;
+		border-radius: 10px;
+		border-width: 0px;
+	}
+
+	.linkbutton:hover
+	{
+		background-color: lightblue;
+
+	}
+	.companyName{
+		margin-top: 4%;
+		color:#03a9f4 ;
+		font-size:18px;
+		font-weight: bolder;
+		display: table-cell;
+		width:100%;
+	}
+	.companyImage{
+		max-width:194px;
+		max-height:80px;
+		width: auto;
+		height: auto;
+		position: relative;
+		display: table-cell;
+		top: 2.5vh;
+	}
+	.internLocationTitle{
+		color: gray;
+	}
+	.infoTable{
+		margin-top: 2%;
+		width: 100%;
+	}
+	.infoTable th,.infoTable td {
+    padding-top: 10px;
+    text-align: left;    
+	}
+	.modal{
+     font-size:18px;
+	}
+	.modalSub{
+		font-size: 20px;
+	}
+
+	.modal-title{
+     font-weight: bolder;
+	}
+	.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 200000;
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3498db;
+  width: 80px;
+  margin-left: -40px;
+  margin-top: -40px;
+  height: 80px;
+  -webkit-animation: spin 1.8s ease-out infinite;
+  animation: spin 1.8s ease-out infinite;
+	}
+
+	@-webkit-keyframes spin {
+  	0% { -webkit-transform: rotate(0deg); }
+  	100% { -webkit-transform: rotate(360deg); }
+	}
+
+	@keyframes spin {
+  	0% { transform: rotate(0deg); }
+  	100% { transform: rotate(360deg); }
+	}
