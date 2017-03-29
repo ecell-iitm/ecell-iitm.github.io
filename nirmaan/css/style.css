@@ -5,6 +5,10 @@
     Author URL: https://bootstrapmade.com
 */
 
+.col-sm-4
+{
+}
+
 .fa-angle-down
 {
     -webkit-transition: all 0.25s ease-in-out;
@@ -80,6 +84,7 @@ body {
     letter-spacing: 0.5px;
     font-size: 17px;
 	font-weight: 500;
+    text-align: justify!important;
 }
 ol, ul {
 	list-style: none;
@@ -156,7 +161,7 @@ Responsive media queries
 .navbar-border{
 }
 .banner-text{
-	border-left: 5px solid #BE2525;
+	border-left: 5px solid RGB(93, 171, 184);
 	padding: 15px 40px;
 	color: #fff;
 	margin-top: 170px;
@@ -181,7 +186,7 @@ Responsive media queries
 
 
 .banner-text h2 span, .nirmaan{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nirmaan
@@ -208,7 +213,7 @@ Responsive media queries
 	border-radius: 50%;
 }
 .deco{
-	font-family: 'Satisfy', cursive;
+	font-family: font-family: 'Poppins', sans-serif;
     font-size: 40px!important;
 
 }
@@ -218,7 +223,7 @@ Responsive media queries
 	margin-bottom: -3px;
 }
 .section-padding{
-	padding: 70px 0px 30px 0px;
+	padding: 20px 0px 30px 0px;
 }
 .title{
 	font-size: 24px;
@@ -226,7 +231,7 @@ Responsive media queries
 }
 .title-text{
 	padding: 30px 25px 30px 0px;
-	border-right: 5px solid #BE2525;
+	border-right: 5px solid RGB(157, 218, 62);
 	font-size: 27px;
 }
 .about-text p{
@@ -301,6 +306,20 @@ Responsive media queries
 #contact .btn-primary {
     background: #BE2525;
     border: 1px solid #BE2525;
+    padding: 30px 50px;
+        transition: all 0.6s ease-in-out;
+        font-weight: 600;
+        opacity: 0.8;
+
+}
+
+#contact .btn-primary:hover
+{
+    background-color: #ee2929;
+    color: #eee;
+    transition: all 0.2s ease-in-out;
+            opacity: 0.99;
+
 }
 
 .validation {
@@ -417,7 +436,7 @@ footer {
     padding-bottom: 24px;
 }
 .navbar-brand{
-	margin-top: 9px;
+	margin-top: 0px;
 }
 .grid-item { width: 200px; }
 .grid-item--width2 { width: 400px; }
