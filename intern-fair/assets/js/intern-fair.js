@@ -192,7 +192,7 @@
 		"startDate":"May 2017",
 		"duration":"Minimum 8 weeks",
 		"stipend":' Rs 8000-15,000',
-		"applylink":"",
+		"applylink":"https://docs.google.com/forms/d/11okJhjzIaJ3EUPipXR_mvNLTM5tvIVWdK5C1VihxQw4/viewform",
 		"number":"1",
 		"addr":"H.NO-572, 2nd Floor, 20th Main, 1st Cross, 8th Block, Above Biba Showroom, KHB Block, Koramangala 560095, Karnataka",
 		"about":"Spoyl is a mobile-only platform to buy/sell new and pre-loved fashion! Users can start selling/sharing their fashion/style within 60 seconds or less. Fashionmongers can shop for new/like-new items at prices up to 70% off retail. Chat with sellers before making a purchase and save big while shopping your favourite closets on the go!",
@@ -200,21 +200,21 @@
 		"shortlistProc":"Skype Interview/Hangouts"
 
 	},
-	{
-		"name":"Real Tycoon",
-		"place":"Chennai",
-		"image":imgURL+"real-tycoon.jpg",
-		"startDate":"May 2017",
-		"duration":"5 weeks",
-		"stipend":' Based on performance-upto  5k.',
-		"applylink":"",
-		"number":"2",
-		"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
-		"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
-		"jobDescPreq":' Web Development - Php / python, html / Css & mysql or mssql server',
-		"shortlistProc":"Interview and a task"
+	// {
+	// 	"name":"Real Tycoon",
+	// 	"place":"Chennai",
+	// 	"image":imgURL+"real-tycoon.jpg",
+	// 	"startDate":"May 2017",
+	// 	"duration":"5 weeks",
+	// 	"stipend":' Based on performance-upto  5k.',
+	// 	"applylink":"",
+	// 	"number":"2",
+	// 	"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
+	// 	"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
+	// 	"jobDescPreq":' Web Development - Php / python, html / Css & mysql or mssql server',
+	// 	"shortlistProc":"Interview and a task"
 
-	},
+	// },
 	{
 		"name":"Nadhi Information Technologies",
 		"place":"Chennai",
@@ -461,21 +461,21 @@
         "shortlistProc":"Interview - Round 1- Phone Call<br> Round 2 - In Person or video call."
 
     }, 
-	{
-		"name":"Real Tycoon",
-		"place":"Chennai",
-		"image":imgURL+"real-tycoon.jpg",
-		"startDate":"May 2017",
-		"duration":"8 weeks",
-		"stipend":' Deal on deal basis - entirely depends on the value he/ she adds to company',
-		"applylink":"",
-		"number":"2",
-		"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
-		"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
-		"jobDescPreq":'Excellent communication skill in both Tamil[optional-but knowing tamil shall add value] and English, should be good at understanding people and behavioural patterns.',
-		"shortlistProc":"Interview and a task"
+	// {
+	// 	"name":"Real Tycoon",
+	// 	"place":"Chennai",
+	// 	"image":imgURL+"real-tycoon.jpg",
+	// 	"startDate":"May 2017",
+	// 	"duration":"8 weeks",
+	// 	"stipend":' Deal on deal basis - entirely depends on the value he/ she adds to company',
+	// 	"applylink":"",
+	// 	"number":"2",
+	// 	"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
+	// 	"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
+	// 	"jobDescPreq":'Excellent communication skill in both Tamil[optional-but knowing tamil shall add value] and English, should be good at understanding people and behavioural patterns.',
+	// 	"shortlistProc":"Interview and a task"
 
-	},
+	// },
 	{
         "name":"Expostores",
         "place":"Pune,Bengaluru,Mumbai,Kolkata,New Delhi",
@@ -492,21 +492,21 @@
 
     },
     
-	{
-		"name":"Quick Quotes",
-		"place":"Chennai",
-		"image":imgURL+"quick-quotes.png",
-		"startDate":"May 2017",
-		"duration":"8 weeks",
-		"stipend":'Rs 3,500 per month',
-		"applylink":"",
-		"number":"3",
-		"addr":"Micromen - #7 4th floor Gokul Arcade west wing Adyar Chennai 600020 , Tamil Nadu , India  ",
-		"about":"What is QuickQuotes ? Who owns it ?<p>QuickQuotes is an online portal where Vendors can receive genuine Request for Quotations(RFQ) from several top builders across Chennai. It is owned by AKI E-Commerce Ventures Pvt.Ltd. with the founding team having more than 25 years of experience handling the construction & realestate domain. Micromen software solutions pvt. Ltd. its sister concern has more than 100+ top builders signed up in its ERP solutions providing direct access to premium builders across Chennai.</p>How does it work ?<p>Suppliers will receive curated RFQ’s from builders across Chennai with clear material requirements, specification, qty, brand & terms. Supplier can quote the best rate against the RFQ received along with terms acceptance. But the suppliers will not know who the builder is until the order is placed by the builder.</p>",
-		"jobDescPreq":'Business development, involves traveling & product presentation / registration',
-		"shortlistProc":"Direct interview"
+	// {
+	// 	"name":"Quick Quotes",
+	// 	"place":"Chennai",
+	// 	"image":imgURL+"quick-quotes.png",
+	// 	"startDate":"May 2017",
+	// 	"duration":"8 weeks",
+	// 	"stipend":'Rs 3,500 per month',
+	// 	"applylink":"",
+	// 	"number":"3",
+	// 	"addr":"Micromen - #7 4th floor Gokul Arcade west wing Adyar Chennai 600020 , Tamil Nadu , India  ",
+	// 	"about":"What is QuickQuotes ? Who owns it ?<p>QuickQuotes is an online portal where Vendors can receive genuine Request for Quotations(RFQ) from several top builders across Chennai. It is owned by AKI E-Commerce Ventures Pvt.Ltd. with the founding team having more than 25 years of experience handling the construction & realestate domain. Micromen software solutions pvt. Ltd. its sister concern has more than 100+ top builders signed up in its ERP solutions providing direct access to premium builders across Chennai.</p>How does it work ?<p>Suppliers will receive curated RFQ’s from builders across Chennai with clear material requirements, specification, qty, brand & terms. Supplier can quote the best rate against the RFQ received along with terms acceptance. But the suppliers will not know who the builder is until the order is placed by the builder.</p>",
+	// 	"jobDescPreq":'Business development, involves traveling & product presentation / registration',
+	// 	"shortlistProc":"Direct interview"
 
-	},
+	// },
 
 	{
 		"name":"Shipsy",
@@ -619,7 +619,7 @@
 		"name":"GetGrub.in",
 		"place":"Chennai",
 		"image":imgURL+"getgrub.png",
-		"startDate":"As soon as possible",
+		"startDate":"May 2017",
 		"duration":"6 - 8 weeks",
 		"stipend":'Rs 7,000 + Food + Accomodation',
 		"applylink":"https://docs.google.com/forms/d/1aiDV_-srBsFoQHsyomLp2DyrOctsHP0YOuS8bEjkXf4/viewform",
@@ -744,21 +744,21 @@
         "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
 
     },
-	{
-		"name":"T-Hub Foundation",
-		"place":"Hyderabad",
-		"image":imgURL+"t-hub.png",
-		"startDate":"May 2017",
-		"duration":"12-16 weeks",
-		"stipend":'Negotiable',
-		"applylink":"",
-		"number":"2",
-		"addr":"T-Hub Catalyst Building, Gachibowli 500032 , Telangana , India",
-		"about":"<p>T-Hub is a unique public/private partnership between the government of Telangana, 3 of India’s premier academic institutes (IIIT-H, ISB & NALSAR) and key private sector leaders. It stands at the intersection of the start-up, academic, corporate, research and government sectors. </p><p>As an independent registered non-profit organization, T-Hub is at the intersection of the start-up community, government, corporate, academic, and research sectors. We endeavour to build a booming start-up ecosystem thriving on the tightly-knit, most vibrant entrepreneurial ecosystem in the country. Our goal is to build an ecosystem that not only caters to local entrepreneurs but also acts as a gateway for anyone who wants to start a tech company in India.</p>",
-		"jobDescPreq":' <ul><li>Investment Buy-side research</li><li>Need to understand & track technology sectors, analyze trends and identify opportunities that are of interest.</li><li>Gather and synthesize industry/market data.</li><li>Assist in the preparation of preliminary and final investment research notes</li></ul>',
-		"shortlistProc":"Interview with the candidate directly."
+	// {
+	// 	"name":"T-Hub Foundation",
+	// 	"place":"Hyderabad",
+	// 	"image":imgURL+"t-hub.png",
+	// 	"startDate":"May 2017",
+	// 	"duration":"12-16 weeks",
+	// 	"stipend":'Negotiable',
+	// 	"applylink":"",
+	// 	"number":"2",
+	// 	"addr":"T-Hub Catalyst Building, Gachibowli 500032 , Telangana , India",
+	// 	"about":"<p>T-Hub is a unique public/private partnership between the government of Telangana, 3 of India’s premier academic institutes (IIIT-H, ISB & NALSAR) and key private sector leaders. It stands at the intersection of the start-up, academic, corporate, research and government sectors. </p><p>As an independent registered non-profit organization, T-Hub is at the intersection of the start-up community, government, corporate, academic, and research sectors. We endeavour to build a booming start-up ecosystem thriving on the tightly-knit, most vibrant entrepreneurial ecosystem in the country. Our goal is to build an ecosystem that not only caters to local entrepreneurs but also acts as a gateway for anyone who wants to start a tech company in India.</p>",
+	// 	"jobDescPreq":' <ul><li>Investment Buy-side research</li><li>Need to understand & track technology sectors, analyze trends and identify opportunities that are of interest.</li><li>Gather and synthesize industry/market data.</li><li>Assist in the preparation of preliminary and final investment research notes</li></ul>',
+	// 	"shortlistProc":"Interview with the candidate directly."
 
-	},
+	// },
 	  {
         "name":"BoxMySpace",
         "place":"Mumbai",
@@ -967,7 +967,7 @@
 		"name":"GetGrub.in",
 		"place":"Chennai",
 		"image":imgURL+"getgrub.png",
-		"startDate":"As soon as possible",
+		"startDate":"May 2017",
 		"duration":"6 - 8 weeks",
 		"stipend":'Rs 7,000 + Food + Accomodation',
 		"applylink":"https://docs.google.com/forms/d/1Z0kZf2q10AoOXOCmXAiqU3EA5-zoRB3lEDiUklarl8Q/viewform",
