@@ -245,21 +245,21 @@
 		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li>"
 
 	},
-	{
-		"name":"Grow Fit",
-		"place":"Bangalore",
-		"image":imgURL+"grow-fit.png",
-		"startDate":"May 2017",
-		"duration":"8 - 10 weeks",
-		"stipend":' Rs 10,000 - Rs 15,000 per month',
-		"applylink":"",
-		"number":"1",
-		"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
-		"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
-		"jobDescPreq":'Web Front-End Engineering Intern (AngularJS)We are looking for an AngularJS Developer responsible for our progressive webapp. <br>The primary focus will be to<ol><li>work on our existing progressive web app</li><li>ensure the performance, quality, and responsiveness of applications</li><li>collaborate with a team to define, design, and ship new features</li><li>identify and solve bottlenecks and fix bugs</li></ol><br>Skills and Qualifications:<ol><li>Deep knowledge of AngularJS practices and commonly used modules based on extensive work experience</li><li>Creating self-contained, reusable, and testable modules and components</li><li> Extensive knowledge of CSS and JS methods for providing performant visual effects</li><li>Experience working with Github or any versioning system</li><li>Having worked on Firebase APIs is a big plus</li><li>Ability to design beautiful (not only working) interfaces is a big plus</li><li> Should provide with portfolio of previous projects</li><li>Professional, precise communication skills</li></ol>',
-		"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+	// {
+	// 	"name":"Grow Fit",
+	// 	"place":"Bangalore",
+	// 	"image":imgURL+"grow-fit.png",
+	// 	"startDate":"May 2017",
+	// 	"duration":"8 - 10 weeks",
+	// 	"stipend":' Rs 10,000 - Rs 15,000 per month',
+	// 	"applylink":"",
+	// 	"number":"1",
+	// 	"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+	// 	"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+	// 	"jobDescPreq":'Web Front-End Engineering Intern (AngularJS)We are looking for an AngularJS Developer responsible for our progressive webapp. <br>The primary focus will be to<ol><li>work on our existing progressive web app</li><li>ensure the performance, quality, and responsiveness of applications</li><li>collaborate with a team to define, design, and ship new features</li><li>identify and solve bottlenecks and fix bugs</li></ol><br>Skills and Qualifications:<ol><li>Deep knowledge of AngularJS practices and commonly used modules based on extensive work experience</li><li>Creating self-contained, reusable, and testable modules and components</li><li> Extensive knowledge of CSS and JS methods for providing performant visual effects</li><li>Experience working with Github or any versioning system</li><li>Having worked on Firebase APIs is a big plus</li><li>Ability to design beautiful (not only working) interfaces is a big plus</li><li> Should provide with portfolio of previous projects</li><li>Professional, precise communication skills</li></ol>',
+	// 	"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
 
-	},
+	// },
 	{
         "name":"BoxMySpace",
         "place":"Mumbai",
@@ -360,7 +360,7 @@
         "startDate":"May 2017",
         "duration":"8 weeks",
         "stipend":' Rs 4,000 (Can be increased based on the quality of work)',
-        "applylink":"",
+        "applylink":"https://docs.google.com/forms/d/1HafOlzZvitk2qwJGb_zzQ7GMIPo1-V5rAfXD__fF_2E/viewform",
         "number":"2",
         "addr":"IIT Madras, Chennai 600036 , Tamilnadu , India  ",
         "about":"Involve is a social enterprise which creates a platform where senior school students are trained and mentored to teach their juniors. This state of the art peer teaching initiative promises to be an affordable solution for the education problems of the country.",
@@ -368,21 +368,21 @@
         "shortlistProc":"Resume and interview"
 
     }, 
-	{
-        "name":"Grow Fit",
-        "place":"Bangalore",
-        "image":imgURL+"grow-fit.png",
-        "startDate":"May 2017",
-        "duration":"8 weeks",
-        "stipend":' Rs 10,000 - Rs 15,000 per month',
-        "applylink":"",
-        "number":"2",
-        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
-        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
-        "jobDescPreq":'Android Engineering intern<p>We need android engineering intern to work on our portfolio of apps including our chat app with health tracking, and to ship new features.</p>Skills and Qualifications:<ol><li>High proficiency with development tools and workflows (modern source control systems, unit testing, continuous workflow, and so on)</li><li>Knowledge of Android Material Design</li><li>Strong with Java, Eclipse, OOP Design, JSON, Javascript, Android Studio</li><li>Ability to architecture a complete mobile application </li><li>Expert level understanding and knowledge of Android application architecture, at least 1 Android applications available for demo.</li><li>Who can take ownership of the product</li><li>Knowledge of RxJava is a big plus</li></ol>iOS Developer<br>Knowledge and Skills Required: <ol><li>Strong with objective c and xcode, OOP Design, JSON, REST API, Apple SDK</li><li>Strong hands-on coding and software design experience in PHP or Python APIs.</li></li>Expert level understanding and knowledge of Android application architecture, at least 1 iOS applications available for demo</li><li>Solid OOP and software design knowledge – you should know how to create software that’s extensible, reusable and meets desired architectural object</li></ol>',
-        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+	// {
+ //        "name":"Grow Fit",
+ //        "place":"Bangalore",
+ //        "image":imgURL+"grow-fit.png",
+ //        "startDate":"May 2017",
+ //        "duration":"8 weeks",
+ //        "stipend":' Rs 10,000 - Rs 15,000 per month',
+ //        "applylink":"",
+ //        "number":"2",
+ //        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+ //        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+ //        "jobDescPreq":'Android Engineering intern<p>We need android engineering intern to work on our portfolio of apps including our chat app with health tracking, and to ship new features.</p>Skills and Qualifications:<ol><li>High proficiency with development tools and workflows (modern source control systems, unit testing, continuous workflow, and so on)</li><li>Knowledge of Android Material Design</li><li>Strong with Java, Eclipse, OOP Design, JSON, Javascript, Android Studio</li><li>Ability to architecture a complete mobile application </li><li>Expert level understanding and knowledge of Android application architecture, at least 1 Android applications available for demo.</li><li>Who can take ownership of the product</li><li>Knowledge of RxJava is a big plus</li></ol>iOS Developer<br>Knowledge and Skills Required: <ol><li>Strong with objective c and xcode, OOP Design, JSON, REST API, Apple SDK</li><li>Strong hands-on coding and software design experience in PHP or Python APIs.</li></li>Expert level understanding and knowledge of Android application architecture, at least 1 iOS applications available for demo</li><li>Solid OOP and software design knowledge – you should know how to create software that’s extensible, reusable and meets desired architectural object</li></ol>',
+ //        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
 
-    },
+ //    },
 	{
 		"name":"Perpule (Delvit Solutions Private Limited)",
 		"place":"Bengaluru",
@@ -570,21 +570,21 @@
 		"shortlistProc":"Github profile, Open Source contributions, Solving Challenge, Discussion"
 
 	},
-	{
-        "name":"Grow Fit",
-        "place":"Bangalore",
-        "image":imgURL+"grow-fit.png",
-        "startDate":"May 2017",
-        "duration":"8 weeks",
-        "stipend":' Rs 10,000 - Rs 15,000 per month',
-        "applylink":"",
-        "number":"1",
-        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
-        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
-        "jobDescPreq":'We are looking for a creative Graphic designer with up-to-date knowledge to interpret our needs and to design solutions with high visual impact. You will work on a variety of products, including websites, apps, brochures, etc. and you will cooperate with our designers and marketing team.<br>Skills and Qualifications: <ol><li>Proven graphic designing experience</li><li>Possession of creative flair, versatility, conceptual/visual ability and originality</li><li>Demonstrable graphic design skills with a strong portfolio</li><li>Ability to interact, communicate and present ideas</li><li>Up to date with industry leading software and technologies (In Design, Illustrator, Dreamweaver, Photoshop etc)</li><li>Highly proficient in all design aspects </li></ol>',
-        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+	// {
+ //        "name":"Grow Fit",
+ //        "place":"Bangalore",
+ //        "image":imgURL+"grow-fit.png",
+ //        "startDate":"May 2017",
+ //        "duration":"8 weeks",
+ //        "stipend":' Rs 10,000 - Rs 15,000 per month',
+ //        "applylink":"",
+ //        "number":"1",
+ //        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+ //        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+ //        "jobDescPreq":'We are looking for a creative Graphic designer with up-to-date knowledge to interpret our needs and to design solutions with high visual impact. You will work on a variety of products, including websites, apps, brochures, etc. and you will cooperate with our designers and marketing team.<br>Skills and Qualifications: <ol><li>Proven graphic designing experience</li><li>Possession of creative flair, versatility, conceptual/visual ability and originality</li><li>Demonstrable graphic design skills with a strong portfolio</li><li>Ability to interact, communicate and present ideas</li><li>Up to date with industry leading software and technologies (In Design, Illustrator, Dreamweaver, Photoshop etc)</li><li>Highly proficient in all design aspects </li></ol>',
+ //        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
 
-    },
+ //    },
 	{
 		"name":"HashLearn",
 		"place":"Bengaluru",
@@ -615,21 +615,21 @@
 		"shortlistProc":"Initial Selection based on CV and Work Experience; thereafter, an Interview by the respective Heads / Managers."
 
 	},
-	// {
-	// 	"name":"GetGrub.in",
-	// 	"place":"Chennai",
-	// 	"image":imgURL+"getgrub.png",
-	// 	"startDate":"As soon as possible",
-	// 	"duration":"6 - 8 weeks",
-	// 	"stipend":'Rs 7,000 + Food + Accomodation',
-	// 	"applylink":"https://docs.google.com/forms/d/1aiDV_-srBsFoQHsyomLp2DyrOctsHP0YOuS8bEjkXf4/viewform",
-	// 	"number":"1",
-	// 	"addr":"GetGrub.in , Janakpuri 2nd street, Velachery , Chennai 600042 , Tamil Nadu , India",
-	// 	"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
-	// 	"jobDescPreq":' We believe a design speaks a lot than content. If someone is creative enough to share the message through design then he/she is in. Experience in Photoshop and Illustrator (GIMP & Inkscape) is mandatory. Basic knowledge of Animation is preferable. ',
-	// 	"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
+	{
+		"name":"GetGrub.in",
+		"place":"Chennai",
+		"image":imgURL+"getgrub.png",
+		"startDate":"As soon as possible",
+		"duration":"6 - 8 weeks",
+		"stipend":'Rs 7,000 + Food + Accomodation',
+		"applylink":"https://docs.google.com/forms/d/1aiDV_-srBsFoQHsyomLp2DyrOctsHP0YOuS8bEjkXf4/viewform",
+		"number":"1",
+		"addr":"GetGrub.in , Janakpuri 2nd street, Velachery , Chennai 600042 , Tamil Nadu , India",
+		"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
+		"jobDescPreq":' We believe a design speaks a lot than content. If someone is creative enough to share the message through design then he/she is in. Experience in Photoshop and Illustrator (GIMP & Inkscape) is mandatory. Basic knowledge of Animation is preferable. ',
+		"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
 
-	// },
+	},
 
 	]
 
@@ -696,21 +696,21 @@
         "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
 
     },
-	{
-		"name":"Grow Fit",
-		"place":"Bangalore",
-		"image":imgURL+"grow-fit.png",
-		"startDate":"May 2017",
-		"duration":"8 - 10 weeks",
-		"stipend":' Rs 10,000 - Rs 15,000 per month',
-		"applylink":"",
-		"number":"1",
-		"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
-		"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
-		"jobDescPreq":' We are looking for Machine Learning scientist who will be responsible for advanced machine learning technologies that can use data to take automatic user behaviour driven decisions.  The primary focus will be to build NLP based smart chat bots which can interact with users in absence of experts and to guide experts in making the right decisions. <br>Skills and Qualifications:<ol><li> Excellent understanding of machine learning techniques and algorithms, such as k-NN, Naive Bayes, SVM, etc</li><li>Proficiency in python </li><li> Excellent understanding of NLP concepts, such as sentiment analysis, and their application</li><li>Proficiency in using query languages such as SQL</li><li>Great communication skills</li></ol>',
-		"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+	// {
+	// 	"name":"Grow Fit",
+	// 	"place":"Bangalore",
+	// 	"image":imgURL+"grow-fit.png",
+	// 	"startDate":"May 2017",
+	// 	"duration":"8 - 10 weeks",
+	// 	"stipend":' Rs 10,000 - Rs 15,000 per month',
+	// 	"applylink":"",
+	// 	"number":"1",
+	// 	"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+	// 	"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+	// 	"jobDescPreq":' We are looking for Machine Learning scientist who will be responsible for advanced machine learning technologies that can use data to take automatic user behaviour driven decisions.  The primary focus will be to build NLP based smart chat bots which can interact with users in absence of experts and to guide experts in making the right decisions. <br>Skills and Qualifications:<ol><li> Excellent understanding of machine learning techniques and algorithms, such as k-NN, Naive Bayes, SVM, etc</li><li>Proficiency in python </li><li> Excellent understanding of NLP concepts, such as sentiment analysis, and their application</li><li>Proficiency in using query languages such as SQL</li><li>Great communication skills</li></ol>',
+	// 	"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
 
-	},
+	// },
 
 	
 	]
@@ -963,21 +963,21 @@
 		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li></ul>"
 
 	},
-	// {
-	// 	"name":"GetGrub.in",
-	// 	"place":"Chennai",
-	// 	"image":imgURL+"getgrub.png",
-	// 	"startDate":"As soon as possible",
-	// 	"duration":"6 - 8 weeks",
-	// 	"stipend":'Rs 7,000 + Food + Accomodation',
-	// 	"applylink":"https://docs.google.com/forms/d/1Z0kZf2q10AoOXOCmXAiqU3EA5-zoRB3lEDiUklarl8Q/viewform",
-	// 	"number":"1",
-	// 	"addr":"GetGrub.in , Janakpuri 2nd street , Velachery , Chennai 600042 , Tamil Nadu , India",
-	// 	"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
-	// 	"jobDescPreq":'Should have awareness about startup ecosystem and interests towards growth strategies ',
-	// 	"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
+	{
+		"name":"GetGrub.in",
+		"place":"Chennai",
+		"image":imgURL+"getgrub.png",
+		"startDate":"As soon as possible",
+		"duration":"6 - 8 weeks",
+		"stipend":'Rs 7,000 + Food + Accomodation',
+		"applylink":"https://docs.google.com/forms/d/1Z0kZf2q10AoOXOCmXAiqU3EA5-zoRB3lEDiUklarl8Q/viewform",
+		"number":"1",
+		"addr":"GetGrub.in , Janakpuri 2nd street , Velachery , Chennai 600042 , Tamil Nadu , India",
+		"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
+		"jobDescPreq":'Should have awareness about startup ecosystem and interests towards growth strategies ',
+		"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
 
-	// },
+	},
 	
 	]
 	var contentDevcompanies=[
