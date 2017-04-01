@@ -82,6 +82,11 @@
 	var qaNewCompanyModalBtn=""
 	var qaNewCompany=""
 
+	var teachInHtml=""
+	var teachNewCompanyModal=""
+	var teachNewCompanyModalBtn=""
+	var teachNewCompany=""
+
 	var opInHtml=""
 	var opNewCompanyModal=""
 	var opNewCompanyModalBtn=""
@@ -102,7 +107,7 @@
 		"startDate":"May 2017",
 		"duration":"8 weeks",
 		"stipend":' Rs 20,000 per month with performance based bonuses',
-		"applylink":"https://docs.google.com/forms/d/e/1FAIpQLScp-d2wFUdfnrIHjjsTcgacUNB0LvKtJMD9nozq9YNGwrESPg/viewform",
+		"applylink":"https://docs.google.com/forms/d/1pbk8W3ATDdfH9b097KIP4xDWDcGOkSSk2fusJUOQWns/viewform",
 		"number":"2",
 		"addr":"Detect Technologies, Incubation Cell, Research Park, IIT Madras, Chennai 600113 , Tamil Nadu , India  ",
 		"about":"Detect Technologies is a company with technological innovation as its core principle to create solutions for asset monitoring in large process industries. Its flagship product GUMPS is the first of its kind Industrial IoT based Pipeline monitoring sensor that can detect leaks months before they happen thereby preventing catastrophes. Its sister product, Noctua is a smart autonomous drone designed for intelligent monitoring of large assets using computer vision, thermography and data processing techniques.",
@@ -155,21 +160,21 @@
 		"shortlistProc":"Initial Selection based on CV and Work Experience; thereafter, an Interview by the respective Heads / Managers."
 
 	},
-	{
-		"name":"Shipsy",
-		"place":"Gurgaon",
-		"image":imgURL+"shipsy.png",
-		"startDate":"May 2017",
-		"duration":"8 weeks",
-		"stipend":'Rs 15,000 - 25,000 lump sum based on performance',
-		"applylink":"https://docs.google.com/forms/d/1wB6x4GHUcWyjnXWuvFy1pcJNHthvtstVaTmpx2O-V6g/viewform",
-		"number":"1 - 2",
-		"addr":"B23, Sushant Lok 1 , Gurgaon 122002 , Haryana 122002 ,India",
-		"about":"<p>Shipsy has built a platform for operations teams, where managers can define their own alerts criteria for events that could affect service levels or operational efficiency and get notified in real-time. They have built a platform on top of Apache Spark to achieve this real-time analysis. Machine learning is used so that alerts get more predictive with time.</p><p>Uber is able to uphold high service levels from drivers by keeping a constant eye on them. They are bringing the same to the supply chain industry. Shipsy has a core team with 8 alumni from Computer Science/Electrical engineering background from IIT Madras and IIT Delhi. The total team strength is 25 working to ensure that users get a seamless interface to create and receive these alerts.</p><p>The system aims to alert operations managers when something is going wrong, rather than them having to keep calling and following up with the workforce. Users can define IFTTT (If This Then That) type alerts using the platform. Some examples of these are:<ol><li>Truck Idle time greater than particular value</li><li>Expected time of arrival delayed by more than X hours</li><li>Pickup time exceeded by certain number</li><li>More than n updates from same location</li><li>Truck deviates more than X km from ideal path</li></ol>These and more can be defined in real time by users and they can decide how they want to be notified - through the dashboard, mobile, email and more. Shipsy is currently processing more over 10 million shipments a month through our system with customers such as Holisol, DotZot, DTDC Express and DTDC Supply Chain.",
-		"jobDescPreq":'<label>Backend development:</label><p>We are looking for backend developers to join our friendly and enthusiastic team. You’ll be working with a large amount of autonomy developing features that are critical to the success of Shipsy. You’ll be working alongside the team backend micro-services with a strong focus on quality, scalability, availability, simplicity, performance, operability, security. You’ll be assisting with planning and defining requirements specification as well laying down the product architecture.</p>Desired skills (not mandatory)<ul><li>Experience in working with RESTful APIs</li> <li>Experience of developing applications in node.js </li><li>Knowledge of distributed source control – e.g. Git.</li> <li> Experience and interest in scaling high-performance systems</li></ul>',
-		"shortlistProc":"On call interview + solving a real life problem in the domain of interest of applicant"
+    {
+        "name":"Shipsy",
+        "place":"Gurgaon",
+        "image":imgURL+"shipsy.png",
+        "startDate":"May 2017",
+        "duration":"8 weeks",
+        "stipend":'Rs 15,000 - 25,000 lump sum based on performance',
+        "applylink":"https://docs.google.com/forms/d/1wB6x4GHUcWyjnXWuvFy1pcJNHthvtstVaTmpx2O-V6g/viewform",
+        "number":"1 - 2",
+        "addr":"B23, Sushant Lok 1 , Gurgaon 122002 , Haryana 122002 ,India",
+        "about":"<p>Shipsy has built a platform for operations teams, where managers can define their own alerts criteria for events that could affect service levels or operational efficiency and get notified in real-time. They have built a platform on top of Apache Spark to achieve this real-time analysis. Machine learning is used so that alerts get more predictive with time.</p><p>Uber is able to uphold high service levels from drivers by keeping a constant eye on them. They are bringing the same to the supply chain industry. Shipsy has a core team with 8 alumni from Computer Science/Electrical engineering background from IIT Madras and IIT Delhi. The total team strength is 25 working to ensure that users get a seamless interface to create and receive these alerts.</p><p>The system aims to alert operations managers when something is going wrong, rather than them having to keep calling and following up with the workforce. Users can define IFTTT (If This Then That) type alerts using the platform. Some examples of these are:<ol><li>Truck Idle time greater than particular value</li><li>Expected time of arrival delayed by more than X hours</li><li>Pickup time exceeded by certain number</li><li>More than n updates from same location</li><li>Truck deviates more than X km from ideal path</li></ol>These and more can be defined in real time by users and they can decide how they want to be notified - through the dashboard, mobile, email and more. Shipsy is currently processing more over 10 million shipments a month through our system with customers such as Holisol, DotZot, DTDC Express and DTDC Supply Chain.",
+        "jobDescPreq":'<label>Backend development:</label><p>We are looking for backend developers to join our friendly and enthusiastic team. You’ll be working with a large amount of autonomy developing features that are critical to the success of Shipsy. You’ll be working alongside the team backend micro-services with a strong focus on quality, scalability, availability, simplicity, performance, operability, security. You’ll be assisting with planning and defining requirements specification as well laying down the product architecture.</p>Desired skills (not mandatory)<ul><li>Experience in working with RESTful APIs</li> <li>Experience of developing applications in node.js </li><li>Knowledge of distributed source control – e.g. Git.</li> <li> Experience and interest in scaling high-performance systems</li></ul><label>Only those candidates can apply who:</label><br>Are available for full time (in-office) internship.<br>Can start the internship between 10th May 2017 and 10th July 2017.<br>Are available for duration of 3 months (preferred, not mandatory)<br><label>Skill(s) required:</label> JavaScript, SQL and Node.js and Nosql',
+        "shortlistProc":"On call interview + solving a real life problem in the domain of interest of applicant"
 
-	},
+    },
 	{
 		"name":"Verloop",
 		"place":"Bengaluru",
@@ -200,21 +205,36 @@
 		"shortlistProc":"Skype Interview/Hangouts"
 
 	},
-	// {
-	// 	"name":"Real Tycoon",
-	// 	"place":"Chennai",
-	// 	"image":imgURL+"real-tycoon.jpg",
-	// 	"startDate":"May 2017",
-	// 	"duration":"5 weeks",
-	// 	"stipend":' Based on performance-upto  5k.',
-	// 	"applylink":"",
-	// 	"number":"2",
-	// 	"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
-	// 	"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
-	// 	"jobDescPreq":' Web Development - Php / python, html / Css & mysql or mssql server',
-	// 	"shortlistProc":"Interview and a task"
+	{
+		"name":"Real Tycoon",
+		"place":"Chennai",
+		"image":imgURL+"real-tycoon.jpg",
+		"startDate":"May 2017",
+		"duration":"5 weeks",
+		"stipend":' Based on performance-upto  5k.',
+		"applylink":"https://docs.google.com/forms/d/10wFLl6dPKsC7C3Q1HJaS72tBgVGIwI7Act2vvUwzab8/viewform",
+		"number":"2",
+		"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
+		"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
+		"jobDescPreq":' Web Development - Php / python, html / Css & mysql or mssql server',
+		"shortlistProc":"Interview and a task"
 
-	// },
+	},
+	{
+        "name":"GrabOn",
+        "place":"Hyderabad",
+        "image":imgURL+"grabon.png",
+        "startDate":"May 2017",
+        "duration":"12 weeks",
+        "stipend":'Depends on Interview and shortlisting',
+        "applylink":"https://docs.google.com/forms/d/1hcDnYgfXSmjthPHlnP3OYQ_VVd5E3TI9L3ayxqkM_NM/viewform",
+        "number":"1",
+        "addr":"4th floor, Krishe Sapphire building, Hyderabad 500081, India.",
+        "about":"GrabOn.in is a Hyderabad-based online coupons and deals platform which lets users find genuine and validated coupons and deals with a user friendly interface that caters to the needs of all Indian shoppers. Grabon is the fastest growing coupons and deals website which also offers a monthly expense savings calculator, which has interactive charts and a talking mascot, giving useful saving suggestions to the users.",
+        "jobDescPreq":'Basics',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
+
+    },
 	{
 		"name":"Nadhi Information Technologies",
 		"place":"Chennai",
@@ -245,21 +265,21 @@
 		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li>"
 
 	},
-	// {
-	// 	"name":"Grow Fit",
-	// 	"place":"Bangalore",
-	// 	"image":imgURL+"grow-fit.png",
-	// 	"startDate":"May 2017",
-	// 	"duration":"8 - 10 weeks",
-	// 	"stipend":' Rs 10,000 - Rs 15,000 per month',
-	// 	"applylink":"",
-	// 	"number":"1",
-	// 	"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
-	// 	"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
-	// 	"jobDescPreq":'Web Front-End Engineering Intern (AngularJS)We are looking for an AngularJS Developer responsible for our progressive webapp. <br>The primary focus will be to<ol><li>work on our existing progressive web app</li><li>ensure the performance, quality, and responsiveness of applications</li><li>collaborate with a team to define, design, and ship new features</li><li>identify and solve bottlenecks and fix bugs</li></ol><br>Skills and Qualifications:<ol><li>Deep knowledge of AngularJS practices and commonly used modules based on extensive work experience</li><li>Creating self-contained, reusable, and testable modules and components</li><li> Extensive knowledge of CSS and JS methods for providing performant visual effects</li><li>Experience working with Github or any versioning system</li><li>Having worked on Firebase APIs is a big plus</li><li>Ability to design beautiful (not only working) interfaces is a big plus</li><li> Should provide with portfolio of previous projects</li><li>Professional, precise communication skills</li></ol>',
-	// 	"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+	{
+		"name":"Grow Fit",
+		"place":"Bangalore",
+		"image":imgURL+"grow-fit.png",
+		"startDate":"May 2017",
+		"duration":"8 - 10 weeks",
+		"stipend":' Rs 10,000 - Rs 15,000 per month',
+		"applylink":"https://docs.google.com/forms/d/15Lh2EbNTuK-3nxnsflcjjcK5i2ykUx0gLCBSBpPKMNE/viewform",
+		"number":"1",
+		"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+		"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+		"jobDescPreq":'Web Front-End Engineering Intern (AngularJS)We are looking for an AngularJS Developer responsible for our progressive webapp. <br>The primary focus will be to<ol><li>work on our existing progressive web app</li><li>ensure the performance, quality, and responsiveness of applications</li><li>collaborate with a team to define, design, and ship new features</li><li>identify and solve bottlenecks and fix bugs</li></ol><br>Skills and Qualifications:<ol><li>Deep knowledge of AngularJS practices and commonly used modules based on extensive work experience</li><li>Creating self-contained, reusable, and testable modules and components</li><li> Extensive knowledge of CSS and JS methods for providing performant visual effects</li><li>Experience working with Github or any versioning system</li><li>Having worked on Firebase APIs is a big plus</li><li>Ability to design beautiful (not only working) interfaces is a big plus</li><li> Should provide with portfolio of previous projects</li><li>Professional, precise communication skills</li></ol>',
+		"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
 
-	// },
+	},
 	{
         "name":"BoxMySpace",
         "place":"Mumbai",
@@ -285,7 +305,7 @@
         "applylink":"https://docs.google.com/forms/d/1jU05stQy4yLr-5vCSQ3B7XXE5cnY_SQNPF0ihTKhMOE/viewform",
         "number":"1 in each of the two cities",
         "addr":"NASSCOM 10k Warehouse, Chennai 600036 , Tamilnadu , India  ",
-        "about":"We're building AI algorithms to match candidates and companies.",
+        "about":"We're building AI algorithms to match candidates and companies in Chennai and Bengaluru.",
         "jobDescPreq":'Prerequisites: Django, jQuery',
         "shortlistProc":"Telephonic - Problem statement - PI"
 
@@ -315,7 +335,7 @@
 		"startDate":"May 2017",
 		"duration":"8 weeks",
 		"stipend":' Rs 20,000 per month with performance based bonuses',
-		"applylink":"https://docs.google.com/forms/d/e/1FAIpQLScp-d2wFUdfnrIHjjsTcgacUNB0LvKtJMD9nozq9YNGwrESPg/viewform",
+		"applylink":"https://docs.google.com/forms/d/1EIirGmgtNYKwoW_YpWK3vJ9P3SphjZjkrSIKiiTyRyk/viewform",
 		"number":"2",
 		"addr":"Detect Technologies, Incubation Cell, Research Park, IIT Madras, Chennai 600113 , Tamil Nadu , India  ",
 		"about":"Detect Technologies is a company with technological innovation as its core principle to create solutions for asset monitoring in large process industries. Its flagship product GUMPS is the first of its kind Industrial IoT based Pipeline monitoring sensor that can detect leaks months before they happen thereby preventing catastrophes. Its sister product, Noctua is a smart autonomous drone designed for intelligent monitoring of large assets using computer vision, thermography and data processing techniques.",
@@ -367,22 +387,37 @@
         "jobDescPreq":'Should have prior experience in back-end and front-end app development',
         "shortlistProc":"Resume and interview"
 
-    }, 
-	// {
- //        "name":"Grow Fit",
- //        "place":"Bangalore",
- //        "image":imgURL+"grow-fit.png",
- //        "startDate":"May 2017",
- //        "duration":"8 weeks",
- //        "stipend":' Rs 10,000 - Rs 15,000 per month',
- //        "applylink":"",
- //        "number":"2",
- //        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
- //        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
- //        "jobDescPreq":'Android Engineering intern<p>We need android engineering intern to work on our portfolio of apps including our chat app with health tracking, and to ship new features.</p>Skills and Qualifications:<ol><li>High proficiency with development tools and workflows (modern source control systems, unit testing, continuous workflow, and so on)</li><li>Knowledge of Android Material Design</li><li>Strong with Java, Eclipse, OOP Design, JSON, Javascript, Android Studio</li><li>Ability to architecture a complete mobile application </li><li>Expert level understanding and knowledge of Android application architecture, at least 1 Android applications available for demo.</li><li>Who can take ownership of the product</li><li>Knowledge of RxJava is a big plus</li></ol>iOS Developer<br>Knowledge and Skills Required: <ol><li>Strong with objective c and xcode, OOP Design, JSON, REST API, Apple SDK</li><li>Strong hands-on coding and software design experience in PHP or Python APIs.</li></li>Expert level understanding and knowledge of Android application architecture, at least 1 iOS applications available for demo</li><li>Solid OOP and software design knowledge – you should know how to create software that’s extensible, reusable and meets desired architectural object</li></ol>',
- //        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+    },
+    {
+        "name":"GrabOn",
+        "place":"Hyderabad",
+        "image":imgURL+"grabon.png",
+        "startDate":"May 2017",
+        "duration":"12 weeks",
+        "stipend":'Depends on Interview and shortlisting',
+        "applylink":"https://docs.google.com/forms/d/1Ly9ENkL8sUsR4YFv_R7o7Tz5-A7hh2LiyvHGyYcfKGo/viewform",
+        "number":"1",
+        "addr":"4th floor, Krishe Sapphire building, Hyderabad 500081, India.",
+        "about":"GrabOn.in is a Hyderabad-based online coupons and deals platform which lets users find genuine and validated coupons and deals with a user friendly interface that caters to the needs of all Indian shoppers. Grabon is the fastest growing coupons and deals website which also offers a monthly expense savings calculator, which has interactive charts and a talking mascot, giving useful saving suggestions to the users.",
+        "jobDescPreq":'Basics',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
 
- //    },
+    }, 
+	{
+        "name":"Grow Fit",
+        "place":"Bangalore",
+        "image":imgURL+"grow-fit.png",
+        "startDate":"May 2017",
+        "duration":"8 weeks",
+        "stipend":' Rs 10,000 - Rs 15,000 per month',
+        "applylink":"https://docs.google.com/forms/d/1gH4T4Emss_ZWda1qVnY5KpUdCo33lSzmxc4Ndc9Ru-E/viewform",
+        "number":"2",
+        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+        "jobDescPreq":'Android Engineering intern<p>We need android engineering intern to work on our portfolio of apps including our chat app with health tracking, and to ship new features.</p>Skills and Qualifications:<ol><li>High proficiency with development tools and workflows (modern source control systems, unit testing, continuous workflow, and so on)</li><li>Knowledge of Android Material Design</li><li>Strong with Java, Eclipse, OOP Design, JSON, Javascript, Android Studio</li><li>Ability to architecture a complete mobile application </li><li>Expert level understanding and knowledge of Android application architecture, at least 1 Android applications available for demo.</li><li>Who can take ownership of the product</li><li>Knowledge of RxJava is a big plus</li></ol>iOS Developer<br>Knowledge and Skills Required: <ol><li>Strong with objective c and xcode, OOP Design, JSON, REST API, Apple SDK</li><li>Strong hands-on coding and software design experience in PHP or Python APIs.</li></li>Expert level understanding and knowledge of Android application architecture, at least 1 iOS applications available for demo</li><li>Solid OOP and software design knowledge – you should know how to create software that’s extensible, reusable and meets desired architectural object</li></ol>',
+        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+
+    },
 	{
 		"name":"Perpule (Delvit Solutions Private Limited)",
 		"place":"Bengaluru",
@@ -461,21 +496,21 @@
         "shortlistProc":"Interview - Round 1- Phone Call<br> Round 2 - In Person or video call."
 
     }, 
-	// {
-	// 	"name":"Real Tycoon",
-	// 	"place":"Chennai",
-	// 	"image":imgURL+"real-tycoon.jpg",
-	// 	"startDate":"May 2017",
-	// 	"duration":"8 weeks",
-	// 	"stipend":' Deal on deal basis - entirely depends on the value he/ she adds to company',
-	// 	"applylink":"",
-	// 	"number":"2",
-	// 	"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
-	// 	"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
-	// 	"jobDescPreq":'Excellent communication skill in both Tamil[optional-but knowing tamil shall add value] and English, should be good at understanding people and behavioural patterns.',
-	// 	"shortlistProc":"Interview and a task"
+	{
+		"name":"Real Tycoon",
+		"place":"Chennai",
+		"image":imgURL+"real-tycoon.jpg",
+		"startDate":"May 2017",
+		"duration":"8 weeks",
+		"stipend":' Deal on deal basis - entirely depends on the value he/ she adds to company',
+		"applylink":"https://docs.google.com/forms/d/1-gUUn3QjPxDnP3Tt9_i3fUjy4e48A6y_eBxzgHPlNi4/viewform",
+		"number":"2",
+		"addr":"4th floor, Gokul Arcade , Chennai 600042 , Tamil Nadu , India  ",
+		"about":"Real Tycoon is a B2B Real Estate firm and a media agency put together. We are focused on helping businesses and investment firms to find them properties for them to move in and invest in,  respectively by reaching direct owners or through a dedicated team of brokers, who partner with Real Tycoon and on the other side in addition to the above role, we also add value to the community interested in real estate, as a media agency.",
+		"jobDescPreq":'Excellent communication skill in both Tamil[optional-but knowing tamil shall add value] and English, should be good at understanding people and behavioural patterns.',
+		"shortlistProc":"Interview and a task"
 
-	// },
+	},
 	{
         "name":"Expostores",
         "place":"Pune,Bengaluru,Mumbai,Kolkata,New Delhi",
@@ -491,38 +526,70 @@
         "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
 
     },
+    {
+        "name":"Lovethisstuff.com",
+        "place":"Bengaluru",
+        "image":imgURL+"lts.png",
+        "startDate":"May 2017",
+        "duration":"Flexible",
+        "stipend":'Rs 3,000 - Rs 5,000',
+        "applylink":"https://docs.google.com/forms/d/1tUYyXMfVIyYyYjYJzsao2fFsAAvEQLToFtwVXvgsrXQ/viewform",
+        "number":"1",
+        "addr":"2nd Floor, 212/A, 1st Main Road, Stage 2, Domlur, Bengaluru  560071, Karnataka, India.",
+        "about":"LoveThisStuff is a marketplace for unique products- original in design and passionate in making. We bring together creative entrepreneurs, designers and craftsmen from across India orchestrating an eclectic display of their original work. Whoever you are, you will find something to reflect your individuality.",
+        "jobDescPreq":'Marketplace Intern<ol><li>Should be active on Social media and other sources/platforms that offer potential leads</li><li>Should be able to understand the business objectives and execute tasks accordingly</li><li>Should be able to identify potential targets and fetch all the data required</li></ol>Pre-requisites -<ol><li>Candidate must have good communication skills</li><li>Proficient in Excel, CRM</li></ol>',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
+
+    },
+     {
+        "name":"Qtrove.com",
+        "place":"New Delhi, Mumbai",
+        "image":imgURL+"qtrove.png",
+        "startDate":"May 2017",
+        "duration":"Flexible",
+        "stipend":'Rs 10,000 + bonus',
+        "applylink":"https://docs.google.com/forms/d/1cmogSWP2d-kA0jSkEYj0SktYkBIprqF2-8s52M2_zO0/viewform",
+        "number":"1 in each of mentioned cities",
+        "addr":"212/A, 1'st Main Road, Stage 2, Domlur, Bengaluru  560071, Karnataka, India.",
+        "about":"Here’s to the passionate entrepreneurs, bankers turned bakers, graphic designers turned organic experts, security consultants turned farmers, marketers turned artists, consultants turned chefs, sales veterans turned soap makers, the ones who see things differently, who want to better the world, one product at a time… you can outcompete them, laugh at them, but certainly can’t ignore them; for the world is becoming a dangerous place to live, we got to go back to our roots, look for natural and sustainable means to eat, consume and live lest we all evaporate in smoke.<br> We at Qtrove are at war with dictator marketplaces and mass produced harmful goods and together with our partners, we can and we will make a difference. The world may call them crazy but we at Qtrove see genius because the ones who are crazy enough to think that they can change the world, are the ones who do.",
+        "jobDescPreq":'Corporate Sales. Need to nurture and develop this in different cities',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
+
+    },
     
-	// {
-	// 	"name":"Quick Quotes",
-	// 	"place":"Chennai",
-	// 	"image":imgURL+"quick-quotes.png",
-	// 	"startDate":"May 2017",
-	// 	"duration":"8 weeks",
-	// 	"stipend":'Rs 3,500 per month',
-	// 	"applylink":"",
-	// 	"number":"3",
-	// 	"addr":"Micromen - #7 4th floor Gokul Arcade west wing Adyar Chennai 600020 , Tamil Nadu , India  ",
-	// 	"about":"What is QuickQuotes ? Who owns it ?<p>QuickQuotes is an online portal where Vendors can receive genuine Request for Quotations(RFQ) from several top builders across Chennai. It is owned by AKI E-Commerce Ventures Pvt.Ltd. with the founding team having more than 25 years of experience handling the construction & realestate domain. Micromen software solutions pvt. Ltd. its sister concern has more than 100+ top builders signed up in its ERP solutions providing direct access to premium builders across Chennai.</p>How does it work ?<p>Suppliers will receive curated RFQ’s from builders across Chennai with clear material requirements, specification, qty, brand & terms. Supplier can quote the best rate against the RFQ received along with terms acceptance. But the suppliers will not know who the builder is until the order is placed by the builder.</p>",
-	// 	"jobDescPreq":'Business development, involves traveling & product presentation / registration',
-	// 	"shortlistProc":"Direct interview"
-
-	// },
-
+    
 	{
-		"name":"Shipsy",
-		"place":"Gurgaon",
-		"image":imgURL+"shipsy.png",
+		"name":"Quick Quotes",
+		"place":"Chennai",
+		"image":imgURL+"quick-quotes.png",
 		"startDate":"May 2017",
 		"duration":"8 weeks",
-		"stipend":'Rs 10,000 - 20,000 lump sum based on performance',
-		"applylink":"https://docs.google.com/forms/d/16WNcH-kT-856dCpPJCxiBK5gdvvCdoUqSECrfxpcjb4/viewform",
-		"number":"1 - 2",
-		"addr":"B23, Sushant Lok 1 , Gurgaon 122002 , Haryana 122002 ,India",
-		"about":"<p>Shipsy has built a platform for operations teams, where managers can define their own alerts criteria for events that could affect service levels or operational efficiency and get notified in real-time. They have built a platform on top of Apache Spark to achieve this real-time analysis. Machine learning is used so that alerts get more predictive with time.</p><p>Uber is able to uphold high service levels from drivers by keeping a constant eye on them. They are bringing the same to the supply chain industry. Shipsy has a core team with 8 alumni from Computer Science/Electrical engineering background from IIT Madras and IIT Delhi. The total team strength is 25 working to ensure that users get a seamless interface to create and receive these alerts.</p><p>The system aims to alert operations managers when something is going wrong, rather than them having to keep calling and following up with the workforce. Users can define IFTTT (If This Then That) type alerts using the platform. Some examples of these are:<ol><li>Truck Idle time greater than particular value</li><li>Expected time of arrival delayed by more than X hours</li><li>Pickup time exceeded by certain number</li><li>More than n updates from same location</li><li>Truck deviates more than X km from ideal path</li></ol>These and more can be defined in real time by users and they can decide how they want to be notified - through the dashboard, mobile, email and more. Shipsy is currently processing more over 10 million shipments a month through our system with customers such as Holisol, DotZot, DTDC Express and DTDC Supply Chain.",
-		"jobDescPreq":'There are mainly two aspects of Business Expansion:<ol><li>Business Development:<ol type="a"><li>Sales: Structuring our approach towards sales of existing product line</li> <li> Business Intelligence: Deploying on field executives to gather intelligence about problems existing in different aspects of logistics industry and feeding this back to product development </li> </ol><li>Branding catering to Sustainable Business presence:<ol type="a"><li> Supply Chain industry: Formulating and executing a plan to establish Shipsy as a “Thought Leader” in this industry</li>  <li>Talent: Building a brand to attract the best talent</li> <li>Investors: Establishing Shipsy as a company that has evolved to become a product suite for predictive analytics in the supply chain</li><li>Startup circle: Engaging other startups and sharing expertise/knowledge</li></ol> </ol>The role would also involve very deep understanding of the product and the technology that has gone into building it.',
-		"shortlistProc":"On call interview + solving a real life problem in the domain of interest of applicant"
+		"stipend":'Rs 3,500 per month',
+		"applylink":"https://docs.google.com/forms/d/1MVsfDJ6SpNiKmZZX010ZUGDN_Jnu8dL456NBqDXrqL4/viewform",
+		"number":"3",
+		"addr":"Micromen - #7 4th floor Gokul Arcade west wing Adyar Chennai 600020 , Tamil Nadu , India  ",
+		"about":"What is QuickQuotes ? Who owns it ?<p>QuickQuotes is an online portal where Vendors can receive genuine Request for Quotations(RFQ) from several top builders across Chennai. It is owned by AKI E-Commerce Ventures Pvt.Ltd. with the founding team having more than 25 years of experience handling the construction & realestate domain. Micromen software solutions pvt. Ltd. its sister concern has more than 100+ top builders signed up in its ERP solutions providing direct access to premium builders across Chennai.</p>How does it work ?<p>Suppliers will receive curated RFQ’s from builders across Chennai with clear material requirements, specification, qty, brand & terms. Supplier can quote the best rate against the RFQ received along with terms acceptance. But the suppliers will not know who the builder is until the order is placed by the builder.</p>",
+		"jobDescPreq":'Business development, involves traveling & product presentation / registration',
+		"shortlistProc":"Direct interview"
 
 	},
+
+
+    {
+        "name":"Shipsy",
+        "place":"Gurgaon",
+        "image":imgURL+"shipsy.png",
+        "startDate":"May 2017",
+        "duration":"8 weeks",
+        "stipend":'Rs 10,000 - 20,000 lump sum based on performance',
+        "applylink":"https://docs.google.com/forms/d/16WNcH-kT-856dCpPJCxiBK5gdvvCdoUqSECrfxpcjb4/viewform",
+        "number":"1 - 2",
+        "addr":"B23, Sushant Lok 1 , Gurgaon 122002 , Haryana 122002 ,India",
+        "about":"<p>Shipsy has built a platform for operations teams, where managers can define their own alerts criteria for events that could affect service levels or operational efficiency and get notified in real-time. They have built a platform on top of Apache Spark to achieve this real-time analysis. Machine learning is used so that alerts get more predictive with time.</p><p>Uber is able to uphold high service levels from drivers by keeping a constant eye on them. They are bringing the same to the supply chain industry. Shipsy has a core team with 8 alumni from Computer Science/Electrical engineering background from IIT Madras and IIT Delhi. The total team strength is 25 working to ensure that users get a seamless interface to create and receive these alerts.</p><p>The system aims to alert operations managers when something is going wrong, rather than them having to keep calling and following up with the workforce. Users can define IFTTT (If This Then That) type alerts using the platform. Some examples of these are:<ol><li>Truck Idle time greater than particular value</li><li>Expected time of arrival delayed by more than X hours</li><li>Pickup time exceeded by certain number</li><li>More than n updates from same location</li><li>Truck deviates more than X km from ideal path</li></ol>These and more can be defined in real time by users and they can decide how they want to be notified - through the dashboard, mobile, email and more. Shipsy is currently processing more over 10 million shipments a month through our system with customers such as Holisol, DotZot, DTDC Express and DTDC Supply Chain.",
+        "jobDescPreq":'There are mainly two aspects of Business Expansion:<ol><li>Business Development:<ol type="a"><li>Sales: Structuring our approach towards sales of existing product line</li> <li> Business Intelligence: Deploying on field executives to gather intelligence about problems existing in different aspects of logistics industry and feeding this back to product development </li> </ol><li>Branding catering to Sustainable Business presence:<ol type="a"><li> Supply Chain industry: Formulating and executing a plan to establish Shipsy as a “Thought Leader” in this industry</li>  <li>Talent: Building a brand to attract the best talent</li> <li>Investors: Establishing Shipsy as a company that has evolved to become a product suite for predictive analytics in the supply chain</li><li>Startup circle: Engaging other startups and sharing expertise/knowledge</li></ol> </ol>The role would also involve very deep understanding of the product and the technology that has gone into building it.<label>Only those candidates can apply who:</label><br>Are available for full time (in-office) internship.<br>Can start the internship between 10th May 2017 and 10th July 2017.<br>Are available for duration of 3 months (preferred, not mandatory)',
+        "shortlistProc":"On call interview + solving a real life problem in the domain of interest of applicant"
+
+    },
 	{
 		"name":"Furlenco",
 		"place":"Bengaluru",
@@ -570,21 +637,36 @@
 		"shortlistProc":"Github profile, Open Source contributions, Solving Challenge, Discussion"
 
 	},
-	// {
- //        "name":"Grow Fit",
- //        "place":"Bangalore",
- //        "image":imgURL+"grow-fit.png",
- //        "startDate":"May 2017",
- //        "duration":"8 weeks",
- //        "stipend":' Rs 10,000 - Rs 15,000 per month',
- //        "applylink":"",
- //        "number":"1",
- //        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
- //        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
- //        "jobDescPreq":'We are looking for a creative Graphic designer with up-to-date knowledge to interpret our needs and to design solutions with high visual impact. You will work on a variety of products, including websites, apps, brochures, etc. and you will cooperate with our designers and marketing team.<br>Skills and Qualifications: <ol><li>Proven graphic designing experience</li><li>Possession of creative flair, versatility, conceptual/visual ability and originality</li><li>Demonstrable graphic design skills with a strong portfolio</li><li>Ability to interact, communicate and present ideas</li><li>Up to date with industry leading software and technologies (In Design, Illustrator, Dreamweaver, Photoshop etc)</li><li>Highly proficient in all design aspects </li></ol>',
- //        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+	{
+        "name":"Grow Fit",
+        "place":"Bangalore",
+        "image":imgURL+"grow-fit.png",
+        "startDate":"May 2017",
+        "duration":"8 weeks",
+        "stipend":' Rs 10,000 - Rs 15,000 per month',
+        "applylink":"https://docs.google.com/forms/d/1kWr_g0rTwDaSocmTkte7R--KlAXMzKQpU1rOFx5I6jY/viewform",
+        "number":"1",
+        "addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+        "about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+        "jobDescPreq":'We are looking for a creative Graphic designer with up-to-date knowledge to interpret our needs and to design solutions with high visual impact. You will work on a variety of products, including websites, apps, brochures, etc. and you will cooperate with our designers and marketing team.<br>Skills and Qualifications: <ol><li>Proven graphic designing experience</li><li>Possession of creative flair, versatility, conceptual/visual ability and originality</li><li>Demonstrable graphic design skills with a strong portfolio</li><li>Ability to interact, communicate and present ideas</li><li>Up to date with industry leading software and technologies (In Design, Illustrator, Dreamweaver, Photoshop etc)</li><li>Highly proficient in all design aspects </li></ol>',
+        "shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
 
- //    },
+    },
+    {
+        "name":"GrabOn",
+        "place":"Hyderabad",
+        "image":imgURL+"grabon.png",
+        "startDate":"May 2017",
+        "duration":"12 weeks",
+        "stipend":'Depends on Interview and shortlisting',
+        "applylink":"https://docs.google.com/forms/d/1IcpKlrLig2PiA-38uL2sEjeWsFTho_VovDlBZBG2WVQ/viewform",
+        "number":"1",
+        "addr":"4th floor, Krishe Sapphire building, Hyderabad 500081, India.",
+        "about":"GrabOn.in is a Hyderabad-based online coupons and deals platform which lets users find genuine and validated coupons and deals with a user friendly interface that caters to the needs of all Indian shoppers. Grabon is the fastest growing coupons and deals website which also offers a monthly expense savings calculator, which has interactive charts and a talking mascot, giving useful saving suggestions to the users.",
+        "jobDescPreq":'Basics',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
+
+    },
 	{
 		"name":"HashLearn",
 		"place":"Bengaluru",
@@ -696,21 +778,21 @@
         "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
 
     },
-	// {
-	// 	"name":"Grow Fit",
-	// 	"place":"Bangalore",
-	// 	"image":imgURL+"grow-fit.png",
-	// 	"startDate":"May 2017",
-	// 	"duration":"8 - 10 weeks",
-	// 	"stipend":' Rs 10,000 - Rs 15,000 per month',
-	// 	"applylink":"",
-	// 	"number":"1",
-	// 	"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
-	// 	"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
-	// 	"jobDescPreq":' We are looking for Machine Learning scientist who will be responsible for advanced machine learning technologies that can use data to take automatic user behaviour driven decisions.  The primary focus will be to build NLP based smart chat bots which can interact with users in absence of experts and to guide experts in making the right decisions. <br>Skills and Qualifications:<ol><li> Excellent understanding of machine learning techniques and algorithms, such as k-NN, Naive Bayes, SVM, etc</li><li>Proficiency in python </li><li> Excellent understanding of NLP concepts, such as sentiment analysis, and their application</li><li>Proficiency in using query languages such as SQL</li><li>Great communication skills</li></ol>',
-	// 	"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
+	{
+		"name":"Grow Fit",
+		"place":"Bangalore",
+		"image":imgURL+"grow-fit.png",
+		"startDate":"May 2017",
+		"duration":"8 - 10 weeks",
+		"stipend":' Rs 10,000 - Rs 15,000 per month',
+		"applylink":"https://docs.google.com/forms/d/1XPs6ISWlOSFIdGbnRahbBD2BB9xLt2sfaGB3MM6PxYY/viewform",
+		"number":"1",
+		"addr":"212/A, Double Road, Bengaluru 560071 , Karnataka ,India",
+		"about":"Over 300 million Indians are at risk of lifestyle diseases like diabetes and have nowhere to turn to for support. Grow Fit prevents lifestyle diseases through a combination of data science, medical science and behavioral insights. We believe in empowering Indians to prevent and even reverse lifestyle disease by addressing its root causes - nutrition, mental wellness, stress, sleep and activity through a combination of expert advice and nutrition delivered to your doorstep.",
+		"jobDescPreq":' We are looking for Machine Learning scientist who will be responsible for advanced machine learning technologies that can use data to take automatic user behaviour driven decisions.  The primary focus will be to build NLP based smart chat bots which can interact with users in absence of experts and to guide experts in making the right decisions. <br>Skills and Qualifications:<ol><li> Excellent understanding of machine learning techniques and algorithms, such as k-NN, Naive Bayes, SVM, etc</li><li>Proficiency in python </li><li> Excellent understanding of NLP concepts, such as sentiment analysis, and their application</li><li>Proficiency in using query languages such as SQL</li><li>Great communication skills</li></ol>',
+		"shortlistProc":"We will be having <ol><li>Resume shortlisting</li><li>Technical Phone Interview</li> <li>Small Project Assignment (Optional)</li><li>Physical Interview</li></ol>"
 
-	// },
+	},
 
 	
 	]
@@ -744,21 +826,21 @@
         "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
 
     },
-	// {
-	// 	"name":"T-Hub Foundation",
-	// 	"place":"Hyderabad",
-	// 	"image":imgURL+"t-hub.png",
-	// 	"startDate":"May 2017",
-	// 	"duration":"12-16 weeks",
-	// 	"stipend":'Negotiable',
-	// 	"applylink":"",
-	// 	"number":"2",
-	// 	"addr":"T-Hub Catalyst Building, Gachibowli 500032 , Telangana , India",
-	// 	"about":"<p>T-Hub is a unique public/private partnership between the government of Telangana, 3 of India’s premier academic institutes (IIIT-H, ISB & NALSAR) and key private sector leaders. It stands at the intersection of the start-up, academic, corporate, research and government sectors. </p><p>As an independent registered non-profit organization, T-Hub is at the intersection of the start-up community, government, corporate, academic, and research sectors. We endeavour to build a booming start-up ecosystem thriving on the tightly-knit, most vibrant entrepreneurial ecosystem in the country. Our goal is to build an ecosystem that not only caters to local entrepreneurs but also acts as a gateway for anyone who wants to start a tech company in India.</p>",
-	// 	"jobDescPreq":' <ul><li>Investment Buy-side research</li><li>Need to understand & track technology sectors, analyze trends and identify opportunities that are of interest.</li><li>Gather and synthesize industry/market data.</li><li>Assist in the preparation of preliminary and final investment research notes</li></ul>',
-	// 	"shortlistProc":"Interview with the candidate directly."
+	{
+		"name":"T-Hub Foundation",
+		"place":"Hyderabad",
+		"image":imgURL+"t-hub.png",
+		"startDate":"May 2017",
+		"duration":"12-16 weeks",
+		"stipend":'Negotiable',
+		"applylink":"https://docs.google.com/forms/d/1iLUT--2ZPlStbsKbo83L_0F-cr4cCW4BvxcBBhjrCo8/viewform",
+		"number":"2",
+		"addr":"T-Hub Catalyst Building, Gachibowli 500032 , Telangana , India",
+		"about":"<p>T-Hub is a unique public/private partnership between the government of Telangana, 3 of India’s premier academic institutes (IIIT-H, ISB & NALSAR) and key private sector leaders. It stands at the intersection of the start-up, academic, corporate, research and government sectors. </p><p>As an independent registered non-profit organization, T-Hub is at the intersection of the start-up community, government, corporate, academic, and research sectors. We endeavour to build a booming start-up ecosystem thriving on the tightly-knit, most vibrant entrepreneurial ecosystem in the country. Our goal is to build an ecosystem that not only caters to local entrepreneurs but also acts as a gateway for anyone who wants to start a tech company in India.</p>",
+		"jobDescPreq":' <ul><li>Investment Buy-side research</li><li>Need to understand & track technology sectors, analyze trends and identify opportunities that are of interest.</li><li>Gather and synthesize industry/market data.</li><li>Assist in the preparation of preliminary and final investment research notes</li></ul>',
+		"shortlistProc":"Interview with the candidate directly."
 
-	// },
+	},
 	  {
         "name":"BoxMySpace",
         "place":"Mumbai",
@@ -838,6 +920,21 @@
         "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
 
     },
+    {
+        "name":"GrabOn",
+        "place":"Hyderabad",
+        "image":imgURL+"grabon.png",
+        "startDate":"May 2017",
+        "duration":"12 weeks",
+        "stipend":'Depends on Interview and shortlisting',
+        "applylink":"https://docs.google.com/forms/d/1nkjnU_j4CctQiGgEDYQK8HzvKvTMnJkZGxY0rtkV1SI/viewform",
+        "number":"1",
+        "addr":"4th floor, Krishe Sapphire building, Hyderabad 500081, India.",
+        "about":"GrabOn.in is a Hyderabad-based online coupons and deals platform which lets users find genuine and validated coupons and deals with a user friendly interface that caters to the needs of all Indian shoppers. Grabon is the fastest growing coupons and deals website which also offers a monthly expense savings calculator, which has interactive charts and a talking mascot, giving useful saving suggestions to the users.",
+        "jobDescPreq":'Basics',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
+
+    },
 	{
         "name":"FASTNEXT EDUCATION PVT LTD",
         "place":"Chennai,Bengaluru",
@@ -848,7 +945,7 @@
         "applylink":"https://docs.google.com/forms/d/1wkuaOLc-V63OQBoijuYBUOCMqhk-AwquRIv0tuQdQD4/viewform",
         "number":"2 in each of the two cities",
         "addr":"NASSCOM 10k Warehouse, Chennai 600036 , Tamilnadu , India  ",
-        "about":"We're building AI algorithms to match candidates and companies.",
+        "about":"We're building AI algorithms to match candidates and companies in Chennai and Bengaluru",
         "jobDescPreq":'Prerequisites: ANNs, NLP, Regression models',
         "shortlistProc":"Telephonic - Problem statement - PI"
 
@@ -918,6 +1015,7 @@
         "shortlistProc":"<ul><li>Online Screening and Shortlisting</li><li>Virtual / Telephonic Interview</li><li>Physical Interview</li></ul>"
 
     }, 
+
 	{
 		"name":"Climber Knowledge and Careers private ltd.",
 		"place":"Virtual",
@@ -933,6 +1031,7 @@
 		"shortlistProc":"Initial Selection based on CV and Work Experience; thereafter, an Interview by the respective Heads / Managers."
 
 	},
+
 	{
         "name":"Expostores",
         "place":"Pune,Bengaluru,Mumbai,Kolkata,New Delhi",
@@ -945,6 +1044,36 @@
         "addr":"Diamond District, Domlur, Bengaluru 560008 , Karnataka, India  ",
         "about":"<p>Expostores is making b2b trading easy and simple for manufacturers, traders, distributors and enterprises.</p><p>ExpoStores provides incremental business-marketing solutions to clients at every stage of the purchase process for B2B buyers. Using Innovation at the grass root levels to cut costs, effective medium reach, and making traditional manufacturing methods & transaction process safe and secure using technology is our motto.</p><p>We are a team of experienced professionals from premier institutes (NIT, IIM). You will learn a lot during your stint. Based upon your work you may be hired as a full time employee. Looking forward to meet you.</p>",
         "jobDescPreq":'<ul><li>Find the pulse of business for your city/ category and identify new ways to simplify it further.</li><li>Find product requirements for maximizing B2B commerce in the category/ city</li><li>Engage sellers and work with business owners to help them grow along with the platform</li><li>Orchestrate operationalization on the ground and develop feedback loops for product enhancement</li><li>Coordinate seller store listings and help them to list products on ExpoAlly to initiate commerce</li><li>Manage seller communication and intervene to resolve disputes as and when required</li><li>Work closely with our engineering & operations teams to streamline process and assist in intelligently scaling a vibrant business</li></ul>.',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
+
+    },
+    {
+        "name":"GrabOn",
+        "place":"Hyderabad",
+        "image":imgURL+"grabon.png",
+        "startDate":"May 2017",
+        "duration":"12 weeks",
+        "stipend":'Depends on Interview and shortlisting',
+        "applylink":"https://docs.google.com/forms/d/1pKa82z316AgJ4iCwSMEF6WXarRsiSLTokizZwcnEKFc/viewform",
+        "number":"1",
+        "addr":"4th floor, Krishe Sapphire building, Hyderabad 500081, India.",
+        "about":"GrabOn.in is a Hyderabad-based online coupons and deals platform which lets users find genuine and validated coupons and deals with a user friendly interface that caters to the needs of all Indian shoppers. Grabon is the fastest growing coupons and deals website which also offers a monthly expense savings calculator, which has interactive charts and a talking mascot, giving useful saving suggestions to the users.",
+        "jobDescPreq":'Basics',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
+
+    },
+    {
+        "name":"Lovethisstuff.com",
+        "place":"Bengaluru",
+        "image":imgURL+"lts.png",
+        "startDate":"May 2017",
+        "duration":"Flexible",
+        "stipend":'Rs 5,000',
+        "applylink":"https://docs.google.com/forms/d/11Yvjy9aQbjXkY7elfTGYUx6JdEqaYCeDI3nuJTk-dvY/viewform",
+        "number":"1",
+        "addr":"2nd Floor, 212/A, 1st Main Road, Stage 2, Domlur, Bengaluru  560071, Karnataka, India.",
+        "about":"LoveThisStuff is a marketplace for unique products- original in design and passionate in making. We bring together creative entrepreneurs, designers and craftsmen from across India orchestrating an eclectic display of their original work. Whoever you are, you will find something to reflect your individuality.",
+        "jobDescPreq":' Digital Marketing Intern:<ol><li>Explore opportunities across paid marketing channels</li><li>Liaise with creative team to conceptualise and implement campaigns on Facebook and Google</li><li>Mapping of product catalogue across campaigns as per market trends</li><li>Ascertain viability and efficiency of existing customer acquisition</li> channels and scope of evolution/improvement</li><li>Research consumer and customer sentiment around products</li><li>Visualise growth opportunities through alternate channels</li></ol>',
         "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
 
     },
@@ -963,6 +1092,21 @@
 		"shortlistProc":"<ul><li>Students express interest</li><li>Assignment shared</li><li>Assignment to be submitted</li> <li>Telephonic/ Skype calls for technical discussion</li><li>Offer roll-out</li></ul>"
 
 	},
+	{
+        "name":"Qtrove.com",
+        "place":"Bengaluru",
+        "image":imgURL+"qtrove.png",
+        "startDate":"May 2017",
+        "duration":"Flexible",
+        "stipend":'Rs 10,000 monthly ',
+        "applylink":"https://docs.google.com/forms/d/1-oE0FeMknLTPguY5MJy1v5vQZk1pFUrFmTrQXBUm6kM/viewform",
+        "number":"1",
+        "addr":"212/A, 1'st Main Road, Stage 2, Domlur, Bengaluru  560071, Karnataka, India.",
+        "about":"Here’s to the passionate entrepreneurs, bankers turned bakers, graphic designers turned organic experts, security consultants turned farmers, marketers turned artists, consultants turned chefs, sales veterans turned soap makers, the ones who see things differently, who want to better the world, one product at a time… you can outcompete them, laugh at them, but certainly can’t ignore them; for the world is becoming a dangerous place to live, we got to go back to our roots, look for natural and sustainable means to eat, consume and live lest we all evaporate in smoke.<br> We at Qtrove are at war with dictator marketplaces and mass produced harmful goods and together with our partners, we can and we will make a difference. The world may call them crazy but we at Qtrove see genius because the ones who are crazy enough to think that they can change the world, are the ones who do.",
+        "jobDescPreq":'Digital Marketing',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
+
+    },
 	{
 		"name":"GetGrub.in",
 		"place":"Chennai",
@@ -1011,21 +1155,21 @@
 		"shortlistProc":"<ul><li>Online Screening and Shortlisting</li><li>Virtual / Telephonic Interview</li><li>Physical Interview</li></ul>"
 
 	},
-	// {
-	// 	"name":"GetGrub.in",
-	// 	"place":"Chennai",
-	// 	"image":imgURL+"getgrub.png",
-	// 	"startDate":"As soon as possible",
-	// 	"duration":"6 - 8 weeks",
-	// 	"stipend":'Rs 7,000 + Food + Accomodation',
-	// 	"applylink":"",
-	// 	"number":"1",
-	// 	"addr":"GetGrub.in , Janakpuri 2nd street, Velachery , Chennai 600042 , Tamil Nadu , India",
-	// 	"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
-	// 	"jobDescPreq":'Should be a creative writer to attract all the ages about Food, Blog, articles ',
-	// 	"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
+	{
+		"name":"GetGrub.in",
+		"place":"Chennai",
+		"image":imgURL+"getgrub.png",
+		"startDate":"May 2017",
+		"duration":"6 - 8 weeks",
+		"stipend":'Rs 7,000 + Food + Accomodation',
+		"applylink":"https://docs.google.com/forms/d/1f_QOurTfwDmWtjzBa2N7NvQqmrxpgB-89FV8xTR4C0A/viewform",
+		"number":"1",
+		"addr":"GetGrub.in , Janakpuri 2nd street, Velachery , Chennai 600042 , Tamil Nadu , India",
+		"about":"A Food tech startup implementing a unique model of cloud kitchens and serving healthy & customized food according to the community. Where AI plays a major role in easing the innovation & operations.",
+		"jobDescPreq":'Should be a creative writer to attract all the ages about Food, Blog, articles ',
+		"shortlistProc":"We will be giving the problems statements to analyze the candidate skills. Based on the performance a final round of telephonic interview will be taken to shortlist the candidates and offers will be rolled out."
 
-	// },
+	},
 
 	
 	]
@@ -1064,6 +1208,24 @@
         "shortlistProc":"<ul><li>Online Screening and Shortlisting</li><li>Virtual / Telephonic Interview</li><li>Physical Interview</li></ul>"
 
     }, 
+	
+	]	
+	var teachcompanies=[
+{
+        "name":"Avanti",
+        "place":"Pondicherry",
+        "image":imgURL+"avanti.jpg",
+        "startDate":"May 2017",
+        "duration":"15 days",
+        "stipend":'Rs 1,250 per week ',
+        "applylink":"https://docs.google.com/forms/d/1c-1myWZsJ2BYwE9RCtP-OwRKoLZ3Gw49V8gb1iV0Jjo/viewform",
+        "number":"4-6",
+        "addr":"Shop No.72, PIMS Bank Side, Ganapathichettikulam, Periya Kalapet, Puducherry 605014, India.",
+        "about":"Avanti was started in 2010 by two friends from IIT Bombay - Krishna Ramkumar and Akshay Saxena with the support of the Pan-IIT alumni organization. It  a social enterprise established in March 2010 to help bright students from low-income homes gain admission to premier undergraduate colleges by providing affordable training and mentoring. It has a well established Students Chapter in IIT-Madras with a team of around 35 mentors and teaching volunteers directly involved in mentoring of students in Jawahar Navodaya Vidyalaya, Pondicherry.<br>Avanti Fellows is a Pan IIT Alumni India initiative, winner of the Stanford BASES Social E-Challenge 2010 and recipient of the Echoing Green and DRK Fellowships 2012.",
+        "jobDescPreq":'At JNV Pondicherry, Avanti Fellows has established a learning center to help 40 students build strong foundations in science & math and prepare for engineering entrance exams through a technology-based learning program. The Intern will work directly with our Center Manager to provide academic support to the students this summer. ',
+        "shortlistProc":"<ul><li>Shortlist on basis of profiles</li><li>Assignment</li><li>Telephonic Screening</li></ul>"
+
+    },
 	
 	]		
 
@@ -1333,6 +1495,30 @@ $.each(qacompanies,function(index,value){
     })
     $('.qaInternTile').html(qaInHtml)
 
+
+$.each(teachcompanies,function(index,value){
+	var teachbtnStatus=""
+
+    	if (!value.applylink=="") {
+    	teachbtnStatus='<a style="float:left;" href="'+value.applylink+'" target="_blank" class="btn btn-info btn-myModal'+index+'">Apply Now</a>'
+	    		
+    	}
+
+       	
+       	
+       	teachNewCompanyModal='<div class="modal fade" id="myteachModal'+index+'" tabindex="-1" role="dialog" aria-labelledby="teachcompanyLabel'+index+'" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3 class="modal-title" id="teachcompanyLabel'+index+'">'+value.name+'</h3></div><div class="modal-body"><label class="modalSub">About '+value.name+':</label><br>'+value.about+'<br><br><label class="modalSub">Address :</label><br>'+value.addr+'<br><br><label class="modalSub">Job Description and Prerequisites :</label><br>'+value.jobDescPreq+'<br><br><label class="modalSub">Number of interns :</label>&nbsp;'+value.number+'</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+teachbtnStatus+'</div></div></div></div>'
+
+       	teachNewCompanyModalBtn='<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myteachModal'+index+'">View More</button><hr style="border:1.8px solid"></div>'
+
+
+       	teachNewCompany='<div class="col-md-10 col-md-offset-1"><div style="display:table;margin-bottom:2.5%;"><div class="companyName">'+value.name+"</div><div><img src='"+value.image+"'class='companyImage '></div>"+"</div><br><label class='internLocationTitle'>Location : </label><label> "+value.place+"</label><br><table class='infoTable'><tr><th>Start Date</th><th>Duration</th><th>Stipend</th></tr><tr><td>"+value.startDate+"</td><td>"+value.duration+"</td><td>"+value.stipend+"</td></tr></table><br>"
+
+       	teachNewCompany+=teachNewCompanyModalBtn
+       	teachNewCompany+=teachNewCompanyModal
+    	
+    	teachInHtml+=teachNewCompany
+    })
+    $('.teachInternTile').html(teachInHtml)
 
 
 })(jQuery);
